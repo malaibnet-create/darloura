@@ -1,0 +1,60 @@
+{
+  "lessonId": "level-02-lesson-01-listening",
+  "voices": [
+    {
+      "speaker": "mariam",
+      "voice": "Razan – Academic & Cultural Narration"
+    },
+    {
+      "speaker": "daniel",
+      "voice": "Adam - Dominant, Firm"
+    }
+  ],
+  "files": [
+    {
+      "id": "listening-full",
+      "path": "audio/listening-full.mp3",
+      "kind": "full"
+    },
+    {
+      "id": "s01",
+      "path": "audio/listening-segment-01.mp3",
+      "kind": "segment",
+      "turnIds": [
+        "t01",
+        "t02",
+        "t03"
+      ]
+    },
+    {
+      "id": "s02",
+      "path": "audio/listening-segment-02.mp3",
+      "kind": "segment",
+      "turnIds": [
+        "t04",
+        "t05",
+        "t06"
+      ]
+    },
+    {
+      "id": "s03",
+      "path": "audio/listening-segment-03.mp3",
+      "kind": "segment",
+      "turnIds": [
+        "t07",
+        "t08",
+        "t09"
+      ]
+    },
+    {
+      "id": "s04",
+      "path": "audio/listening-segment-04.mp3",
+      "kind": "segment",
+      "turnIds": [
+        "t10",
+        "t11",
+        "t12"
+      ]
+    }
+  ]
+}

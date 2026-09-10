@@ -1,0 +1,306 @@
+{
+  "version": 2,
+  "packageVersion": "2.0-corrected",
+  "lesson": "lesson-01",
+  "section": "grammar",
+  "language": "ar-MSA",
+  "publicBasePath": "/audio/lesson-01/grammar",
+  "authoritativeMapping": "AUDIO-MAP.md",
+  "generationSource": "elevenlabs-batch.csv",
+  "clips": {
+    "g1-01": {
+      "file": "grammar-01/g1-01-talib.mp3",
+      "text": "طَالِبٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-02": {
+      "file": "grammar-01/g1-02-taliba.mp3",
+      "text": "طَالِبَةٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-03": {
+      "file": "grammar-01/g1-03-mudarris.mp3",
+      "text": "مُدَرِّسٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-04": {
+      "file": "grammar-01/g1-04-mudarrisa.mp3",
+      "text": "مُدَرِّسَةٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-05": {
+      "file": "grammar-01/g1-05-jadid.mp3",
+      "text": "جَدِيدٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-06": {
+      "file": "grammar-01/g1-06-jadida.mp3",
+      "text": "جَدِيدَةٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-07": {
+      "file": "grammar-01/g1-07-maghribi.mp3",
+      "text": "مَغْرِبِيٌّ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-08": {
+      "file": "grammar-01/g1-08-maghribiyya.mp3",
+      "text": "مَغْرِبِيَّةٌ",
+      "rule": "grammar-01",
+      "usage": "masculine-feminine-table"
+    },
+    "g1-09": {
+      "file": "grammar-01/g1-09-hadha-talib.mp3",
+      "text": "هٰذَا طَالِبٌ.",
+      "rule": "grammar-01",
+      "usage": "example-sentence"
+    },
+    "g1-10": {
+      "file": "grammar-01/g1-10-hadhihi-taliba.mp3",
+      "text": "هٰذِهِ طَالِبَةٌ.",
+      "rule": "grammar-01",
+      "usage": "example-sentence"
+    },
+    "g1-11": {
+      "file": "grammar-01/g1-11-huwa-mudarris.mp3",
+      "text": "هُوَ مُدَرِّسٌ.",
+      "rule": "grammar-01",
+      "usage": "example-sentence"
+    },
+    "g1-12": {
+      "file": "grammar-01/g1-12-hiya-mudarrisa.mp3",
+      "text": "هِيَ مُدَرِّسَةٌ.",
+      "rule": "grammar-01",
+      "usage": "example-sentence"
+    },
+    "g1-13": {
+      "file": "grammar-01/g1-13-huwa-talib-jadid.mp3",
+      "text": "هُوَ طَالِبٌ جَدِيدٌ.",
+      "rule": "grammar-01",
+      "usage": "example-sentence"
+    },
+    "g1-14": {
+      "file": "grammar-01/g1-14-hiya-taliba-jadida.mp3",
+      "text": "هِيَ طَالِبَةٌ جَدِيدَةٌ.",
+      "rule": "grammar-01",
+      "usage": "example-sentence"
+    },
+    "g1-15": {
+      "file": "grammar-01/g1-15-ana-min-almaghrib.mp3",
+      "text": "أَنَا مِنَ الْمَغْرِبِ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example-and-answer"
+    },
+    "g1-16": {
+      "file": "grammar-01/g1-16-ana-maghribi.mp3",
+      "text": "أَنَا مَغْرِبِيٌّ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example"
+    },
+    "g1-17": {
+      "file": "grammar-01/g1-17-ana-maghribiyya.mp3",
+      "text": "أَنَا مَغْرِبِيَّةٌ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example"
+    },
+    "g1-18": {
+      "file": "grammar-01/g1-18-huwa-amriki.mp3",
+      "text": "هُوَ أَمْرِيكِيٌّ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example"
+    },
+    "g1-19": {
+      "file": "grammar-01/g1-19-hiya-amrikiyya.mp3",
+      "text": "هِيَ أَمْرِيكِيَّةٌ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example"
+    },
+    "g1-20": {
+      "file": "grammar-01/g1-20-huwa-faransi.mp3",
+      "text": "هُوَ فَرَنْسِيٌّ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example"
+    },
+    "g1-21": {
+      "file": "grammar-01/g1-21-hiya-faransiyya.mp3",
+      "text": "هِيَ فَرَنْسِيَّةٌ.",
+      "rule": "grammar-01",
+      "usage": "nisba-example"
+    },
+    "g1-22": {
+      "file": "grammar-01/g1-22-hal-anta-talib.mp3",
+      "text": "هَلْ أَنْتَ طَالِبٌ؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-23": {
+      "file": "grammar-01/g1-23-naam-ana-talib.mp3",
+      "text": "نَعَمْ، أَنَا طَالِبٌ.",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-24": {
+      "file": "grammar-01/g1-24-hal-anti-taliba.mp3",
+      "text": "هَلْ أَنْتِ طَالِبَةٌ؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-25": {
+      "file": "grammar-01/g1-25-naam-ana-taliba.mp3",
+      "text": "نَعَمْ، أَنَا طَالِبَةٌ.",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-26": {
+      "file": "grammar-01/g1-26-ma-ismuka.mp3",
+      "text": "مَا اسْمُكَ؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-27": {
+      "file": "grammar-01/g1-27-ismi-yusuf.mp3",
+      "text": "اسْمِي يُوسُفُ.",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-28": {
+      "file": "grammar-01/g1-28-man-hadha.mp3",
+      "text": "مَنْ هٰذَا؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-29": {
+      "file": "grammar-01/g1-29-hadha-yusuf.mp3",
+      "text": "هٰذَا يُوسُفُ.",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-30": {
+      "file": "grammar-01/g1-30-ayna-albayt.mp3",
+      "text": "أَيْنَ الْبَيْتُ؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-31": {
+      "file": "grammar-01/g1-31-albayt-huna.mp3",
+      "text": "الْبَيْتُ هُنَا.",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-32": {
+      "file": "grammar-01/g1-32-min-ayna-anta.mp3",
+      "text": "مِنْ أَيْنَ أَنْتَ؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-33": {
+      "file": "grammar-01/g1-33-kayfa-haluka.mp3",
+      "text": "كَيْفَ حَالُكَ؟",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g1-34": {
+      "file": "grammar-01/g1-34-ana-bikhayr-shukran.mp3",
+      "text": "أَنَا بِخَيْرٍ، شُكْرًا.",
+      "rule": "grammar-01",
+      "usage": "question-dialogue"
+    },
+    "g2-01": {
+      "file": "grammar-02/g2-01-kitab-alkitab.mp3",
+      "text": "كِتَابٌ. الْكِتَابُ.",
+      "rule": "grammar-02",
+      "usage": "indefinite-definite-contrast"
+    },
+    "g2-02": {
+      "file": "grammar-02/g2-02-bayt-albayt.mp3",
+      "text": "بَيْتٌ. الْبَيْتُ.",
+      "rule": "grammar-02",
+      "usage": "indefinite-definite-contrast"
+    },
+    "g2-03": {
+      "file": "grammar-02/g2-03-talib-attalib.mp3",
+      "text": "طَالِبٌ. الطَّالِبُ.",
+      "rule": "grammar-02",
+      "usage": "indefinite-definite-contrast"
+    },
+    "g2-04": {
+      "file": "grammar-02/g2-04-mudarris-almudarris.mp3",
+      "text": "مُدَرِّسٌ. الْمُدَرِّسُ.",
+      "rule": "grammar-02",
+      "usage": "indefinite-definite-contrast"
+    },
+    "g2-05": {
+      "file": "grammar-02/g2-05-madrasa-almadrasa.mp3",
+      "text": "مَدْرَسَةٌ. الْمَدْرَسَةُ.",
+      "rule": "grammar-02",
+      "usage": "indefinite-definite-contrast"
+    },
+    "g2-06": {
+      "file": "grammar-02/g2-06-maghrib-almaghrib.mp3",
+      "text": "مَغْرِبٌ. الْمَغْرِبُ.",
+      "rule": "grammar-02",
+      "usage": "indefinite-definite-contrast"
+    },
+    "g2-07": {
+      "file": "grammar-02/g2-07-bayt-jadid.mp3",
+      "text": "بَيْتٌ جَدِيدٌ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-08": {
+      "file": "grammar-02/g2-08-albayt-aljadid.mp3",
+      "text": "الْبَيْتُ الْجَدِيدُ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-09": {
+      "file": "grammar-02/g2-09-talib-jadid.mp3",
+      "text": "طَالِبٌ جَدِيدٌ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-10": {
+      "file": "grammar-02/g2-10-attalib-aljadid.mp3",
+      "text": "الطَّالِبُ الْجَدِيدُ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-11": {
+      "file": "grammar-02/g2-11-taliba-jadida.mp3",
+      "text": "طَالِبَةٌ جَدِيدَةٌ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-12": {
+      "file": "grammar-02/g2-12-attaliba-aljadida.mp3",
+      "text": "الطَّالِبَةُ الْجَدِيدَةُ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-13": {
+      "file": "grammar-02/g2-13-mudarris-maghribi.mp3",
+      "text": "مُدَرِّسٌ مَغْرِبِيٌّ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-14": {
+      "file": "grammar-02/g2-14-almudarris-almaghribi.mp3",
+      "text": "الْمُدَرِّسُ الْمَغْرِبِيُّ.",
+      "rule": "grammar-02",
+      "usage": "noun-adjective-example"
+    },
+    "g2-15": {
+      "file": "grammar-02/g2-15-pronunciation-contrast.mp3",
+      "text": "الْبَيْتُ. الطَّالِبُ.",
+      "rule": "grammar-02",
+      "usage": "al-pronunciation-note"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "lessonId": "level-02-lesson-01-grammar",
+  "voice": "Razan – Academic & Cultural Narration",
+  "model": "Eleven Multilingual v2",
+  "files": [
+    {
+      "id": "e01",
+      "path": "audio/example-e01.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "قَرَّرَتْ مَرْيَمُ أَنْ تَتَعَلَّمَ مَهَارَةً جَدِيدَةً."
+    },
+    {
+      "id": "e02",
+      "path": "audio/example-e02.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "نُرِيدُ أَنْ نُشَارِكَ فِي المَشْرُوعِ."
+    },
+    {
+      "id": "e03",
+      "path": "audio/example-e03.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "يُحَاوِلُ الفَرِيقُ أَنْ يَنْجَحَ فِي المُهِمَّةِ."
+    },
+    {
+      "id": "e04",
+      "path": "audio/example-e04.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "قَرَّرَ الطُّلَّابُ أَنْ يَعْمَلُوا مَعًا."
+    },
+    {
+      "id": "e05",
+      "path": "audio/example-e05.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "تُرِيدِينَ أَنْ تَخْتَارِي مَوْضُوعًا مُنَاسِبًا."
+    },
+    {
+      "id": "e06",
+      "path": "audio/example-e06.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "نَسْتَطِيعُ أَنْ نَسْتَعْمِلَ التَّطْبِيقَ."
+    },
+    {
+      "id": "e07",
+      "path": "audio/example-e07.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule1",
+      "textAr": "يُفَضِّلُ خَالِدٌ أَنْ يَتَوَاصَلَ مَعَ المُعَلِّمِ بِالبَرِيدِ."
+    },
+    {
+      "id": "e08",
+      "path": "audio/example-e08.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "يَحْتَاجُ المَشْرُوعُ إِلَى تَخْطِيطٍ جَيِّدٍ."
+    },
+    {
+      "id": "e09",
+      "path": "audio/example-e09.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "شَارَكْنَا فِي تَنْظِيمِ وَرْشَةٍ ثَقَافِيَّةٍ."
+    },
+    {
+      "id": "e10",
+      "path": "audio/example-e10.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "نَجَحَ الفَرِيقُ فِي تَنْفِيذِ الخُطَّةِ."
+    },
+    {
+      "id": "e11",
+      "path": "audio/example-e11.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "أَهْتَمُّ بِتَطْوِيرِ لُغَتِي العَرَبِيَّةِ."
+    },
+    {
+      "id": "e12",
+      "path": "audio/example-e12.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "سَاعَدَنِي زَمِيلِي عَلَى فَهْمِ التَّمْرِينِ."
+    },
+    {
+      "id": "e13",
+      "path": "audio/example-e13.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "تَوَاصَلْتُ مَعَ المُعَلِّمِ بَعْدَ الدَّرْسِ."
+    },
+    {
+      "id": "e14",
+      "path": "audio/example-e14.mp3",
+      "kind": "grammar-example",
+      "ruleId": "rule2",
+      "textAr": "فَكَّرْنَا فِي تَغْيِيرِ المَوْعِدِ."
+    }
+  ]
+}

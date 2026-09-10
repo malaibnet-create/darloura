@@ -1,0 +1,42 @@
+{
+  "lessonId": "level-02-lesson-01-reading",
+  "voice": "Razan – Academic & Cultural Narration",
+  "model": "Eleven Multilingual v2",
+  "files": [
+    {
+      "id": "reading-full",
+      "path": "audio/reading-full.mp3",
+      "kind": "full-reading"
+    },
+    {
+      "id": "reading-p01",
+      "path": "audio/reading-p01.mp3",
+      "kind": "paragraph",
+      "paragraphId": "p01"
+    },
+    {
+      "id": "reading-p02",
+      "path": "audio/reading-p02.mp3",
+      "kind": "paragraph",
+      "paragraphId": "p02"
+    },
+    {
+      "id": "reading-p03",
+      "path": "audio/reading-p03.mp3",
+      "kind": "paragraph",
+      "paragraphId": "p03"
+    },
+    {
+      "id": "reading-p04",
+      "path": "audio/reading-p04.mp3",
+      "kind": "paragraph",
+      "paragraphId": "p04"
+    },
+    {
+      "id": "reading-p05",
+      "path": "audio/reading-p05.mp3",
+      "kind": "paragraph",
+      "paragraphId": "p05"
+    }
+  ]
+}

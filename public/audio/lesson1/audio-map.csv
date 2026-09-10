@@ -1,0 +1,87 @@
+file,category,text
+words/word-01.mp3,word,الأَدَبُ
+words/word-02.mp3,word,الأُمَمُ المُتَّحِدَةُ
+words/word-03.mp3,word,جِنْسِيَّةٌ
+words/word-04.mp3,word,مِصْرِيٌّ. مِصْرِيَّةٌ
+words/word-05.mp3,word,أَدْرُسُ
+words/word-06.mp3,word,أَسْكُنُ
+words/word-07.mp3,word,سَنَةٌ
+words/word-08.mp3,word,عُمْرٌ
+words/word-09.mp3,word,عُنْوَانٌ
+words/word-10.mp3,word,مِنْطَقَةٌ
+words/word-11.mp3,word,وَالِدٌ
+words/word-12.mp3,word,وَالِدِي
+words/word-13.mp3,word,وَالِدَةٌ
+words/word-14.mp3,word,وَالِدَتِي
+words/word-15.mp3,word,أَعْمَلُ
+words/word-16.mp3,word,يَعْمَلُ
+words/word-17.mp3,word,تَعْمَلُ
+words/word-18.mp3,word,مَنْ؟
+words/word-19.mp3,word,أَيُّ؟ أَيَّةُ؟
+words/word-20.mp3,word,صَحِيحٌ؟
+words/word-21.mp3,word,وَاللهِ؟
+words/word-22.mp3,word,نَفْسُ
+sentences/sentence-01.mp3,sentence,أَدْرُسُ الأَدَبَ العَرَبِيَّ.
+sentences/sentence-02.mp3,sentence,يَعْمَلُ وَالِدِي فِي الأُمَمِ المُتَّحِدَةِ.
+sentences/sentence-03.mp3,sentence,مَا جِنْسِيَّتُكَ؟
+sentences/sentence-04.mp3,sentence,أَنَا طَالِبَةٌ مِصْرِيَّةٌ.
+sentences/sentence-05.mp3,sentence,أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ.
+sentences/sentence-06.mp3,sentence,أَسْكُنُ فِي مَدِينَةِ مَكْنَاسَ.
+sentences/sentence-07.mp3,sentence,أَدْرُسُ العَرَبِيَّةَ مُنْذُ سَنَةٍ.
+sentences/sentence-08.mp3,sentence,كَمْ عُمْرُكَ؟
+sentences/sentence-09.mp3,sentence,مَا عُنْوَانُكَ؟
+sentences/sentence-10.mp3,sentence,أَسْكُنُ فِي مِنْطَقَةٍ هَادِئَةٍ.
+sentences/sentence-11.mp3,sentence,وَالِدُ أَحْمَدَ مُدَرِّسٌ.
+sentences/sentence-12.mp3,sentence,وَالِدِي يَعْمَلُ فِي جَامِعَةٍ.
+sentences/sentence-13.mp3,sentence,وَالِدَةُ سَارَةَ طَبِيبَةٌ.
+sentences/sentence-14.mp3,sentence,وَالِدَتِي تَعْمَلُ فِي مَدْرَسَةٍ.
+sentences/sentence-15.mp3,sentence,أَعْمَلُ فِي مَكْتَبٍ.
+sentences/sentence-16.mp3,sentence,هُوَ يَعْمَلُ فِي مُسْتَشْفًى.
+sentences/sentence-17.mp3,sentence,هِيَ تَعْمَلُ فِي جَامِعَةٍ.
+sentences/sentence-18.mp3,sentence,مَنْ هَذَا؟
+sentences/sentence-19.mp3,sentence,أَيُّ كِتَابٍ تُرِيدُ؟
+sentences/sentence-20.mp3,sentence,"أَنْتَ مِنَ المَغْرِبِ، صَحِيحٌ؟"
+sentences/sentence-21.mp3,sentence,"أَنْتَ تَتَكَلَّمُ العَرَبِيَّةَ، وَاللهِ؟"
+sentences/sentence-22.mp3,sentence,نَحْنُ فِي نَفْسِ الجَامِعَةِ.
+practice/sentences/practice-sentence-01.mp3,practice-sentence,أَنَا أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ.
+practice/sentences/practice-sentence-02.mp3,practice-sentence,أَنَا أَسْكُنُ فِي مَدِينَةِ مَكْنَاسَ.
+practice/conjugation/conjugation-01.mp3,conjugation,أَنَا أَعْمَلُ.
+practice/conjugation/conjugation-02.mp3,conjugation,أَنْتَ تَعْمَلُ.
+practice/conjugation/conjugation-03.mp3,conjugation,أَنْتِ تَعْمَلِينَ.
+practice/conjugation/conjugation-04.mp3,conjugation,هُوَ يَعْمَلُ.
+practice/conjugation/conjugation-05.mp3,conjugation,هِيَ تَعْمَلُ.
+practice/choices/practice-choice-01.mp3,practice-choice,جِنْسِيَّتُكَ
+practice/choices/practice-choice-02.mp3,practice-choice,وَالِدُكَ
+practice/choices/practice-choice-03.mp3,practice-choice,مِنْطَقَتُكَ
+practice/choices/practice-choice-04.mp3,practice-choice,عُمْرُكَ
+practice/choices/practice-choice-05.mp3,practice-choice,عُنْوَانُكَ
+practice/choices/practice-choice-06.mp3,practice-choice,نَفْسِ
+practice/choices/practice-choice-07.mp3,practice-choice,عُمْرِ
+practice/choices/practice-choice-08.mp3,practice-choice,عُنْوَانِ
+practice/choices/practice-choice-09.mp3,practice-choice,مِصْرَ
+practice/choices/practice-choice-10.mp3,practice-choice,تَعْمَلِينَ
+practice/listening/listen-12.mp3,listening,وَالِدِي
+practice/listening/listen-14.mp3,listening,وَالِدَتِي
+practice/listening/listen-18.mp3,listening,مَنْ؟
+practice/meaning/meaning-06.mp3,meaning,أَسْكُنُ
+practice/meaning/meaning-05.mp3,meaning,أَدْرُسُ
+practice/meaning/meaning-15.mp3,meaning,أَعْمَلُ
+practice/meaning/meaning-03.mp3,meaning,جِنْسِيَّةٌ
+practice/matching/match-a-03.mp3,matching,جِنْسِيَّةٌ
+practice/matching/match-a-09.mp3,matching,عُنْوَانٌ
+practice/matching/match-a-11.mp3,matching,وَالِدٌ
+practice/matching/match-a-10.mp3,matching,مِنْطَقَةٌ
+practice/matching/match-b-06.mp3,matching,أَسْكُنُ
+practice/matching/match-b-07.mp3,matching,سَنَةٌ
+practice/matching/match-b-08.mp3,matching,عُمْرٌ
+practice/matching/match-b-15.mp3,matching,أَعْمَلُ
+practice/sentences/practice-sentence-03.mp3,practice-sentence,مَا جِنْسِيَّتُكَ؟
+practice/sentences/practice-sentence-04.mp3,practice-sentence,كَمْ عُمْرُكَ؟
+practice/sentences/practice-sentence-05.mp3,practice-sentence,وَالِدِي يَعْمَلُ فِي جَامِعَةٍ.
+practice/sentences/practice-sentence-06.mp3,practice-sentence,وَالِدَتِي تَعْمَلُ فِي مَدْرَسَةٍ.
+practice/sentences/practice-sentence-07.mp3,practice-sentence,مَنْ هَذَا؟
+practice/sentences/practice-sentence-08.mp3,practice-sentence,نَحْنُ فِي نَفْسِ الجَامِعَةِ.
+practice/sentences/practice-sentence-09.mp3,practice-sentence,أَنَا طَالِبَةٌ مِصْرِيَّةٌ.
+practice/verbs/practice-verb-01.mp3,verb,هُوَ يَعْمَلُ فِي مُسْتَشْفًى.
+practice/verbs/practice-verb-02.mp3,verb,هِيَ تَعْمَلُ فِي جَامِعَةٍ.
+practice/verbs/practice-verb-03.mp3,verb,أَنَا أَعْمَلُ فِي مَكْتَبٍ.

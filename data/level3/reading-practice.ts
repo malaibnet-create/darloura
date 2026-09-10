@@ -1,0 +1,356 @@
+// Generated from content/*.source.json. Do not edit by hand.
+export const level03Lesson01ReadingPractice = {
+  "lessonId": "level-03-lesson-01-reading",
+  "instructionsAr": "اقرأ النص على مرحلتين، ثم أجب عن عشرين سؤالًا. لكل سؤال نقطة واحدة.",
+  "instructionsEn": "Read the text in two passes, then answer twenty questions. Each question is worth one point.",
+  "questions": [
+    {
+      "id": "q01",
+      "skill": "gist",
+      "type": "singleChoice",
+      "promptAr": "ما القضية الأساسية في النص؟",
+      "options": [
+        "اختيار رئيس جديد للمجلس",
+        "الخلاف حول استعمال ساحة تاريخية",
+        "إغلاق السوق القديم نهائيًّا",
+        "بناء مدرسة خارج المدينة"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s01",
+        "s05"
+      ],
+      "feedbackEn": "The text follows a dispute over how a historic public square should be used."
+    },
+    {
+      "id": "q02",
+      "skill": "gist",
+      "type": "singleChoice",
+      "promptAr": "ما التحول الرئيس الذي حدث؟",
+      "options": [
+        "تحول التجار إلى معارضين للمدينة",
+        "انتقل المجلس من الدفاع عن خطته إلى مراجعتها",
+        "توقفت الجمعية عن حماية التراث",
+        "تحولت الساحة إلى سوق خاص"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s03",
+        "s04"
+      ],
+      "feedbackEn": "New evidence led the council to admit the flaw and reconsider its plan."
+    },
+    {
+      "id": "q03",
+      "skill": "gist",
+      "type": "singleChoice",
+      "promptAr": "أي عنوان يلخص رسالة النص بصورة أفضل؟",
+      "options": [
+        "لا فائدة من الحوار العام",
+        "كل مشروع جديد يضر بالتراث",
+        "المراجعة المبنية على الدليل قد تعزز المسؤولية",
+        "رأي الأغلبية صحيح دائمًا"
+      ],
+      "answer": 2,
+      "sectionIds": [
+        "s04",
+        "s05"
+      ],
+      "feedbackEn": "The passage presents evidence-based reconsideration as responsible governance."
+    },
+    {
+      "id": "q04",
+      "skill": "sequence",
+      "type": "singleChoice",
+      "promptAr": "أي حدث وقع أولًا؟",
+      "options": [
+        "نشر الدراسة المستقلة",
+        "إعلان خطة موقف السيارات",
+        "بدء المفاوضات",
+        "ترميم النافورة"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s01"
+      ],
+      "feedbackEn": "The council announced the parking plan before the public response and later study."
+    },
+    {
+      "id": "q05",
+      "skill": "sequence",
+      "type": "singleChoice",
+      "promptAr": "ماذا حدث مباشرة بعد نشر الدراسة الجديدة في مسار النص؟",
+      "options": [
+        "أُغلقت الساحة",
+        "بدأ المجلس اجتماعًا عامًا لمراجعة الموقف",
+        "انسحبت الجمعية من النقاش",
+        "اكتمل ترميم النافورة"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s03",
+        "s04"
+      ],
+      "feedbackEn": "The new evidence prepared the way for the public meeting and reconsideration."
+    },
+    {
+      "id": "q06",
+      "skill": "sequence",
+      "type": "singleChoice",
+      "promptAr": "أي حدث يمثل نهاية مسار الخلاف؟",
+      "options": [
+        "رفض جميع المقترحات",
+        "العودة إلى التقرير القديم",
+        "تبني حل يجمع بين المشاة وخدمة السوق",
+        "تحويل الساحة كلها إلى موقف"
+      ],
+      "answer": 2,
+      "sectionIds": [
+        "s05"
+      ],
+      "feedbackEn": "The final compromise preserved the square and addressed access to the market."
+    },
+    {
+      "id": "q07",
+      "skill": "detail",
+      "type": "singleChoice",
+      "promptAr": "على أي أساس بنى المجلس قراره الأول؟",
+      "options": [
+        "استفتاء حديث للسكان",
+        "تقرير أُعد قبل ثماني سنوات",
+        "طلب من جمعية التراث",
+        "دراسة الفريق المستقل"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s01"
+      ],
+      "feedbackEn": "The council relied on an eight-year-old report."
+    },
+    {
+      "id": "q08",
+      "skill": "detail",
+      "type": "singleChoice",
+      "promptAr": "لماذا أيد بعض التجار المشروع الأول؟",
+      "options": [
+        "توقعوا وصول مزيد من الزبائن",
+        "أرادوا إزالة السوق",
+        "رفضوا استعمال السيارات",
+        "طلبوا إلغاء الأنشطة الثقافية"
+      ],
+      "answer": 0,
+      "sectionIds": [
+        "s02"
+      ],
+      "feedbackEn": "Some traders expected easier car access to attract more customers."
+    },
+    {
+      "id": "q09",
+      "skill": "detail",
+      "type": "singleChoice",
+      "promptAr": "ماذا أثبتت الدراسة عن أغلبية زوار السوق؟",
+      "options": [
+        "يصلون بالسيارات الخاصة",
+        "يأتون من مدن بعيدة",
+        "يصلون مشيًا أو بالنقل العام",
+        "لا يزورون الساحة"
+      ],
+      "answer": 2,
+      "sectionIds": [
+        "s03"
+      ],
+      "feedbackEn": "Most visitors arrived on foot or by public transport."
+    },
+    {
+      "id": "q10",
+      "skill": "detail",
+      "type": "singleChoice",
+      "promptAr": "أي عنصر خُصص له جزء من الميزانية؟",
+      "options": [
+        "سور جديد حول السوق",
+        "نافورة الساحة التاريخية",
+        "مبنى المجلس",
+        "موقف كبير وسط الساحة"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s05"
+      ],
+      "feedbackEn": "The historic fountain was singled out for restoration."
+    },
+    {
+      "id": "q11",
+      "skill": "factOpinion",
+      "type": "singleChoice",
+      "promptAr": "أي جملة تمثل حقيقة قدمتها الدراسة؟",
+      "options": [
+        "المجلس لا يهتم بتاريخ المدينة",
+        "الساحة أجمل مكان في المغرب",
+        "أغلبية الزوار تصل مشيًا أو بالنقل العام",
+        "كل التجار يرفضون السيارات"
+      ],
+      "answer": 2,
+      "sectionIds": [
+        "s03"
+      ],
+      "feedbackEn": "This statement is presented as a finding from the independent study."
+    },
+    {
+      "id": "q12",
+      "skill": "factOpinion",
+      "type": "singleChoice",
+      "promptAr": "أي عبارة تمثل توقعًا لا حقيقة مثبتة؟",
+      "options": [
+        "أُعد التقرير قبل ثماني سنوات",
+        "توقع التجار أن يجلب الموقف مزيدًا من الزبائن",
+        "استمرت المفاوضات ثلاثة أسابيع",
+        "خُصصت ميزانية لترميم النافورة"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s02"
+      ],
+      "feedbackEn": "The traders’ expectation is a prediction, not an established fact."
+    },
+    {
+      "id": "q13",
+      "skill": "factOpinion",
+      "type": "singleChoice",
+      "promptAr": "لماذا رفضت الجمعية وصف المشروع بأنه «محو لتاريخ المدينة»؟",
+      "options": [
+        "لأنه خطاب متطرف يضعف النقاش الموضوعي",
+        "لأنها وافقت على المشروع كاملًا",
+        "لأن العبارة وردت في الدراسة",
+        "لأن المجلس طلب منها ذلك"
+      ],
+      "answer": 0,
+      "sectionIds": [
+        "s02"
+      ],
+      "feedbackEn": "The association wanted criticism to remain evidence-based and objective."
+    },
+    {
+      "id": "q14",
+      "skill": "cohesion",
+      "type": "singleChoice",
+      "promptAr": "في قول الكاتب: «مِمَّا قد يترك تأثيرًا سلبيًّا»، إلى ماذا تعود «مما»؟",
+      "options": [
+        "إلى وصول الزوار مشيًا",
+        "إلى احتمال إضعاف جاذبية المكان",
+        "إلى عمر التقرير فقط",
+        "إلى ترميم النافورة"
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s03"
+      ],
+      "feedbackEn": "مما refers to the preceding possibility that the new parking area could reduce the place’s appeal."
+    },
+    {
+      "id": "q15",
+      "skill": "cohesion",
+      "type": "singleChoice",
+      "promptAr": "ما وظيفة «ومن ثم» في نهاية الجزء الثالث؟",
+      "options": [
+        "تقديم مثال",
+        "إضافة اعتراض",
+        "تقديم نتيجة منطقية",
+        "تحديد زمن الحدث"
+      ],
+      "answer": 2,
+      "sectionIds": [
+        "s03"
+      ],
+      "feedbackEn": "ومن ثم introduces the conclusion that a rational solution became necessary."
+    },
+    {
+      "id": "q16",
+      "skill": "cohesion",
+      "type": "singleChoice",
+      "promptAr": "إلى ماذا يشير «هذا الاعتراف» في الجزء الرابع؟",
+      "options": [
+        "اعتراف الرئيس بخطأ الاعتماد على بيانات قديمة",
+        "اعتراف التجار بإغلاق السوق",
+        "اعتراف الجمعية برفض الحوار",
+        "اعتراف الخبراء بعدم إجراء دراسة"
+      ],
+      "answer": 0,
+      "sectionIds": [
+        "s04"
+      ],
+      "feedbackEn": "It points back to the council president’s admission of the institutional mistake."
+    },
+    {
+      "id": "q17",
+      "skill": "inference",
+      "type": "singleChoice",
+      "promptAr": "لماذا زاد امتناع ممثل المجلس عن التعليق من التوتر؟",
+      "options": [
+        "لأن الصمت ترك المجال للشك والتفسيرات المتطرفة",
+        "لأن السكان لم يقرؤوا التقرير الجديد",
+        "لأن السوق كان مغلقًا",
+        "لأن الجمعية منعت الاجتماع"
+      ],
+      "answer": 0,
+      "sectionIds": [
+        "s02",
+        "s04"
+      ],
+      "feedbackEn": "The later admission that silence worsened misunderstanding supports this inference."
+    },
+    {
+      "id": "q18",
+      "skill": "inference",
+      "type": "singleChoice",
+      "promptAr": "ما الذي يوحي به قول الكاتب إن أي طرف لم يكن بريئًا تمامًا من التسرع؟",
+      "options": [
+        "كل الأطراف ارتكبت الجريمة نفسها",
+        "المؤيدون وحدهم أخطؤوا",
+        "المعارضون وحدهم أخطؤوا",
+        "بعض المؤيدين والمعارضين حكموا قبل فحص الأدلة"
+      ],
+      "answer": 3,
+      "sectionIds": [
+        "s03"
+      ],
+      "feedbackEn": "The text criticizes premature judgment on both sides."
+    },
+    {
+      "id": "q19",
+      "skill": "inference",
+      "type": "singleChoice",
+      "promptAr": "كيف أثّر الاعتراف بالخطأ في شرعية المجلس وفق مسار النص؟",
+      "options": [
+        "أنهى وجود المجلس",
+        "أضعفها حتمًا",
+        "ساعد على استعادة الثقة لأنه تبعه تفسير ومراجعة",
+        "لم يكن له أي تأثير"
+      ],
+      "answer": 2,
+      "sectionIds": [
+        "s04",
+        "s05"
+      ],
+      "feedbackEn": "The admission became constructive because it was followed by explanation, negotiation, and action."
+    },
+    {
+      "id": "q20",
+      "skill": "summary",
+      "type": "singleChoice",
+      "promptAr": "أي ملخص هو الأدق؟",
+      "options": [
+        "رفض السكان مشروعًا، فقرر المجلس تجاهلهم وتنفيذه.",
+        "كشف خلاف حول ساحة تاريخية ضعف البيانات القديمة؛ فراجع المجلس قراره وتبنى حلًّا يوازن بين التراث والحاجات العملية.",
+        "أثبتت الدراسة أن جميع الزوار يستعملون السيارات، فبُني موقف كبير.",
+        "اختلف التجار والجمعية، لكن النص لم يذكر نتيجة الخلاف."
+      ],
+      "answer": 1,
+      "sectionIds": [
+        "s01",
+        "s03",
+        "s05"
+      ],
+      "feedbackEn": "This option includes the conflict, the new evidence, the reconsideration, and the balanced outcome."
+    }
+  ]
+} as const;

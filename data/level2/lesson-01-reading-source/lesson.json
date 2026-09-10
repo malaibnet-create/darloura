@@ -1,0 +1,43 @@
+{
+  "id": "level-02-lesson-01-reading",
+  "level": "Lower-intermediate (A2+/B1-)",
+  "lesson": 1,
+  "titleAr": "مشروع صغير يُعَرِّفُ بمدينة وليلي",
+  "titleEn": "A Small Project Introduces Volubilis",
+  "estimatedMinutes": 50,
+  "direction": "rtl",
+  "openingImage": {
+    "path": "images/reading-opening-volubilis.png",
+    "altAr": "طلاب دوليون ومعلم مغربي يخططون لمشروع ثقافي باستعمال صور لمدينة وليلي الأثرية.",
+    "altEn": "International students and a Moroccan teacher planning a cultural project using photographs of ancient Volubilis.",
+    "credit": "AI-generated original educational image"
+  },
+  "objectivesAr": [
+    "فهم الفكرة العامة والأحداث الرئيسة في نص متوسط الطول.",
+    "استخراج معلومات صريحة واستنتاج معلومات غير مباشرة.",
+    "فهم مفردات الدرس الأول وعائلاتها الصرفية داخل السياق.",
+    "تلخيص النص وتوظيف المفردات في موقف جديد."
+  ],
+  "objectivesEn": [
+    "Understand the main idea and key events in a medium-length text.",
+    "Retrieve explicit details and infer unstated information.",
+    "Understand Lesson 1 vocabulary families in context.",
+    "Summarize the text and reuse the vocabulary in a new situation."
+  ],
+  "flow": [
+    {"id":"before","titleAr":"قبل القراءة","titleEn":"Before reading","minutes":7},
+    {"id":"first","titleAr":"القراءة الأولى","titleEn":"First reading","minutes":8},
+    {"id":"close","titleAr":"قراءة متعمقة","titleEn":"Close reading","minutes":18},
+    {"id":"language","titleAr":"المفردات في السياق","titleEn":"Vocabulary in context","minutes":9},
+    {"id":"after","titleAr":"بعد القراءة","titleEn":"After reading","minutes":8}
+  ],
+  "readingPolicy": {
+    "firstPass": "Silent reading with no dictionary or translation overlay.",
+    "audioUnlock": "Unlock full audio after the learner submits the gist questions.",
+    "paragraphAudio": true,
+    "translationPolicy": "Do not show a full English translation; provide bilingual instructions and targeted feedback only.",
+    "tashkeel": "Partial pedagogical tashkeel on potentially difficult forms."
+  },
+  "mastery": {"objectivePercent":75,"postReadingRequired":true,"keepBestScore":true}
+}
+

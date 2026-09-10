@@ -1,0 +1,199 @@
+{
+  "lessonId": "level-02-lesson-01-vocabulary",
+  "voice": "Razan – Academic & Cultural Narration",
+  "model": "Eleven Multilingual v2",
+  "files": [
+    {
+      "id": "family-v01",
+      "path": "audio/family-v01.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v01"
+    },
+    {
+      "id": "example-v01",
+      "path": "audio/example-v01.mp3",
+      "kind": "example",
+      "vocabularyId": "v01"
+    },
+    {
+      "id": "family-v02",
+      "path": "audio/family-v02.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v02"
+    },
+    {
+      "id": "example-v02",
+      "path": "audio/example-v02.mp3",
+      "kind": "example",
+      "vocabularyId": "v02"
+    },
+    {
+      "id": "family-v03",
+      "path": "audio/family-v03.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v03"
+    },
+    {
+      "id": "example-v03",
+      "path": "audio/example-v03.mp3",
+      "kind": "example",
+      "vocabularyId": "v03"
+    },
+    {
+      "id": "family-v04",
+      "path": "audio/family-v04.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v04"
+    },
+    {
+      "id": "example-v04",
+      "path": "audio/example-v04.mp3",
+      "kind": "example",
+      "vocabularyId": "v04"
+    },
+    {
+      "id": "family-v05",
+      "path": "audio/family-v05.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v05"
+    },
+    {
+      "id": "example-v05",
+      "path": "audio/example-v05.mp3",
+      "kind": "example",
+      "vocabularyId": "v05"
+    },
+    {
+      "id": "family-v06",
+      "path": "audio/family-v06.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v06"
+    },
+    {
+      "id": "example-v06",
+      "path": "audio/example-v06.mp3",
+      "kind": "example",
+      "vocabularyId": "v06"
+    },
+    {
+      "id": "family-v07",
+      "path": "audio/family-v07.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v07"
+    },
+    {
+      "id": "example-v07",
+      "path": "audio/example-v07.mp3",
+      "kind": "example",
+      "vocabularyId": "v07"
+    },
+    {
+      "id": "family-v08",
+      "path": "audio/family-v08.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v08"
+    },
+    {
+      "id": "example-v08",
+      "path": "audio/example-v08.mp3",
+      "kind": "example",
+      "vocabularyId": "v08"
+    },
+    {
+      "id": "family-v09",
+      "path": "audio/family-v09.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v09"
+    },
+    {
+      "id": "example-v09",
+      "path": "audio/example-v09.mp3",
+      "kind": "example",
+      "vocabularyId": "v09"
+    },
+    {
+      "id": "family-v10",
+      "path": "audio/family-v10.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v10"
+    },
+    {
+      "id": "example-v10",
+      "path": "audio/example-v10.mp3",
+      "kind": "example",
+      "vocabularyId": "v10"
+    },
+    {
+      "id": "family-v11",
+      "path": "audio/family-v11.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v11"
+    },
+    {
+      "id": "example-v11",
+      "path": "audio/example-v11.mp3",
+      "kind": "example",
+      "vocabularyId": "v11"
+    },
+    {
+      "id": "family-v12",
+      "path": "audio/family-v12.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v12"
+    },
+    {
+      "id": "example-v12",
+      "path": "audio/example-v12.mp3",
+      "kind": "example",
+      "vocabularyId": "v12"
+    },
+    {
+      "id": "family-v13",
+      "path": "audio/family-v13.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v13"
+    },
+    {
+      "id": "example-v13",
+      "path": "audio/example-v13.mp3",
+      "kind": "example",
+      "vocabularyId": "v13"
+    },
+    {
+      "id": "family-v14",
+      "path": "audio/family-v14.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v14"
+    },
+    {
+      "id": "example-v14",
+      "path": "audio/example-v14.mp3",
+      "kind": "example",
+      "vocabularyId": "v14"
+    },
+    {
+      "id": "family-v15",
+      "path": "audio/family-v15.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v15"
+    },
+    {
+      "id": "example-v15",
+      "path": "audio/example-v15.mp3",
+      "kind": "example",
+      "vocabularyId": "v15"
+    },
+    {
+      "id": "family-v16",
+      "path": "audio/family-v16.mp3",
+      "kind": "word-family",
+      "vocabularyId": "v16"
+    },
+    {
+      "id": "example-v16",
+      "path": "audio/example-v16.mp3",
+      "kind": "example",
+      "vocabularyId": "v16"
+    }
+  ]
+}

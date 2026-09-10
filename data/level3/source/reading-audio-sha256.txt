@@ -1,0 +1,6 @@
+43dbeff0c6b846d9c735bb73ad7ddbd1cb9fe8c125ccf6a058ec482a041c9c22  audio/reading-full.mp3
+ba6704c420135264a49d677b11cb6716b89464667395836b6ce17a9c3277d0d3  audio/reading-section-01.mp3
+25c755092a54f2c7ea6461b2dd3f2bef2f9023758f9b6625d7052e247567cf60  audio/reading-section-02.mp3
+1a87ab3ffee80b49df5d6da55ca65b8a295982912379ce5cb7e31407155088d9  audio/reading-section-03.mp3
+81ccbdcb08ca71498783d4eebf6c1d26aabcec8fca2dae5ee3bb2290d840c574  audio/reading-section-04.mp3
+4034c0bc03e4d7193082eaaa421bfd19968d5a37eaabd1f0d45d54cc406b1e61  audio/reading-section-05.mp3

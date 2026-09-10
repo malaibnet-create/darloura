@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "lesson": "lesson-02",
+  "section": "listening",
+  "publicBasePath": "/audio/lesson-02/listening",
+  "audioFormat": {
+    "container": "mp3",
+    "sampleRateHz": 44100,
+    "bitRateKbps": 128
+  },
+  "generation": {
+    "model": "Eleven Multilingual v2",
+    "speed": 0.81,
+    "stability": 0.61,
+    "similarity": 0.75,
+    "style": 0,
+    "speakerBoost": true,
+    "voices": {
+      "huda": "Razan – Academic & Cultural Narration",
+      "omar": "Rachid - Bold and Magnetic"
+    }
+  },
+  "clips": {
+    "l2-dialogue-full": {
+      "file": "audio/dialogue-full.mp3",
+      "usage": "first-listening",
+      "speakers": [
+        "omar",
+        "huda"
+      ],
+      "text": "السَّلَامُ عَلَيْكُمْ. وَعَلَيْكُمُ السَّلَامُ. أَهْلًا وَسَهْلًا. هَلْ تَعْمَلُ الْأُسْتَاذَةُ مَرْيَمُ هُنَا؟ نَعَمْ، هِيَ مُتَرْجِمَةٌ فِي هٰذَا الْمَرْكَزِ. هَلْ هِيَ مُتَخَصِّصَةٌ فِي التَّرْجَمَةِ مِنَ الْعَرَبِيَّةِ إِلَى الْإِنْجِلِيزِيَّةِ؟ نَعَمْ، وَهِيَ تَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ وَالْعَرَبِيَّةَ الْفُصْحَى أَيْضًا. هَلْ هِيَ مَشْغُولَةٌ الْيَوْمَ؟ نَعَمْ، هِيَ مَشْغُولَةٌ بِالْعَمَلِ فِي النَّهَارِ. مَتَى أَتَكَلَّمُ مَعَهَا؟ تَعَالَ غَدًا فِي الْمَسَاءِ. حَسَنًا، شُكْرًا. عَفْوًا."
+    },
+    "l2-dialogue-learning": {
+      "file": "audio/dialogue-learning-pauses.mp3",
+      "usage": "second-listening",
+      "speakers": [
+        "omar",
+        "huda"
+      ],
+      "text": "السَّلَامُ عَلَيْكُمْ. وَعَلَيْكُمُ السَّلَامُ. أَهْلًا وَسَهْلًا. هَلْ تَعْمَلُ الْأُسْتَاذَةُ مَرْيَمُ هُنَا؟ نَعَمْ، هِيَ مُتَرْجِمَةٌ فِي هٰذَا الْمَرْكَزِ. هَلْ هِيَ مُتَخَصِّصَةٌ فِي التَّرْجَمَةِ مِنَ الْعَرَبِيَّةِ إِلَى الْإِنْجِلِيزِيَّةِ؟ نَعَمْ، وَهِيَ تَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ وَالْعَرَبِيَّةَ الْفُصْحَى أَيْضًا. هَلْ هِيَ مَشْغُولَةٌ الْيَوْمَ؟ نَعَمْ، هِيَ مَشْغُولَةٌ بِالْعَمَلِ فِي النَّهَارِ. مَتَى أَتَكَلَّمُ مَعَهَا؟ تَعَالَ غَدًا فِي الْمَسَاءِ. حَسَنًا، شُكْرًا. عَفْوًا."
+    },
+    "l2-line-01": {
+      "file": "audio/line-01-omar.mp3",
+      "usage": "dialogue-line",
+      "speaker": "omar",
+      "text": "السَّلَامُ عَلَيْكُمْ."
+    },
+    "l2-line-02": {
+      "file": "audio/line-02-huda.mp3",
+      "usage": "dialogue-line",
+      "speaker": "huda",
+      "text": "وَعَلَيْكُمُ السَّلَامُ. أَهْلًا وَسَهْلًا."
+    },
+    "l2-line-03": {
+      "file": "audio/line-03-omar.mp3",
+      "usage": "dialogue-line",
+      "speaker": "omar",
+      "text": "هَلْ تَعْمَلُ الْأُسْتَاذَةُ مَرْيَمُ هُنَا؟"
+    },
+    "l2-line-04": {
+      "file": "audio/line-04-huda.mp3",
+      "usage": "dialogue-line",
+      "speaker": "huda",
+      "text": "نَعَمْ، هِيَ مُتَرْجِمَةٌ فِي هٰذَا الْمَرْكَزِ."
+    },
+    "l2-line-05": {
+      "file": "audio/line-05-omar.mp3",
+      "usage": "dialogue-line",
+      "speaker": "omar",
+      "text": "هَلْ هِيَ مُتَخَصِّصَةٌ فِي التَّرْجَمَةِ مِنَ الْعَرَبِيَّةِ إِلَى الْإِنْجِلِيزِيَّةِ؟"
+    },
+    "l2-line-06": {
+      "file": "audio/line-06-huda.mp3",
+      "usage": "dialogue-line",
+      "speaker": "huda",
+      "text": "نَعَمْ، وَهِيَ تَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ وَالْعَرَبِيَّةَ الْفُصْحَى أَيْضًا."
+    },
+    "l2-line-07": {
+      "file": "audio/line-07-omar.mp3",
+      "usage": "dialogue-line",
+      "speaker": "omar",
+      "text": "هَلْ هِيَ مَشْغُولَةٌ الْيَوْمَ؟"
+    },
+    "l2-line-08": {
+      "file": "audio/line-08-huda.mp3",
+      "usage": "dialogue-line",
+      "speaker": "huda",
+      "text": "نَعَمْ، هِيَ مَشْغُولَةٌ بِالْعَمَلِ فِي النَّهَارِ."
+    },
+    "l2-line-09": {
+      "file": "audio/line-09-omar.mp3",
+      "usage": "dialogue-line",
+      "speaker": "omar",
+      "text": "مَتَى أَتَكَلَّمُ مَعَهَا؟"
+    },
+    "l2-line-10": {
+      "file": "audio/line-10-huda.mp3",
+      "usage": "dialogue-line",
+      "speaker": "huda",
+      "text": "تَعَالَ غَدًا فِي الْمَسَاءِ."
+    },
+    "l2-line-11": {
+      "file": "audio/line-11-omar.mp3",
+      "usage": "dialogue-line",
+      "speaker": "omar",
+      "text": "حَسَنًا، شُكْرًا."
+    },
+    "l2-line-12": {
+      "file": "audio/line-12-huda.mp3",
+      "usage": "dialogue-line",
+      "speaker": "huda",
+      "text": "عَفْوًا."
+    },
+    "shadow-1": {
+      "file": "audio/shadow-01-work-here.mp3",
+      "usage": "shadowing",
+      "text": "هَلْ تَعْمَلُ الْأُسْتَاذَةُ مَرْيَمُ هُنَا؟"
+    },
+    "shadow-2": {
+      "file": "audio/shadow-02-translator-center.mp3",
+      "usage": "shadowing",
+      "text": "نَعَمْ، هِيَ مُتَرْجِمَةٌ فِي هٰذَا الْمَرْكَزِ."
+    },
+    "shadow-3": {
+      "file": "audio/shadow-03-busy-today.mp3",
+      "usage": "shadowing",
+      "text": "هَلْ هِيَ مَشْغُولَةٌ الْيَوْمَ؟"
+    },
+    "shadow-4": {
+      "file": "audio/shadow-04-tomorrow-evening.mp3",
+      "usage": "shadowing",
+      "text": "تَعَالَ غَدًا فِي الْمَسَاءِ."
+    }
+  }
+}

@@ -1,0 +1,3125 @@
+{
+  "checks": [
+    {
+      "name": "exam question count",
+      "passed": true,
+      "details": "20/20"
+    },
+    {
+      "name": "exam question IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam answer indexes are valid",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "16/20 passes and honors the configured unlock target",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "15/20 fails and does not unlock lesson 3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "highest score is retained",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "unvocalized writing is accepted",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "all five required sections unlock the exam",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "legacy section array is merged without erasing progress",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-06 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-06 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-06 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-06 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-06 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-06 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-07 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-07 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-07 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-07 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-07 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-07 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-08 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-08 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-08 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-08 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-08 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-08 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-09 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-09 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-09 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-09 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-09 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-09 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-10 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-10 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-10 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-10 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-10 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-10 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-11 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-11 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-11 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-11 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-11 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-11 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-12 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-12 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-12 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-12 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-12 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-12 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-13 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-13 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-13 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-13 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-13 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-13 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-14 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-14 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-14 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-14 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-14 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-14 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-15 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-15 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-15 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-15 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-15 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-15 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-16 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-16 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-16 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-16 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-16 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-16 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-17 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-17 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-17 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-17 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-17 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-17 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-18 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-18 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-18 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-18 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-18 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-18 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-19 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-19 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-19 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-19 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-19 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-19 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-20 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-20 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-20 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-20 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-20 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-20 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-21 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-21 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-21 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-21 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-21 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-21 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-22 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-22 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-22 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-22 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-22 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-22 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-23 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-23 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-23 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-23 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-23 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-23 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-24 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-24 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-24 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-24 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-24 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-24 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-25 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-25 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-25 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-25 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-25 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-25 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-26 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-26 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-26 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-26 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-26 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-26 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-27 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-27 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-word-27 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-27 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-27 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "vocabulary/l2v-example-27 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-full file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-full has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-full filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-p03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s06 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s06 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s06 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s07 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s07 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s07 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s08 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s08 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s08 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s09 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s09 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s09 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s10 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s10 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s10 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s11 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s11 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s11 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s12 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s12 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s12 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s13 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s13 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "reading/r2-s13 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-dialogue-full file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-dialogue-full has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-dialogue-full filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-dialogue-learning file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-dialogue-learning has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-dialogue-learning filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-06 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-06 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-06 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-07 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-07 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-07 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-08 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-08 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-08 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-09 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-09 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-09 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-10 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-10 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-10 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-11 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-11 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-11 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-12 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-12 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/l2-line-12 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-1 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-1 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-1 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-2 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-2 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-2 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-3 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-3 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-3 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-4 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-4 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "listening/shadow-4 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-ana file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-ana has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-ana filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-nahnu file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-nahnu has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-nahnu filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-anta file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-anta has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-anta filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-antum file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-antum has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-antum filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-huwa file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-huwa has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-huwa filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-hum file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-hum has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-hum filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-atakallamu file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-atakallamu has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-atakallamu filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-natakallamu file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-natakallamu has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-natakallamu filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-tatakallamu file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-tatakallamu has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-tatakallamu filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-tatakalluna file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-tatakalluna has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-tatakalluna filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-yatakallamu file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-yatakallamu has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-yatakallamu filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-yatakalluna file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-yatakalluna has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-verb-yatakalluna filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-1 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-1 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-1 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-2 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-2 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-2 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-3 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-3 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-3 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-4 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-4 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-4 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-5 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-5 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-pronoun-example-5 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutarjim-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-muwazzaf-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mutakhassis-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-maghribi-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-smp-mashghul-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-kitab-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-madina-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-bab-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-khal-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-talib-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-rajul-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-jar-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-singular file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-singular has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-singular filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-plural file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-plural has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-plural filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-pair file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-pair has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-bp-shakhs-pair filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-1 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-1 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-1 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-2 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-2 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-2 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-3 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-3 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-3 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-4 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-4 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-human-4 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-1 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-1 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-1 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-2 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-2 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-2 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-3 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-3 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-3 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-4 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-4 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-4 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-5 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-5 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "grammar/g2-nonhuman-5 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-full file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-full has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-full filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-06 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-06 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-06 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-07 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-07 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-07 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-08 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-08 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-08 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-09 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-09 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-09 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-10 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-10 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-10 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-11 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-11 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-11 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-12 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-12 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-12 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-13 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-13 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-13 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-14 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-14 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-14 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-15 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-15 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-15 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-16 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-16 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-dialogue-16 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pronunciation-05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-en file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-en has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-en filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-fr file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-fr has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-fr filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-ar file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-ar has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-language-ar filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-fusha file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-fusha has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-fusha filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-ar file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-ar has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-ar filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-en file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-en has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-study-en filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-muwazzaf file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-muwazzaf has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-muwazzaf filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-muwazzafa file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-muwazzafa has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-muwazzafa filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-mutarjim file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-mutarjim has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-mutarjim filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-mutarjima file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-mutarjima has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-mutarjima filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-talib file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-talib has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-talib filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-taliba file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-taliba has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-job-taliba filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "conversation/c2-pattern-time-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-full file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-full has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-full filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-03 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-03 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-03 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-04 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-04 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-04 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-05 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-05 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-model-05 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-pattern-languages file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-pattern-languages has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-pattern-languages filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-pattern-time file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-pattern-time has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "writing/w2-pattern-time filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam audio IDs are unique",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-listening-01 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-listening-01 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-listening-01 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-listening-02 file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-listening-02 has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-listening-02 filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-speaking-model file exists and is non-empty",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-speaking-model has an MP3-compatible header",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "exam/l2-exam-speaking-model filename is not mapped to conflicting text",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "audio IDs are globally unique across lesson 2",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "summary": {
+    "total": 623,
+    "passed": 623,
+    "failed": 0,
+    "audioRows": 202
+  }
+}

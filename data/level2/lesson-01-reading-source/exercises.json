@@ -1,0 +1,61 @@
+{
+  "stages": [
+    {
+      "id":"before","titleAr":"قبل القراءة","titleEn":"Before reading","items":[
+        {"id":"b01","type":"imageObservation","image":"images/reading-opening-volubilis.png","promptAr":"ماذا يفعل الأشخاص في الصورة؟ اذكر ثلاثة أفعال محتملة.","promptEn":"What are the people doing? Name three possible actions.","suggestedTerms":["يخططون","يعملون","يدرسون","يختارون","يتواصلون"]},
+        {"id":"b02","type":"predictionChoice","promptAr":"ما موضوع المشروع على الأرجح؟","promptEn":"What is the project most likely about?","choices":["التعريف بمكان تاريخي","إعداد وجبة جديدة","تنظيم مباراة رياضية","شراء أجهزة للحاسوب"],"answer":"التعريف بمكان تاريخي"},
+        {"id":"b03","type":"predictionOpen","promptAr":"ما الخطوات التي يحتاج إليها فريق لإعداد عرض عن مكان تاريخي؟","promptEn":"What steps does a team need to prepare a presentation about a historical place?","minimumIdeas":2},
+        {"id":"b04","type":"vocabularyActivation","promptAr":"اختر أربع كلمات من الدرس تتوقع أن تظهر في النص، وفسّر اختيارك بجملة واحدة.","promptEn":"Choose four lesson words you expect to find in the text and explain your prediction in one sentence.","minimumSelections":4}
+      ]
+    },
+    {
+      "id":"gist","titleAr":"الفكرة العامة","titleEn":"Main idea","items":[
+        {"id":"g01","type":"singleChoice","promptAr":"ما الفكرة العامة للنص؟","promptEn":"What is the main idea of the text?","choices":["طلاب يوظفون العربية في مشروع ثقافي جماعي","دليل يشرح تاريخ وليلي بالتفصيل","طلاب يبحثون عن مدرسة جديدة","معلّمة تلغي جميع التمارين"],"answer":"طلاب يوظفون العربية في مشروع ثقافي جماعي","feedbackAr":"يركز النص على انتقال الطلاب من دراسة الكلمات إلى استعمالها في مشروع حقيقي.","feedbackEn":"The text focuses on moving from studying words to using them in a real project."},
+        {"id":"g02","type":"singleChoice","promptAr":"ما هدف المعلّمة الرئيس؟","promptEn":"What was the teacher's main goal?","choices":["استعمال العربية في مهمة حقيقية","اختبار معرفة الطلاب بالتاريخ الروماني","تعليم التصوير الاحترافي","تنظيم رحلة ترفيهية فقط"],"answer":"استعمال العربية في مهمة حقيقية"},
+        {"id":"g03","type":"singleChoice","promptAr":"أي عنوان بديل يناسب النص؟","promptEn":"Which alternative title best fits the text?","choices":["من الكلمات إلى مشروع مفيد","يوم ممطر في المدرسة","كيف تصبح دليلًا سياحيًا","تاريخ مدينة مكناس"],"answer":"من الكلمات إلى مشروع مفيد"},
+        {"id":"g04","type":"singleChoice","promptAr":"كيف انتهى المشروع؟","promptEn":"How did the project end?","choices":["نجح وحضره طلاب آخرون","توقف بسبب المطر","أكمله شخص واحد","تأجل إلى فصل آخر"],"answer":"نجح وحضره طلاب آخرون"}
+      ]
+    },
+    {
+      "id":"details","titleAr":"التفاصيل وتسلسل الأحداث","titleEn":"Details and sequence","items":[
+        {"id":"d01","type":"singleChoice","promptAr":"كم كان عدد المتعلمين في الفريق؟","promptEn":"How many learners were in the team?","choices":["ثلاثة","أربعة","خمسة","ستة"],"answer":"خمسة"},
+        {"id":"d02","type":"singleChoice","promptAr":"لماذا اختار الفريق وليلي؟","promptEn":"Why did the team choose Volubilis?","choices":["لأنها مكان تاريخي قريب يناسب اهتماماتهم","لأن المعلمة فرضتها عليهم","لأن الدخول إليها مجاني دائمًا","لأنهم عملوا فيها من قبل"],"answer":"لأنها مكان تاريخي قريب يناسب اهتماماتهم"},
+        {"id":"d03","type":"singleChoice","promptAr":"بماذا ساهمت آنا؟","promptEn":"What was Anna's contribution?","choices":["التصوير","مراجعة اللغة","كتابة الأسئلة","قراءة المصادر"],"answer":"التصوير"},
+        {"id":"d04","type":"singleChoice","promptAr":"ماذا فعلت مريم قبل الزيارة؟","promptEn":"What did Maryam do before the visit?","choices":["تواصلت مع دليل محلي","صممت خريطة العرض","راجعت اللغة","سجلت المقدمة الصوتية"],"answer":"تواصلت مع دليل محلي"},
+        {"id":"d05","type":"trueFalse","promptAr":"ألغى الفريق المشروع بسبب المطر.","promptEn":"The team cancelled the project because of the rain.","answer":false,"correctionAr":"غيّر الفريق موعد الزيارة واستعمل الوقت الإضافي في الدراسة."},
+        {"id":"d06","type":"trueFalse","promptAr":"كان لكل طالب دور محدد في الخطة.","promptEn":"Each student had a specific role in the plan.","answer":true},
+        {"id":"d07","type":"multiSelect","promptAr":"ماذا فعل الطلاب أثناء الزيارة؟ اختر كل الإجابات الصحيحة.","promptEn":"What did the students do during the visit? Select all correct answers.","choices":["طرحوا أسئلة","سجلوا ملاحظات","قارنوا المعلومات","اشتروا أجهزة","ألغوا التصوير"],"answers":["طرحوا أسئلة","سجلوا ملاحظات","قارنوا المعلومات"]},
+        {"id":"d08","type":"singleChoice","promptAr":"ما الذي سجله الفريق للزوار؟","promptEn":"What did the team record for visitors?","choices":["مقدمة صوتية","مقابلة رياضية","درسًا كاملًا","إعلانًا تجاريًا"],"answer":"مقدمة صوتية"},
+        {"id":"d09","type":"sequence","promptAr":"رتّب الأحداث.","promptEn":"Put the events in order.","events":["اختيار وليلي","التواصل مع الدليل","تغيير موعد الزيارة","زيارة الموقع","تقديم العرض"],"answer":["اختيار وليلي","التواصل مع الدليل","تغيير موعد الزيارة","زيارة الموقع","تقديم العرض"]}
+      ]
+    },
+    {
+      "id":"language","titleAr":"المفردات والبنية في السياق","titleEn":"Vocabulary and structure in context","items":[
+        {"id":"v01","type":"contextMeaning","promptAr":"ما معنى «رحّب الطلاب بالفكرة»؟","promptEn":"What does رحّب الطلاب بالفكرة mean?","choices":["أعجبتهم الفكرة وقبلوها","لم يفهموا الفكرة","غيّروا الفكرة","نسوا الفكرة"],"answer":"أعجبتهم الفكرة وقبلوها"},
+        {"id":"v02","type":"singleChoice","promptAr":"«كان يوسف مُهْتَمًّا بالتاريخ». ما فعل الكلمة المظللة؟","promptEn":"What is the verb related to مُهْتَمًّا?","choices":["اِهْتَمَّ","عَلَّمَ","خَطَّطَ","تَغَيَّرَ"],"answer":"اِهْتَمَّ"},
+        {"id":"v03","type":"singleChoice","promptAr":"ما مصدر «تَوَاصَلَتْ»؟","promptEn":"What is the verbal noun of تَوَاصَلَتْ?","choices":["تَوَاصُل","اِتِّصَال","وُصُول","مُرَاسَلَة"],"answer":"تَوَاصُل"},
+        {"id":"v04","type":"contextMeaning","promptAr":"«تغيّر جدولهم». أي معنى يناسب السياق؟","promptEn":"Which meaning fits تَغَيَّرَ in context?","choices":["أصبح مختلفًا","أصبح ناجحًا","أصبح طويلًا","أصبح مدروسًا"],"answer":"أصبح مختلفًا"},
+        {"id":"v05","type":"singleChoice","promptAr":"أي كلمة في النص تعني improved؟","promptEn":"Which word in the text means improved?","choices":["تَطَوَّرَتْ","شَارَكَتْ","اسْتَعْمَلَتْ","احْتَاجَتْ"],"answer":"تَطَوَّرَتْ"},
+        {"id":"v06","type":"fillBlank","promptAr":"___ الفريقُ في إنجاز المشروع بفضل التعاون.","promptEn":"The team ___ in completing the project thanks to cooperation.","choices":["نَجَحَ","تَغَيَّرَ","اِحْتَاجَ","دَرَسَ"],"answer":"نَجَحَ"},
+        {"id":"v07","type":"reference","promptAr":"في عبارة «أجابهم الدليل»، إلى مَن يعود الضمير «هم»؟","promptEn":"In أجابهم الدليل, who does هم refer to?","choices":["الطلاب","الزوار","المعلّمون","المصورون"],"answer":"الطلاب"},
+        {"id":"v08","type":"reference","promptAr":"في «لم يلغوا المشروع؛ بل اختاروا موعدًا جديدًا»، مَن الفاعل؟","promptEn":"Who is the subject of the verbs in this sentence?","choices":["الفريق","الدليل","المعلّمة وحدها","طلاب الصفوف الأخرى"],"answer":"الفريق"}
+      ]
+    },
+    {
+      "id":"inference","titleAr":"الاستنتاج والتفكير","titleEn":"Inference and thinking","items":[
+        {"id":"i01","type":"singleChoice","promptAr":"لماذا كان تقسيم المهام مهمًا؟","promptEn":"Why was dividing the tasks important?","choices":["لأنه جعل كل عضو مسؤولًا وساعد الفريق على التعاون","لأنه منع الطلاب من التواصل","لأنه جعل المشروع أقصر من المطلوب","لأنه أعطى العمل كله لطالب واحد"],"answer":"لأنه جعل كل عضو مسؤولًا وساعد الفريق على التعاون"},
+        {"id":"i02","type":"singleChoice","promptAr":"ماذا نستنتج من محاولة شرح الكلمات بالعربية أولًا؟","promptEn":"What can we infer from explaining words in Arabic first?","choices":["كان الطلاب يحاولون زيادة استعمال العربية","لم يكن لديهم معلم","لم يسمح لهم بطرح الأسئلة","كانوا يرفضون تعلم الإنجليزية"],"answer":"كان الطلاب يحاولون زيادة استعمال العربية"},
+        {"id":"i03","type":"singleChoice","promptAr":"أي صفة تصف الفريق على نحو أفضل؟","promptEn":"Which adjective best describes the team?","choices":["مُتَعَاوِن","مُتَرَدِّد","مُنْعَزِل","غَيْرُ مُنَظَّم"],"answer":"مُتَعَاوِن"},
+        {"id":"i04","type":"shortEvidence","promptAr":"اذكر دليلًا واحدًا من النص يبيّن أن المطر لم يمنع الفريق من التقدّم.","promptEn":"Give one piece of evidence showing that the rain did not stop the team's progress.","modelAnswerAr":"اختاروا موعدًا جديدًا واستعملوا الوقت الإضافي في دراسة معلومات أكثر.","requiredAny":["موعدًا جديدًا","الوقت الإضافي","دراسة معلومات"]}
+      ]
+    },
+    {
+      "id":"after","titleAr":"بعد القراءة","titleEn":"After reading","items":[
+        {"id":"a01","type":"summaryBuilder","promptAr":"لخّص النص في أربع جمل: البداية، التخطيط، المشكلة، النتيجة.","promptEn":"Summarize the text in four sentences: beginning, planning, problem, and result.","requiredParts":["البداية","التخطيط","المشكلة","النتيجة"],"minimumTargetVocabulary":4},
+        {"id":"a02","type":"transferTask","promptAr":"اقترح مشروعًا ثقافيًا جديدًا لمدينتك في 70–90 كلمة. حدّد الموضوع، المهام، الأدوات، والمشكلة المحتملة. استعمل ست كلمات من مفردات الدرس.","promptEn":"Propose a new cultural project for your city in 70–90 Arabic words. Include the topic, roles, tools, and a possible problem. Use six lesson words.","minimumWords":70,"maximumWords":90,"minimumTargetVocabulary":6,"rubric":{"task":3,"organization":2,"vocabulary":3,"accuracy":2}},
+        {"id":"a03","type":"discussion","promptAr":"هل تتعلّم اللغة بصورة أفضل من خلال مشروع حقيقي أم من خلال التمارين القصيرة؟ قدّم سببين واستعمل «لأنّ» و«لذلك».","promptEn":"Do you learn a language better through a real project or short exercises? Give two reasons and use لأنّ and لذلك.","requirements":["سببان","لأنّ","لذلك"]}
+      ]
+    }
+  ],
+  "feedbackPolicy":{"objectiveImmediate":true,"bilingual":true,"maximumAttempts":2,"showEvidenceAfterSecondAttempt":true}
+}

@@ -1,0 +1,95 @@
+{
+  "lesson": {
+    "id": "level-03-lesson-01-grammar",
+    "titleAr": "القواعد: الإشارة، والفعل الأجوف، ومعاني ما",
+    "titleEn": "Grammar: demonstratives, hollow verbs, and meanings of maa",
+    "level": "Upper-intermediate / Lower-advanced",
+    "estimatedMinutes": 55,
+    "totalScore": 30,
+    "masteryScore": 24,
+    "languagePolicy": "Arabic examples and explanations with parallel English support"
+  },
+  "modules": [
+    {
+      "id": "g01",
+      "titleAr": "اسم الإشارة بعد الاسم المشار إليه",
+      "titleEn": "A demonstrative after the noun it points to",
+      "objectiveAr": "أن يميّز الطالب بين «هذا المشروع» و«مشروعنا هذا»، وأن يطابق اسم الإشارة مع الاسم في الجنس والعدد والحالة عند المثنى.",
+      "objectiveEn": "Distinguish هذا المشروع from مشروعنا هذا and match the demonstrative with the noun in gender, number, and—when dual—case.",
+      "explanationAr": "الأصل الشائع أن يسبق اسم الإشارة الاسم المعرّف بـ«الـ»: هذا القرار، هذه الخطة. لكن إذا كان الاسم محددًا بإضافة أو ضمير ملكية، يأتي اسم الإشارة بعد المركب الاسمي كله: قرارُنا هذا، خطةُ الجامعة هذه. يحدد الاسم المرجع أولًا، ثم يؤكد اسم الإشارة: هذا الشيء بعينه.",
+      "explanationEn": "The common order is demonstrative + definite noun: هذا القرار. When the noun is already specified by possession or an idafa, Arabic often places the demonstrative after the whole noun phrase: قرارنا هذا, خطة الجامعة هذه. The noun phrase identifies the referent first; the demonstrative then singles it out.",
+      "rules": [
+        {"id":"g01r01","labelAr":"الترتيب العادي","labelEn":"Default order","formula":"اسم الإشارة + الاسم المعرّف بـ(الـ)","exampleAr":"هَذَا القَرَارُ مُهِمٌّ.","exampleEn":"This decision is important.","audio":"audio/g01-example-01.mp3"},
+        {"id":"g01r02","labelAr":"بعد ضمير الملكية","labelEn":"After a possessive suffix","formula":"اسم + ضمير ملكية + اسم الإشارة","exampleAr":"قَرَارُنَا هَذَا مُهِمٌّ.","exampleEn":"This decision of ours is important.","audio":"audio/g01-example-02.mp3"},
+        {"id":"g01r03","labelAr":"بعد الإضافة","labelEn":"After an idafa","formula":"المضاف + المضاف إليه + اسم الإشارة","exampleAr":"خُطَّةُ الجَامِعَةِ هَذِهِ مُتَوَازِنَةٌ.","exampleEn":"This plan of the university is balanced.","audio":"audio/g01-example-03.mp3"},
+        {"id":"g01r04","labelAr":"مطابقة المثنى","labelEn":"Dual agreement and case","formula":"الطالبان هذان / الطالبين هذين","exampleAr":"نَاقَشْتُ الاقْتِرَاحَيْنِ هَذَيْنِ.","exampleEn":"I discussed these two proposals.","audio":"audio/g01-example-04.mp3"}
+      ],
+      "agreementTable": [
+        {"referent":"مذكر مفرد","near":"هذا","far":"ذلك"},
+        {"referent":"مؤنث مفرد","near":"هذه","far":"تلك"},
+        {"referent":"مثنى مرفوع","near":"هذان / هاتان","far":"ذانك / تانك"},
+        {"referent":"مثنى منصوب أو مجرور","near":"هذين / هاتين","far":"ذينك / تينك"},
+        {"referent":"جمع عاقل","near":"هؤلاء","far":"أولئك"}
+      ],
+      "commonErrors": [
+        {"wrong":"خُطَّةُ الجَامِعَةِ هَذَا","correct":"خُطَّةُ الجَامِعَةِ هَذِهِ","whyAr":"اسم الإشارة يطابق «خطة» المؤنثة، لا «الجامعة» المضاف إليه.","whyEn":"The demonstrative agrees with the head noun خطة, not the genitive noun الجامعة."},
+        {"wrong":"نَاقَشْتُ الاقْتِرَاحَيْنِ هَذَانِ","correct":"نَاقَشْتُ الاقْتِرَاحَيْنِ هَذَيْنِ","whyAr":"المثنى منصوب بعد الفعل، ولذلك نستخدم «هذين».","whyEn":"The dual is accusative after the verb, so هذين is required."}
+      ],
+      "lab":{"type":"wordOrder","instructionAr":"رتّب الكلمات، ثم اختر اسم الإشارة المطابق.","instructionEn":"Build the noun phrase, then choose the matching demonstrative."}
+    },
+    {
+      "id": "g02",
+      "titleAr": "الفعل الأجوف",
+      "titleEn": "The hollow verb",
+      "objectiveAr": "أن يتعرف الطالب الفعل الأجوف ويصرفه في الماضي والمضارع والمجزوم والأمر، ويميّز الواوي من اليائي بالرجوع إلى المضارع.",
+      "objectiveEn": "Recognize hollow verbs and conjugate them in the past, present, jussive, and imperative, using the present stem to distinguish و from ي roots.",
+      "explanationAr": "الفعل الأجوف فعل ثلاثي حرفه الأصلي الثاني واو أو ياء، مثل ق-و-ل وب-ي-ع. تظهر في بعض الصيغ ألف طويلة: قال، باع؛ لكنها تقصر أو تحذف عندما يصبح المقطع مغلقًا: قلتُ، بِعْنا، لم يَقُلْ، لم يَبِعْ. لا يكفي شكل الماضي لمعرفة الحرف الأصلي؛ راجع المضارع: يقول يدل على الواو، ويبيع يدل على الياء.",
+      "explanationEn": "A hollow verb is a triliteral verb whose middle root consonant is و or ي, such as ق-و-ل and ب-ي-ع. A long alif appears in some forms, but it shortens or disappears in closed syllables: قلتُ, بِعْنا, لم يقل, لم يبع. The past form alone does not reveal the weak root; check the present: يقول points to و and يبيع to ي.",
+      "rules": [
+        {"id":"g02r01","labelAr":"الماضي مع هو/هي","labelEn":"Past with he/she","formula":"قالَ / قالتْ — باعَ / باعتْ","exampleAr":"قَالَ البَاحِثُ رَأْيَهُ، وَبَاعَ التَّاجِرُ بَضَاعَتَهُ.","exampleEn":"The researcher stated his view, and the merchant sold his goods.","audio":"audio/g02-example-01.mp3"},
+        {"id":"g02r02","labelAr":"الماضي مع لاحقة تبدأ بساكن","labelEn":"Past with a consonant-initial suffix","formula":"قُلْتُ / قُلْنَا — بِعْتُ / بِعْنَا","exampleAr":"قُلْنَا الحَقِيقَةَ وَبِعْنَا المُنْتَجَ بِسِعْرٍ عَادِلٍ.","exampleEn":"We told the truth and sold the product at a fair price.","audio":"audio/g02-example-02.mp3"},
+        {"id":"g02r03","labelAr":"المضارع","labelEn":"Present","formula":"يَقُولُ / يَبِيعُ","exampleAr":"يَقُولُ الخَبِيرُ إِنَّ السُّوقَ يَبِيعُ مُنْتَجَاتٍ مَحَلِّيَّةً.","exampleEn":"The expert says that the market sells local products.","audio":"audio/g02-example-03.mp3"},
+        {"id":"g02r04","labelAr":"المجزوم والأمر","labelEn":"Jussive and imperative","formula":"لم يَقُلْ ← قُلْ / لم يَبِعْ ← بِعْ","exampleAr":"لَمْ يَقُلْ ذَلِكَ. قُلْ رَأْيَكَ بِوُضُوحٍ.","exampleEn":"He did not say that. State your opinion clearly.","audio":"audio/g02-example-04.mp3"},
+        {"id":"g02r05","labelAr":"اسم الفاعل","labelEn":"Active participle","formula":"قائل / بائع / سائر","exampleAr":"المُتَحَدِّثُ قَائِلٌ الحَقَّ، وَالتَّاجِرُ بَائِعٌ مُنْصِفٌ.","exampleEn":"The speaker tells the truth, and the merchant is a fair seller.","audio":"audio/g02-example-05.mp3"}
+      ],
+      "conjugationTables": [
+        {"verb":"قال / يقول","root":"ق-و-ل","rows":[{"pronoun":"هو","past":"قالَ","present":"يقولُ"},{"pronoun":"هي","past":"قالتْ","present":"تقولُ"},{"pronoun":"أنا","past":"قلتُ","present":"أقولُ"},{"pronoun":"نحن","past":"قلنا","present":"نقولُ"},{"pronoun":"هم","past":"قالوا","present":"يقولونَ"},{"pronoun":"هنّ","past":"قُلْنَ","present":"يَقُلْنَ"}]},
+        {"verb":"باع / يبيع","root":"ب-ي-ع","rows":[{"pronoun":"هو","past":"باعَ","present":"يبيعُ"},{"pronoun":"هي","past":"باعتْ","present":"تبيعُ"},{"pronoun":"أنا","past":"بعتُ","present":"أبيعُ"},{"pronoun":"نحن","past":"بعنا","present":"نبيعُ"},{"pronoun":"هم","past":"باعوا","present":"يبيعونَ"},{"pronoun":"هنّ","past":"بِعْنَ","present":"يَبِعْنَ"}]}
+      ],
+      "commonErrors": [
+        {"wrong":"قَالْتُ","correct":"قُلْتُ","whyAr":"تُحذف الألف وتقصر الحركة قبل تاء الفاعل.","whyEn":"The long alif disappears before the consonant-initial suffix تُ."},
+        {"wrong":"لَمْ يَقُولْ","correct":"لَمْ يَقُلْ","whyAr":"في الجزم تُحذف الواو الطويلة.","whyEn":"The long weak vowel is deleted in the jussive."}
+      ],
+      "lab":{"type":"conjugationMachine","instructionAr":"اختر الجذر والضمير والزمن، وشاهد تحوّل الصيغة قبل أن تكتبها.","instructionEn":"Choose the root, pronoun, and tense; predict the form before revealing it."}
+    },
+    {
+      "id": "g03",
+      "titleAr": "معاني «ما» الفعلية والظرفية",
+      "titleEn": "Verbal and adverbial meanings of maa",
+      "objectiveAr": "أن يحدد الطالب وظيفة «ما» من السياق: نفي الفعل، أو بناء رابط ظرفي، أو التعبير عن الاستمرار الزمني مع «دام».",
+      "objectiveEn": "Identify from context whether ما negates a verb, forms an adverbial connector, or expresses temporal continuation with دام.",
+      "explanationAr": "لا تحمل «ما» معنى واحدًا. قبل الفعل قد تنفيه: ما تغيّرَ القرارُ. وفي روابط مثل عندما، بعدما، كلما، بينما تساعد على بناء معنى زمني أو ظرفي، ولا تعني «ماذا». ومع «دام» تكوّن «ما دام» بمعنى «طوال استمرار الشرط / as long as». نعتمد على الكلمة المتصلة بها، ونوع الفعل، والمعنى العام للجملة.",
+      "explanationEn": "ما does not have one fixed meaning. Before a verb it can negate it: ما تغيّر القرار. In connectors such as عندما, بعدما, كلما, and بينما, it helps form an adverbial or temporal link and does not mean what. With دام, ما دام means as long as. Read the whole expression, the verb form, and the sentence meaning together.",
+      "rules": [
+        {"id":"g03r01","labelAr":"ما النافية مع الماضي","labelEn":"Negative maa with the past","formula":"ما + فعل ماضٍ","meaningEn":"did not","exampleAr":"مَا غَيَّرَ الفَرِيقُ الخُطَّةَ قَبْلَ جَمْعِ البَيَانَاتِ.","exampleEn":"The team did not change the plan before collecting data.","audio":"audio/g03-example-01.mp3"},
+        {"id":"g03r02","labelAr":"ما النافية مع المضارع","labelEn":"Negative maa with the present","formula":"ما + فعل مضارع","meaningEn":"does not / is not","exampleAr":"مَا يَعْتَمِدُ البَحْثُ الجَيِّدُ عَلَى رَأْيٍ وَاحِدٍ.","exampleEn":"Good research does not rely on one opinion.","audio":"audio/g03-example-02.mp3"},
+        {"id":"g03r03","labelAr":"عندما / بعدما","labelEn":"When / after","formula":"عندما + فعل / بعدما + فعل","meaningEn":"when / after","exampleAr":"رَاجَعْنَا القَرَارَ عِنْدَمَا ظَهَرَتْ بَيَانَاتٌ جَدِيدَةٌ، وَنَشَرْنَا النَّتِيجَةَ بَعْدَمَا تَأَكَّدْنَا مِنْهَا.","exampleEn":"We reviewed the decision when new data appeared and published the result after verifying it.","audio":"audio/g03-example-03.mp3"},
+        {"id":"g03r04","labelAr":"كلما / بينما","labelEn":"Whenever / while","formula":"كلما + حدث متكرر / بينما + حدث متزامن","meaningEn":"whenever / while","exampleAr":"كُلَّمَا اتَّسَعَ الحِوَارُ تَحَسَّنَ القَرَارُ، بَيْنَمَا كَانَ الفَرِيقُ يُرَاجِعُ التَّفَاصِيلَ.","exampleEn":"Whenever dialogue broadened, the decision improved, while the team was reviewing the details.","audio":"audio/g03-example-04.mp3"},
+        {"id":"g03r05","labelAr":"ما دام","labelEn":"As long as","formula":"ما دام + اسم + خبر","meaningEn":"as long as","exampleAr":"يُمْكِنُ تَعْدِيلُ الخُطَّةِ مَا دَامَ الحِوَارُ مَفْتُوحًا.","exampleEn":"The plan can be revised as long as dialogue remains open.","audio":"audio/g03-example-05.mp3"},
+        {"id":"g03r06","labelAr":"المقارنة بالسؤال","labelEn":"Contrast with interrogative maa","formula":"ما غيّرَ؟ ≠ ما غيّرَ الخطةَ","meaningEn":"what did … change? ≠ did not change","exampleAr":"مَا الَّذِي غَيَّرَ القَرَارَ؟ وَمَا غَيَّرَ الفَرِيقُ الخُطَّةَ قَبْلَ التَّشَاوُرِ.","exampleEn":"What changed the decision? The team did not change the plan before consultation.","audio":"audio/g03-example-06.mp3"}
+      ],
+      "decisionGuide": [
+        {"questionAr":"هل اتصلت «ما» بكلمة مثل عند، بعد، كل، بين؟","questionEn":"Is ما attached to عند، بعد، كل، or بين?","resultAr":"غالبًا رابط ظرفي: عندما، بعدما، كلما، بينما."},
+        {"questionAr":"هل جاءت «ما» قبل «دام»؟","questionEn":"Does ما precede دام?","resultAr":"المعنى: ما دام = as long as."},
+        {"questionAr":"هل يمكن ترجمتها بـ did not أو does not؟","questionEn":"Can it mean did not or does not?","resultAr":"هي «ما» النافية."}
+      ],
+      "commonErrors": [
+        {"wrong":"كُلَّ مَا نُرَاجِعُ الخُطَّةَ تَتَحَسَّنُ","correct":"كُلَّمَا نُرَاجِعُ الخُطَّةَ تَتَحَسَّنُ","whyAr":"«كلما» رابط شرطي ظرفي متصل في هذا الاستعمال.","whyEn":"كلما is written as one adverbial connector here."},
+        {"wrong":"مَا دَامَ الحِوَارَ مَفْتُوحٌ","correct":"مَا دَامَ الحِوَارُ مَفْتُوحًا","whyAr":"«دام» تعمل عمل كان: ترفع الاسم وتنصب الخبر.","whyEn":"دام behaves like كان: its subject is nominative and its predicate accusative."}
+      ],
+      "lab":{"type":"meaningClassifier","instructionAr":"اسمع الجملة، ثم صنّف «ما»: نافية، ظرفية، أو ظرفية زمنية مع دام.","instructionEn":"Listen, then classify ما as negative, adverbial, or temporal with دام."}
+    }
+  ],
+  "audioIntro": {"textAr":"فِي هَذَا الدَّرْسِ نَتَعَلَّمُ ثَلَاثَ قَوَاعِدَ مُتَرَابِطَةً: مَوْقِعَ اسْمِ الإِشَارَةِ، وَتَصْرِيفَ الفِعْلِ الأَجْوَفِ، وَمَعَانِيَ «مَا» فِي التَّرَاكِيبِ الفِعْلِيَّةِ وَالظَّرْفِيَّةِ.","audio":"audio/lesson-intro.mp3"},
+  "completion": {"requiredScore":24,"reviewBelow":24,"unlockNext":true}
+}

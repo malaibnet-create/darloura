@@ -1,0 +1,3 @@
+import Link from 'next/link';
+
+export default function CheckEmailPage(){return <main className="shell"><section className="auth-page"><div className="success-mark">✉</div><div className="eyebrow">تحقق من بريدك</div><h1>أرسلنا لك رابط التفعيل.</h1><p>افتح بريدك الإلكتروني واضغط على الرابط لإكمال إنشاء حسابك.</p><p className="muted-text">إذا لم تجد الرسالة، افحص مجلد الرسائل غير المرغوب فيها.</p><Link className="button" href="/login">العودة إلى تسجيل الدخول</Link></section></main>}

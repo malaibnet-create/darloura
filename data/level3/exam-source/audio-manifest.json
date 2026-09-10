@@ -1,0 +1,13 @@
+{
+  "examId": "level-03-lesson-01-final-exam",
+  "items": [
+    {
+      "id": "exam-listening-full",
+      "path": "audio/exam-listening-full.mp3",
+      "role": "graded-listening",
+      "maxPlays": 2,
+      "allowSeeking": false,
+      "transcriptVisibleBeforeSubmit": false
+    }
+  ]
+}

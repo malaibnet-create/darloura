@@ -1,0 +1,55 @@
+[
+  {
+    "id":"rule1",
+    "slug":"an_plus_present",
+    "titleAr":"أَنْ + الفِعْلُ المُضَارِعُ",
+    "titleEn":"an + the present verb",
+    "purposeAr":"نستعمل «أَنْ + المضارع» بعد أفعال مثل: قرّر، أراد، حاول، فضّل، استطاع؛ لنتحدث عن فعل نريد أو نخطط أن نقوم به.",
+    "purposeEn":"Use an + the present verb after verbs such as decide, want, try, prefer, and be able to when the second action is intended, planned, or attempted.",
+    "formulaAr":"الفعل الأول + أَنْ + المضارع المنصوب",
+    "formulaEn":"first verb + an + subjunctive present verb",
+    "steps":[
+      {"ar":"ضع «أَنْ» قبل الفعل الثاني.","en":"Place an before the second verb."},
+      {"ar":"في الفعل المفرد الصحيح الآخر، تتحول الضمة الأخيرة غالبًا إلى فتحة: يدرسُ ← أن يدرسَ.","en":"With a regular singular present verb, the final damma usually changes to fatha: yadrusu → an yadrusa."},
+      {"ar":"في الأفعال الخمسة نحذف النون: يعملون ← أن يعملوا، تختارين ← أن تختاري.","en":"With the Five Verbs, drop the final nun: ya'maluna → an ya'malu; takhtarina → an takhtari."}
+    ],
+    "examples":["e01","e02","e03","e04","e05","e06","e07"],
+    "table":[
+      {"before":"هُوَ يَدْرُسُ","after":"يُرِيدُ أَنْ يَدْرُسَ","changeAr":"الضمة ← فتحة","changeEn":"damma → fatha"},
+      {"before":"هُمْ يَعْمَلُونَ","after":"قَرَّرُوا أَنْ يَعْمَلُوا","changeAr":"حذف النون","changeEn":"drop final nun"},
+      {"before":"أَنْتِ تَخْتَارِينَ","after":"تُرِيدِينَ أَنْ تَخْتَارِي","changeAr":"حذف النون","changeEn":"drop final nun"}
+    ],
+    "warningAr":"هذه «أَنْ» الساكنة التي تدخل على الفعل، وليست «أَنَّ» المشددة التي تدخل على الجملة الاسمية.",
+    "warningEn":"This is an with sukun before a verb, not anna with shadda before a nominal clause."
+  },
+  {
+    "id":"rule2",
+    "slug":"preposition_plus_masdar",
+    "titleAr":"حَرْفُ الجَرِّ + المَصْدَرُ",
+    "titleEn":"Preposition + verbal noun",
+    "purposeAr":"بعد حرف الجر نحتاج إلى اسم، ولذلك نستعمل المصدر بدل الفعل المصرف.",
+    "purposeEn":"A preposition must be followed by a noun, so Arabic uses the verbal noun rather than a conjugated verb.",
+    "formulaAr":"الفعل أو التعبير + حرف الجر + المصدر",
+    "formulaEn":"verb or expression + preposition + verbal noun",
+    "steps":[
+      {"ar":"اختر حرف الجر الذي يحتاج إليه التعبير.","en":"Choose the preposition required by the expression."},
+      {"ar":"حوّل الفعل إلى مصدره: يتعلّم ← تعلُّم، ينظّم ← تنظيم.","en":"Change the verb into its verbal noun: learn → learning; organize → organization."},
+      {"ar":"ضع المصدر بعد حرف الجر: يحتاج إلى تعلُّم، نجح في تنظيم.","en":"Place the verbal noun after the preposition: needs learning; succeeded in organizing."}
+    ],
+    "collocations":[
+      {"patternAr":"اِحْتَاجَ إِلَى + مصدر","meaningEn":"need to / need"},
+      {"patternAr":"شَارَكَ فِي + مصدر","meaningEn":"participate in"},
+      {"patternAr":"نَجَحَ فِي + مصدر","meaningEn":"succeed in"},
+      {"patternAr":"اِهْتَمَّ بِـ + مصدر","meaningEn":"be interested in / care about"},
+      {"patternAr":"سَاعَدَ عَلَى + مصدر","meaningEn":"help with / help to"},
+      {"patternAr":"فَكَّرَ فِي + مصدر","meaningEn":"think about"},
+      {"patternAr":"تَوَاصَلَ مَعَ + شخص","meaningEn":"communicate with a person"}
+    ],
+    "examples":["e08","e09","e10","e11","e12","e13","e14"],
+    "contrastAr":["قَرَّرْتُ أَنْ أَتَعَلَّمَ العَرَبِيَّةَ.","أَحْتَاجُ إِلَى تَعَلُّمِ العَرَبِيَّةِ."],
+    "contrastEn":["I decided to learn Arabic.","I need to learn Arabic."],
+    "warningAr":"لا نضع فعلًا مصرفًا مباشرة بعد حرف الجر: نقول «في تنظيمِ»، ولا نقول «في يُنَظِّمُ».",
+    "warningEn":"Do not place a conjugated verb directly after a preposition: use fi tanzim, not fi yunazzimu."
+  }
+]
+

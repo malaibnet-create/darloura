@@ -1,0 +1,174 @@
+{
+  "lessonId": "level-03-lesson-01-conversation-room",
+  "level": "upper-intermediate-lower-advanced",
+  "titleAr": "غرفة المحادثة: قرارٌ أثار جدلًا",
+  "titleEn": "Conversation Room: A Controversial Decision",
+  "estimatedMinutes": { "minimum": 8, "maximum": 12 },
+  "mode": "realtime-speech-to-speech",
+  "languagePolicy": {
+    "conversation": "Modern Standard Arabic",
+    "help": ["Arabic", "English"],
+    "transliteration": false,
+    "englishUse": "Only when the learner explicitly asks for help or cannot continue after two Arabic reformulations."
+  },
+  "scenario": {
+    "settingAr": "اجتماع جامعي لمناقشة قرار جديد أثار اختلافًا بين الطلاب.",
+    "settingEn": "A university meeting to discuss a new decision that divided student opinion.",
+    "learnerRoleAr": "طالب يشارك في الاجتماع ويعرض موقفه ويستجيب للاعتراضات.",
+    "agentRoleAr": "محاور جامعي محايد يساعد الطالب على بناء رأيه من غير أن يلقنه الإجابات.",
+    "newInformationAr": "تبيّن أن بعض أعضاء اللجنة ارتكبوا خطأ في جمع المعلومات، ومن ثمّ طلب عدد من الطلاب إعادة دراسة القرار."
+  },
+  "learningObjectives": [
+    { "id": "o1", "ar": "التعبير عن الرأي وتبريره بحجتين على الأقل.", "en": "State and support an opinion with at least two reasons." },
+    { "id": "o2", "ar": "الموافقة أو الاعتراض بأسلوب مهذب.", "en": "Agree or disagree politely." },
+    { "id": "o3", "ar": "طلب التوضيح والرد على رأي مخالف.", "en": "Ask for clarification and respond to an opposing view." },
+    { "id": "o4", "ar": "إعادة تقييم الموقف بعد ظهور معلومة جديدة.", "en": "Reconsider a position after receiving new information." },
+    { "id": "o5", "ar": "إعادة استعمال مفردات وعبارات وقواعد الدرس الأول.", "en": "Reuse the vocabulary, expressions, and grammar of Lesson 1." }
+  ],
+  "targetExpressions": [
+    { "id": "p01", "ar": "ارْتَكَبَ خَطَأً", "en": "to make a mistake" },
+    { "id": "p02", "ar": "ذَهَبَ إِلَى حَدِّ أَنْ", "en": "to go so far as to" },
+    { "id": "p03", "ar": "بِالأَخَصِّ", "en": "especially" },
+    { "id": "p04", "ar": "بِالذَّاتِ", "en": "in particular / specifically" },
+    { "id": "p05", "ar": "مَا دَامَ / طَالَمَا", "en": "as long as" },
+    { "id": "p06", "ar": "وَمِنْ ثَمَّ", "en": "and therefore" },
+    { "id": "p07", "ar": "مَا لَمْ", "en": "unless" },
+    { "id": "p08", "ar": "كَثِيرًا مَا", "en": "often" },
+    { "id": "p09", "ar": "لَا سَبِيلَ إِلَى", "en": "there is no way to" },
+    { "id": "p10", "ar": "مِمَّا… / الأَمْرُ الَّذِي…", "en": "which / a fact that…" }
+  ],
+  "grammarTargets": [
+    {
+      "id": "g01",
+      "ar": "اسم الإشارة بعد الاسم المشار إليه",
+      "examples": ["قَرَارُنَا هَذَا", "خُطَّةُ الجَامِعَةِ هَذِهِ"]
+    },
+    {
+      "id": "g02",
+      "ar": "الفعل الأجوف",
+      "examples": ["قَالَ", "يَقُولُ", "قُلْتُ", "لَمْ يَقُلْ"]
+    },
+    {
+      "id": "g03",
+      "ar": "معاني ما الفعلية والظرفية",
+      "examples": ["مَا غَيَّرَ", "عِنْدَمَا", "بَعْدَمَا", "كُلَّمَا", "مَا دَامَ"]
+    }
+  ],
+  "phases": [
+    {
+      "id": "warmup",
+      "order": 1,
+      "titleAr": "التهيئة",
+      "goalAr": "تحديد موقف أولي وسبب واحد.",
+      "agentOpeningAr": "أهلًا بك في الاجتماع. كثيرًا ما تختلف الآراء حول القرارات المهمة. ما رأيك في قرار الجامعة هذا؟",
+      "minimumLearnerTurns": 1,
+      "exitCriteria": ["stance_captured", "one_reason_captured"]
+    },
+    {
+      "id": "develop",
+      "order": 2,
+      "titleAr": "بناء الحجة",
+      "goalAr": "تقديم سببين ودليل أو مثال.",
+      "agentMoves": ["ask_why", "ask_for_example", "request_clarification"],
+      "minimumLearnerTurns": 2,
+      "exitCriteria": ["two_reasons_captured", "example_or_evidence_captured"]
+    },
+    {
+      "id": "challenge",
+      "order": 3,
+      "titleAr": "الرأي المخالف",
+      "goalAr": "الاعتراض أو الرد بأدب.",
+      "agentMoves": ["offer_counterargument", "ask_for_response"],
+      "minimumLearnerTurns": 2,
+      "exitCriteria": ["counterargument_addressed"]
+    },
+    {
+      "id": "new_information",
+      "order": 4,
+      "titleAr": "المعلومة الجديدة",
+      "goalAr": "إعادة تقييم الموقف وربط السبب بالنتيجة.",
+      "agentMustSayAr": "تبيّن أن بعض أعضاء اللجنة ارتكبوا خطأ في جمع المعلومات، ومن ثمّ طلب عدد من الطلاب إعادة دراسة القرار. هل غيّرت هذه المعلومة رأيك؟",
+      "minimumLearnerTurns": 1,
+      "exitCriteria": ["new_information_evaluated"]
+    },
+    {
+      "id": "solution",
+      "order": 5,
+      "titleAr": "اقتراح الحل",
+      "goalAr": "اقتراح إجراء عملي والدفاع عنه.",
+      "agentMoves": ["ask_for_solution", "test_feasibility"],
+      "minimumLearnerTurns": 1,
+      "exitCriteria": ["solution_proposed"]
+    },
+    {
+      "id": "summary",
+      "order": 6,
+      "titleAr": "الخلاصة",
+      "goalAr": "تلخيص الموقف باستعمال عبارتين مستهدفتين على الأقل.",
+      "agentClosingPromptAr": "لخّص موقفك الآن في ثلاث جمل، واستعمل عبارتين من عبارات الدرس على الأقل.",
+      "minimumLearnerTurns": 1,
+      "exitCriteria": ["summary_completed", "session_ready_for_evaluation"]
+    }
+  ],
+  "helpLevels": [
+    {
+      "id": "hint",
+      "labelAr": "تلميح",
+      "behavior": "Give three Arabic keywords or one sentence starter; never give a complete answer."
+    },
+    {
+      "id": "rephrase",
+      "labelAr": "أعد السؤال",
+      "behavior": "Repeat the same question in simpler Modern Standard Arabic and at a slightly slower pace."
+    },
+    {
+      "id": "bilingual",
+      "labelAr": "مساعدة بالإنجليزية",
+      "behavior": "Explain the task briefly in English, then return immediately to Arabic."
+    }
+  ],
+  "secretChallenges": [
+    { "id": "c1", "ar": "استعمل: بِالأَخَصِّ أو بِالذَّاتِ.", "requiredCount": 1 },
+    { "id": "c2", "ar": "استعمل فعلًا أجوف مثل: قَالَ، يَقُولُ، رَأَى، سَارَ.", "requiredCount": 1 },
+    { "id": "c3", "ar": "استعمل: قَرَارُنَا هَذَا أو خُطَّةُ الجَامِعَةِ هَذِهِ.", "requiredCount": 1 }
+  ],
+  "rubric": {
+    "total": 20,
+    "mastery": 14,
+    "dimensions": [
+      { "id": "task", "labelAr": "إنجاز المهمة", "max": 5 },
+      { "id": "coherence", "labelAr": "وضوح الأفكار وترابطها", "max": 4 },
+      { "id": "expressions", "labelAr": "استعمال عبارات الدرس", "max": 4 },
+      { "id": "grammar", "labelAr": "صحة القواعد", "max": 3 },
+      { "id": "vocabulary", "labelAr": "تنوع المفردات ودقتها", "max": 2 },
+      { "id": "fluency", "labelAr": "الطلاقة ووضوح الكلام", "max": 2, "note": "Do not deduct for a foreign accent when speech is intelligible." }
+    ]
+  },
+  "feedbackPolicy": {
+    "duringConversation": "Do not interrupt for ordinary language errors. Recast only when misunderstanding blocks the conversation.",
+    "afterConversation": "Show no more than three priority corrections, each with the learner sentence, corrected Arabic, Arabic explanation, and English explanation.",
+    "pronunciation": "Assess intelligibility only; never require imitation of the agent's accent.",
+    "transcript": "Store only with the learner's consent and follow the platform's existing retention policy."
+  },
+  "ui": {
+    "primaryActionAr": "ابدأ المحادثة الصوتية",
+    "liveStatesAr": ["جاري الاتصال", "المحاور يتحدث", "دورك في الكلام", "جاري فهم إجابتك", "متوقف مؤقتًا", "انتهت المحادثة"],
+    "controls": ["start", "mute", "speakerVolume", "help", "captions", "pause", "end"],
+    "captionsDefault": false,
+    "showTranscriptAfterCompletion": true,
+    "allowTextFallback": true,
+    "textFallbackNote": "Text is an accessibility or connection fallback; it is not the default conversation mode."
+  },
+  "technical": {
+    "provider": "OpenAI Realtime API",
+    "transport": "WebRTC",
+    "modelEnv": "OPENAI_REALTIME_MODEL",
+    "defaultModel": "gpt-realtime-2.1",
+    "voiceEnv": "OPENAI_REALTIME_VOICE",
+    "defaultVoice": "marin",
+    "turnDetection": "semantic_vad",
+    "outputModality": "audio",
+    "inputTranscriptionModel": "gpt-live-transcribe",
+    "maxSessionMinutes": 15
+  }
+}

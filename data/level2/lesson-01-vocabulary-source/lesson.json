@@ -1,0 +1,45 @@
+{
+  "id": "level-02-lesson-01-vocabulary",
+  "level": "Lower-intermediate (A2+/B1-)",
+  "lesson": 1,
+  "titleAr": "الدراسة والعمل والتطور الشخصي",
+  "titleEn": "Study, Work, and Personal Development",
+  "estimatedMinutes": 45,
+  "direction": "rtl",
+  "objectivesAr": [
+    "تذكّر ست عشرة عائلة صرفية شائعة.",
+    "تمييز الفعل الماضي والمضارع والمصدر واسم الفاعل واسم المفعول عند وروده.",
+    "فهم الكلمات في سياقات الدراسة والعمل والحياة اليومية.",
+    "توظيف ثماني كلمات مستهدفة على الأقل في جمل ومهمة قصيرة."
+  ],
+  "objectivesEn": [
+    "Recall sixteen common word families.",
+    "Distinguish past and present verbs, verbal nouns, active participles, and passive participles when used.",
+    "Understand the words in study, work, and everyday-life contexts.",
+    "Use at least eight target words in sentences and a short production task."
+  ],
+  "sequence": [
+    {"id":"discover","titleAr":"اكتشف","titleEn":"Discover","minutes":14},
+    {"id":"recall","titleAr":"تذكّر","titleEn":"Recall","minutes":8},
+    {"id":"understand","titleAr":"افهم","titleEn":"Understand","minutes":10},
+    {"id":"activate","titleAr":"استعمل","titleEn":"Activate","minutes":13}
+  ],
+  "mastery": {
+    "overallPercent": 75,
+    "recallPercent": 70,
+    "understandingPercent": 75,
+    "activationPercent": 70,
+    "requireActivationTask": true
+  },
+  "ui": {
+    "cardModes": ["headword", "family", "example"],
+    "showTashkeel": true,
+    "allowHideTashkeel": true,
+    "showEnglishOnDemand": true,
+    "audioSpeedOptions": [0.85, 1],
+    "useLucideIcons": true,
+    "avoidEmojiAsControls": true,
+    "mobileFirst": true
+  }
+}
+

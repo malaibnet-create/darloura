@@ -1,0 +1,45 @@
+{
+  "stages": [
+    {
+      "id":"recall","titleAr":"تذكّر","titleEn":"Recall","items":[
+        {"id":"r01","type":"singleChoice","promptAr":"ما مصدر «تَعَلَّمَ»؟","promptEn":"What is the verbal noun of تَعَلَّمَ?","choices":["تَعَلُّم","تَعْلِيم","عِلْم","مُعَلِّم"],"answer":"تَعَلُّم","feedbackAr":"تَعَلَّمَ ← تَعَلُّم.","feedbackEn":"تَعَلَّمَ takes the verbal noun تَعَلُّم."},
+        {"id":"r02","type":"singleChoice","promptAr":"اختر الفعل الماضي من عائلة «دِرَاسَة».","promptEn":"Choose the past verb from the family of دِرَاسَة.","choices":["يَدْرُسُ","دَرَسَ","دَارِس","مَدْرُوس"],"answer":"دَرَسَ","feedbackAr":"دَرَسَ هو الماضي.","feedbackEn":"دَرَسَ is the past-tense verb."},
+        {"id":"r03","type":"singleChoice","promptAr":"مَن يقوم بالتخطيط؟","promptEn":"Who does the planning?","choices":["مُخَطِّط","مُخَطَّط","تَخْطِيط","خُطَّة"],"answer":"مُخَطِّط","feedbackAr":"مُخَطِّط اسم فاعل.","feedbackEn":"مُخَطِّط is the active participle: planner."},
+        {"id":"r04","type":"singleChoice","promptAr":"ما الكلمة التي تعني decision؟","promptEn":"Which word means decision?","choices":["قَرَار","اِخْتِيَار","تَغَيُّر","تَوَاصُل"],"answer":"قَرَار","feedbackAr":"قَرَار هو مصدر قَرَّرَ ويعني decision.","feedbackEn":"قَرَار means decision."},
+        {"id":"r05","type":"match","promptAr":"صِل الفعل بالمصدر.","promptEn":"Match each verb to its verbal noun.","pairs":[["شَارَكَ","مُشَارَكَة"],["سَاعَدَ","مُسَاعَدَة"],["اِخْتَارَ","اِخْتِيَار"],["تَوَاصَلَ","تَوَاصُل"]]},
+        {"id":"r06","type":"singleChoice","promptAr":"ما اسم الفاعل من «اِسْتَعْمَلَ»؟","promptEn":"What is the active participle of اِسْتَعْمَلَ?","choices":["مُسْتَعْمِل","مُسْتَعْمَل","اِسْتِعْمَال","عَامِل"],"answer":"مُسْتَعْمِل","feedbackAr":"مُسْتَعْمِل هو الذي يستخدم الشيء.","feedbackEn":"مُسْتَعْمِل is the person who uses something."},
+        {"id":"r07","type":"singleChoice","promptAr":"اختر المضارع الصحيح: هُوَ ___ إلى وقت.","promptEn":"Choose the correct present verb: He ___ time.","choices":["يَحْتَاجُ","اِحْتَاجَ","مُحْتَاج","اِحْتِيَاج"],"answer":"يَحْتَاجُ","feedbackAr":"بعد «هو» نحتاج إلى فعل مضارع هنا.","feedbackEn":"The present-tense verb is required after هو in this sentence."},
+        {"id":"r08","type":"familySort","promptAr":"ضع الكلمات في عائلتها الصحيحة.","promptEn":"Sort the words into the correct family.","groups":{"تَغَيَّرَ":["تَغَيُّر","مُتَغَيِّر"],"تَطَوَّرَ":["تَطَوُّر","مُتَطَوِّر"],"نَجَحَ":["نَجَاح","نَاجِح"]}},
+        {"id":"r09","type":"audioChoice","audio":"audio/family-v13.mp3","promptAr":"أي عائلة سمعت؟","promptEn":"Which word family did you hear?","choices":["اِهْتَمَّ","اِخْتَارَ","اِحْتَاجَ","اِسْتَعْمَلَ"],"answer":"اِهْتَمَّ"},
+        {"id":"r10","type":"typedRecall","promptAr":"اكتب مصدر «نَجَحَ».","promptEn":"Type the verbal noun of نَجَحَ.","acceptedAnswers":["نَجَاح","نجاح"]}
+      ]
+    },
+    {
+      "id":"understand","titleAr":"افهم","titleEn":"Understand","items":[
+        {"id":"u01","type":"singleChoice","promptAr":"«الطريقُ مُخَطَّطٌ جيدًا». ما معنى «مُخَطَّط»؟","promptEn":"In the sentence, what does مُخَطَّط mean?","choices":["planned","planner","planning","plan"],"answer":"planned","feedbackAr":"الضمة والفتحة في مُخَطَّط تدلان هنا على اسم المفعول.","feedbackEn":"Here مُخَطَّط is a passive participle: planned."},
+        {"id":"u02","type":"singleChoice","promptAr":"اختر الكلمة المناسبة: هذا هاتفٌ ___، وليس جديدًا.","promptEn":"Choose the suitable word: This is a ___ phone, not a new one.","choices":["مُسْتَعْمَل","مُسْتَعْمِل","اِسْتِعْمَال","عَامِل"],"answer":"مُسْتَعْمَل","feedbackAr":"مُسْتَعْمَل تعني used أو second-hand.","feedbackEn":"مُسْتَعْمَل means used or second-hand."},
+        {"id":"u03","type":"singleChoice","promptAr":"أي جملة صحيحة؟","promptEn":"Which sentence is correct?","choices":["أهتمُّ بالتاريخ.","أهتمُّ إلى التاريخ.","أهتمُّ على التاريخ.","أهتمُّ من التاريخ."],"answer":"أهتمُّ بالتاريخ.","feedbackAr":"نستعمل «اهتمّ بـ».","feedbackEn":"The verb اهتمّ takes بـ."},
+        {"id":"u04","type":"singleChoice","promptAr":"أي جملة صحيحة؟","promptEn":"Which sentence is correct?","choices":["يحتاج المشروع إلى وقت.","يحتاج المشروع بوقت.","يحتاج المشروع من وقت.","يحتاج المشروع على وقت."],"answer":"يحتاج المشروع إلى وقت.","feedbackAr":"نستعمل «احتاج إلى».","feedbackEn":"The verb احتاج takes إلى."},
+        {"id":"u05","type":"contextMeaning","promptAr":"«تطوّر مستوى مريم». ما المعنى الأقرب؟","promptEn":"What is the closest meaning of تطوّر مستوى مريم?","choices":["Her level improved.","Her level stopped.","She selected a level.","She taught a level."],"answer":"Her level improved."},
+        {"id":"u06","type":"fillBlank","promptAr":"___ خالدٌ في دورةٍ عن التكنولوجيا.","promptEn":"Khalid ___ in a technology course.","choices":["شَارَكَ","قَرَّرَ","تَغَيَّرَ","عَلَّمَ"],"answer":"شَارَكَ"},
+        {"id":"u07","type":"fillBlank","promptAr":"___ الفريقُ خطةً واضحةً قبل بدء العمل.","promptEn":"The team ___ a clear plan before starting work.","choices":["خَطَّطَ","اِحْتَاجَ","تَوَاصَلَ","نَجَحَ"],"answer":"خَطَّطَ"},
+        {"id":"u08","type":"singleChoice","promptAr":"مَن الذي يتلقى التعليم؟","promptEn":"Who receives learning?","choices":["مُتَعَلِّم","مُعَلِّم","تَعْلِيم","مُعَلَّم"],"answer":"مُتَعَلِّم","feedbackAr":"المُتَعَلِّم هو الشخص الذي يتعلّم.","feedbackEn":"A مُتَعَلِّم is a learner."},
+        {"id":"u09","type":"audioComprehension","audio":"audio/example-v12.mp3","promptAr":"كيف تواصلت مريم مع المعلم؟","promptEn":"How did Maryam contact the teacher?","choices":["عبر البريد الإلكتروني","بالهاتف","في الجامعة","عن طريق صديق"],"answer":"عبر البريد الإلكتروني"},
+        {"id":"u10","type":"oddOneOut","promptAr":"اختر الكلمة التي لا تنتمي إلى العائلة.","promptEn":"Choose the word that does not belong to the family.","choices":["قَرَّرَ","يُقَرِّرُ","قَرَار","مُشَارَكَة"],"answer":"مُشَارَكَة","feedbackAr":"مشاركة من عائلة شارك، والبقية من عائلة قرّر.","feedbackEn":"مشاركة belongs to شارك; the others belong to قرّر."}
+      ]
+    },
+    {
+      "id":"activate","titleAr":"استعمل","titleEn":"Activate","items":[
+        {"id":"a01","type":"sentenceBuilder","promptAr":"رتّب الكلمات.","promptEn":"Put the words in order.","tokens":["الطَّالِبُ","مَوْضُوعًا","اِخْتَارَ","جَدِيدًا"],"answer":"اِخْتَارَ الطَّالِبُ مَوْضُوعًا جَدِيدًا."},
+        {"id":"a02","type":"sentenceBuilder","promptAr":"رتّب الكلمات.","promptEn":"Put the words in order.","tokens":["إِلَى","المَشْرُوعُ","تَخْطِيطٍ","يَحْتَاجُ"],"answer":"يَحْتَاجُ المَشْرُوعُ إِلَى تَخْطِيطٍ."},
+        {"id":"a03","type":"transform","promptAr":"حوّل إلى المضارع: «تَوَاصَلَتْ سَلْمَى مَعَ المُعَلِّمَةِ».","promptEn":"Change to the present tense.","acceptedAnswers":["تَتَوَاصَلُ سَلْمَى مَعَ المُعَلِّمَةِ.","تتواصل سلمى مع المعلمة"]},
+        {"id":"a04","type":"transform","promptAr":"استعمل المصدر بدل الفعل: «خَطَّطَ الفَرِيقُ لِلْمَشْرُوعِ».","promptEn":"Use the verbal noun instead of the verb.","modelAnswer":"قَامَ الفَرِيقُ بِتَخْطِيطِ المَشْرُوعِ.","requiredTerms":["تَخْطِيط"]},
+        {"id":"a05","type":"shortAnswer","promptAr":"اكتب جملة عن شيء تعلّمته، واستعمل «تَعَلَّمَ» أو «تَعَلُّم».","promptEn":"Write a sentence about something you learned using تَعَلَّمَ or تَعَلُّم.","requiredAny":["تعلم","تعلّم"]},
+        {"id":"a06","type":"shortAnswer","promptAr":"اكتب نصيحة قصيرة لشخص يريد النجاح، واستعمل كلمتين من: تخطيط، عمل، مساعدة، نجاح.","promptEn":"Write a short piece of advice for someone who wants to succeed. Use two listed words.","requiredCount":2,"targetTerms":["تخطيط","عمل","مساعدة","نجاح"]},
+        {"id":"a07","type":"guidedResponse","promptAr":"أكمل بثلاث جمل: أهتمّ بـ... / قررتُ أن... / أحتاج إلى...","promptEn":"Complete the three sentence starters.","starters":["أَهْتَمُّ بِـ","قَرَّرْتُ أَنْ","أَحْتَاجُ إِلَى"],"minimumSentences":3},
+        {"id":"a08","type":"miniTask","promptAr":"اكتب 60–80 كلمة عن مهارة تريد تطويرها. اذكر سبب اختيارها وخطتك ومن سيساعدك. استعمل ست كلمات مستهدفة على الأقل.","promptEn":"Write 60–80 Arabic words about a skill you want to develop. State why you chose it, your plan, and who will help you. Use at least six target words.","minimumWords":60,"maximumWords":80,"minimumTargetTerms":6,"rubric":{"task":3,"vocabulary":4,"clarity":2,"accuracy":1}}
+      ]
+    }
+  ],
+  "feedbackPolicy":{"showImmediateForObjective":true,"showModelAfterSecondAttempt":true,"allowRetry":true,"maximumAttempts":2,"productionFeedbackLanguages":["ar","en"]}
+}

@@ -1,0 +1,13 @@
+{
+  "examId": "level-02-lesson-01-final-exam",
+  "files": [
+    {
+      "id": "exam-listening-full",
+      "path": "audio/exam-listening-full.mp3",
+      "kind": "exam-listening",
+      "maxPlays": 2,
+      "transcriptHiddenUntilSubmit": true,
+      "sourceIds": ["example-v13", "example-v08", "example-v06", "example-v09", "example-v10", "example-v16"]
+    }
+  ]
+}

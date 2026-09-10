@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "lessonId": "lesson-02-conversation",
+  "basePath": "/audio/lesson-02/conversation/",
+  "clips": [
+    {
+      "id": "c2-dialogue-full",
+      "file": "dialogue-full.mp3",
+      "text": "مَسَاءُ الْخَيْرِ. أَهْلًا بِكُمْ فِي مَرْكَزِ دَارِ اللُّغَةِ فِي مَكْنَاسَ. مَسَاءُ النُّورِ. هَلْ أَنْتُمْ طُلَّابٌ جُدُدٌ؟ نَعَمْ، نَحْنُ طُلَّابٌ جُدُدٌ. مَا اللُّغَاتُ الَّتِي تَتَكَلَّمُونَهَا؟ أَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ وَالْفَرَنْسِيَّةَ. وَأَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ. هَلْ تَتَكَلَّمُونَ الْعَرَبِيَّةَ؟ نَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا، وَنَدْرُسُ الْفُصْحَى فِي الْمَرْكَزِ. هَلْ أَنْتِ مُدَرِّسَةٌ؟ لَا، أَنَا مُوَظَّفَةٌ وَمُتَرْجِمَةٌ. أَنَا مُتَخَصِّصَةٌ فِي اللُّغَةِ الْعَرَبِيَّةِ. مَتَى الدَّرْسُ الْيَوْمَ؟ الدَّرْسُ مِنَ الْخَامِسَةِ إِلَى السَّادِسَةِ مَسَاءً. وَهَلْ عِنْدَكُمْ دَرْسٌ غَدًا؟ نَعَمْ، عِنْدَنَا دَرْسٌ غَدًا أَيْضًا. شُكْرًا. إِلَى اللِّقَاءِ.",
+      "category": "dialogue-full",
+      "speaker": "all"
+    },
+    {
+      "id": "c2-dialogue-01",
+      "file": "dialogue-01.mp3",
+      "text": "مَسَاءُ الْخَيْرِ. أَهْلًا بِكُمْ فِي مَرْكَزِ دَارِ اللُّغَةِ فِي مَكْنَاسَ.",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-02",
+      "file": "dialogue-02.mp3",
+      "text": "مَسَاءُ النُّورِ.",
+      "category": "dialogue-line",
+      "speaker": "students"
+    },
+    {
+      "id": "c2-dialogue-03",
+      "file": "dialogue-03.mp3",
+      "text": "هَلْ أَنْتُمْ طُلَّابٌ جُدُدٌ؟",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-04",
+      "file": "dialogue-04.mp3",
+      "text": "نَعَمْ، نَحْنُ طُلَّابٌ جُدُدٌ.",
+      "category": "dialogue-line",
+      "speaker": "adam"
+    },
+    {
+      "id": "c2-dialogue-05",
+      "file": "dialogue-05.mp3",
+      "text": "مَا اللُّغَاتُ الَّتِي تَتَكَلَّمُونَهَا؟",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-06",
+      "file": "dialogue-06.mp3",
+      "text": "أَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ وَالْفَرَنْسِيَّةَ.",
+      "category": "dialogue-line",
+      "speaker": "sarah"
+    },
+    {
+      "id": "c2-dialogue-07",
+      "file": "dialogue-07.mp3",
+      "text": "وَأَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ.",
+      "category": "dialogue-line",
+      "speaker": "adam"
+    },
+    {
+      "id": "c2-dialogue-08",
+      "file": "dialogue-08.mp3",
+      "text": "هَلْ تَتَكَلَّمُونَ الْعَرَبِيَّةَ؟",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-09",
+      "file": "dialogue-09.mp3",
+      "text": "نَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا، وَنَدْرُسُ الْفُصْحَى فِي الْمَرْكَزِ.",
+      "category": "dialogue-line",
+      "speaker": "adam"
+    },
+    {
+      "id": "c2-dialogue-10",
+      "file": "dialogue-10.mp3",
+      "text": "هَلْ أَنْتِ مُدَرِّسَةٌ؟",
+      "category": "dialogue-line",
+      "speaker": "sarah"
+    },
+    {
+      "id": "c2-dialogue-11",
+      "file": "dialogue-11.mp3",
+      "text": "لَا، أَنَا مُوَظَّفَةٌ وَمُتَرْجِمَةٌ. أَنَا مُتَخَصِّصَةٌ فِي اللُّغَةِ الْعَرَبِيَّةِ.",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-12",
+      "file": "dialogue-12.mp3",
+      "text": "مَتَى الدَّرْسُ الْيَوْمَ؟",
+      "category": "dialogue-line",
+      "speaker": "adam"
+    },
+    {
+      "id": "c2-dialogue-13",
+      "file": "dialogue-13.mp3",
+      "text": "الدَّرْسُ مِنَ الْخَامِسَةِ إِلَى السَّادِسَةِ مَسَاءً.",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-14",
+      "file": "dialogue-14.mp3",
+      "text": "وَهَلْ عِنْدَكُمْ دَرْسٌ غَدًا؟",
+      "category": "dialogue-line",
+      "speaker": "sarah"
+    },
+    {
+      "id": "c2-dialogue-15",
+      "file": "dialogue-15.mp3",
+      "text": "نَعَمْ، عِنْدَنَا دَرْسٌ غَدًا أَيْضًا.",
+      "category": "dialogue-line",
+      "speaker": "maryam"
+    },
+    {
+      "id": "c2-dialogue-16",
+      "file": "dialogue-16.mp3",
+      "text": "شُكْرًا. إِلَى اللِّقَاءِ.",
+      "category": "dialogue-line",
+      "speaker": "students"
+    },
+    {
+      "id": "c2-pronunciation-01",
+      "file": "pronunciation-01.mp3",
+      "text": "نَحْنُ طُلَّابٌ جُدُدٌ.",
+      "category": "pronunciation",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pronunciation-02",
+      "file": "pronunciation-02.mp3",
+      "text": "مَا اللُّغَاتُ الَّتِي تَتَكَلَّمُونَهَا؟",
+      "category": "pronunciation",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pronunciation-03",
+      "file": "pronunciation-03.mp3",
+      "text": "نَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا.",
+      "category": "pronunciation",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pronunciation-04",
+      "file": "pronunciation-04.mp3",
+      "text": "أَنَا مُتَخَصِّصَةٌ فِي اللُّغَةِ الْعَرَبِيَّةِ.",
+      "category": "pronunciation",
+      "speaker": "female"
+    },
+    {
+      "id": "c2-pronunciation-05",
+      "file": "pronunciation-05.mp3",
+      "text": "الدَّرْسُ مِنَ الْخَامِسَةِ إِلَى السَّادِسَةِ مَسَاءً.",
+      "category": "pronunciation",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-language-en",
+      "file": "pattern-language-en.mp3",
+      "text": "أَنَا أَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-language-fr",
+      "file": "pattern-language-fr.mp3",
+      "text": "أَنَا أَتَكَلَّمُ الْفَرَنْسِيَّةَ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-language-ar",
+      "file": "pattern-language-ar.mp3",
+      "text": "أَنَا أَتَكَلَّمُ الْعَرَبِيَّةَ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-study-fusha",
+      "file": "pattern-study-fusha.mp3",
+      "text": "نَحْنُ نَدْرُسُ الْفُصْحَى.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-study-ar",
+      "file": "pattern-study-ar.mp3",
+      "text": "نَحْنُ نَدْرُسُ الْعَرَبِيَّةَ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-study-en",
+      "file": "pattern-study-en.mp3",
+      "text": "نَحْنُ نَدْرُسُ الْإِنْجِلِيزِيَّةَ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-job-muwazzaf",
+      "file": "pattern-job-muwazzaf.mp3",
+      "text": "أَنَا مُوَظَّفٌ فِي مَرْكَزِ لُغَاتٍ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-job-muwazzafa",
+      "file": "pattern-job-muwazzafa.mp3",
+      "text": "أَنَا مُوَظَّفَةٌ فِي مَرْكَزِ لُغَاتٍ.",
+      "category": "pattern",
+      "speaker": "female"
+    },
+    {
+      "id": "c2-pattern-job-mutarjim",
+      "file": "pattern-job-mutarjim.mp3",
+      "text": "أَنَا مُتَرْجِمٌ فِي مَرْكَزِ لُغَاتٍ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-job-mutarjima",
+      "file": "pattern-job-mutarjima.mp3",
+      "text": "أَنَا مُتَرْجِمَةٌ فِي مَرْكَزِ لُغَاتٍ.",
+      "category": "pattern",
+      "speaker": "female"
+    },
+    {
+      "id": "c2-pattern-job-talib",
+      "file": "pattern-job-talib.mp3",
+      "text": "أَنَا طَالِبٌ فِي مَرْكَزِ لُغَاتٍ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-job-taliba",
+      "file": "pattern-job-taliba.mp3",
+      "text": "أَنَا طَالِبَةٌ فِي مَرْكَزِ لُغَاتٍ.",
+      "category": "pattern",
+      "speaker": "female"
+    },
+    {
+      "id": "c2-pattern-time-01",
+      "file": "pattern-time-01.mp3",
+      "text": "الدَّرْسُ مِنَ الْخَامِسَةِ إِلَى السَّادِسَةِ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-time-02",
+      "file": "pattern-time-02.mp3",
+      "text": "الدَّرْسُ مِنَ السَّادِسَةِ إِلَى السَّابِعَةِ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    },
+    {
+      "id": "c2-pattern-time-03",
+      "file": "pattern-time-03.mp3",
+      "text": "الدَّرْسُ مِنَ السَّابِعَةِ إِلَى الثَّامِنَةِ.",
+      "category": "pattern",
+      "speaker": "narrator"
+    }
+  ]
+}

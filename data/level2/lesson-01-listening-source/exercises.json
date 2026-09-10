@@ -1,0 +1,50 @@
+{
+  "stages":[
+    {"id":"before","titleAr":"قبل الاستماع","titleEn":"Before listening","items":[
+      {"id":"b01","type":"imageObservation","image":"images/listening-opening-workshop.png","promptAr":"ماذا يخطط الشخصان أن يفعلا؟ اذكر دليلين من الصورة.","promptEn":"What are the two people planning to do? Give two clues from the image.","minimumIdeas":2},
+      {"id":"b02","type":"predictionChoice","promptAr":"ما المشكلة التي قد يناقشانها؟","promptEn":"Which problem might they discuss?","choices":["قلة الأجهزة أو تغيّر الموعد","ضياع جواز السفر","شراء منزل جديد","نتيجة مباراة"],"answer":"قلة الأجهزة أو تغيّر الموعد"},
+      {"id":"b03","type":"keyWords","promptAr":"اقرأ الكلمات الثلاث: وَرْشَة، أَجْهِزَة لَوْحِيَّة، مُشَارِك. ما العلاقة بينها؟","promptEn":"Read the three key words. What connects them?","words":["وَرْشَة","أَجْهِزَة لَوْحِيَّة","مُشَارِك"]},
+      {"id":"b04","type":"predictionOpen","promptAr":"كيف يمكن تنظيم تدريب عملي عندما لا تكفي الأجهزة لجميع المشاركين؟","promptEn":"How can practical training be organized when there are not enough devices?","minimumIdeas":1}
+    ]},
+    {"id":"gist","titleAr":"الاستماع الأول: الفكرة العامة","titleEn":"First listening: Gist","audio":"audio/listening-full.mp3","items":[
+      {"id":"g01","type":"singleChoice","promptAr":"ما موضوع الحوار؟","promptEn":"What is the dialogue about?","choices":["التخطيط لورشة رقمية","مراجعة امتحان","تنظيم رحلة تاريخية","اختيار كتاب جديد"],"answer":"التخطيط لورشة رقمية"},
+      {"id":"g02","type":"singleChoice","promptAr":"مَن المتحدثان؟","promptEn":"Who are the speakers?","choices":["عضوان في فريق التنظيم","معلم وطالب في اختبار","دليل وسائح","موظفان في متجر"],"answer":"عضوان في فريق التنظيم"},
+      {"id":"g03","type":"multiSelect","promptAr":"ما المشكلتان الرئيستان؟","promptEn":"What are the two main problems?","choices":["قلة الأجهزة","تغيّر الموعد","عدم وجود مشاركين","غياب الإنترنت طوال الأسبوع"],"answers":["قلة الأجهزة","تغيّر الموعد"]},
+      {"id":"g04","type":"singleChoice","promptAr":"ما القرار العام الذي اتخذاه؟","promptEn":"What general decision did they make?","choices":["جعل التدريب عمليًا وتعديل الخطة","إلغاء الورشة","تحويل الورشة إلى محاضرة أطول","تأجيلها إلى العام القادم"],"answer":"جعل التدريب عمليًا وتعديل الخطة"}
+    ]},
+    {"id":"details","titleAr":"الاستماع الثاني: التفاصيل","titleEn":"Second listening: Details","items":[
+      {"id":"d01","type":"singleChoice","audio":"audio/listening-segment-01.mp3","promptAr":"ماذا أظهر الاستبيان؟","promptEn":"What did the survey show?","choices":["معظم المشاركين مبتدئون","معظم المشاركين معلمون","الجميع يملك جهازًا","لا أحد يريد التدريب"],"answer":"معظم المشاركين مبتدئون"},
+      {"id":"d02","type":"trueFalse","audio":"audio/listening-segment-01.mp3","promptAr":"كانت الفكرة الأولى تدريبًا عمليًا.","promptEn":"The original idea was practical training.","answer":false,"correctionAr":"كانت الفكرة الأولى محاضرة طويلة."},
+      {"id":"d03","type":"multiSelect","audio":"audio/listening-segment-02.mp3","promptAr":"ما المحطات الثلاث؟","promptEn":"What are the three stations?","choices":["إنشاء حساب","تنظيم المواعيد","التواصل مع المعلم","تصميم موقع كامل","شراء جهاز"],"answers":["إنشاء حساب","تنظيم المواعيد","التواصل مع المعلم"]},
+      {"id":"d04","type":"singleChoice","audio":"audio/listening-segment-02.mp3","promptAr":"كم مساعدًا يحتاج الفريق؟","promptEn":"How many assistants does the team need?","choices":["اثنان","ثلاثة","أربعة","خمسة"],"answer":"ثلاثة"},
+      {"id":"d05","type":"singleChoice","audio":"audio/listening-segment-02.mp3","promptAr":"لماذا اقترح دانيال يوسف؟","promptEn":"Why did Daniel suggest Youssef?","choices":["لأنه مهتم بالتعليم ونجح سابقًا","لأنه يملك المركز","لأنه الوحيد الذي يملك حاسوبًا","لأنه لا يعرف المشاركين"],"answer":"لأنه مهتم بالتعليم ونجح سابقًا"},
+      {"id":"d06","type":"singleChoice","audio":"audio/listening-segment-03.mp3","promptAr":"كم عدد الأجهزة والمشاركين؟","promptEn":"How many devices and participants are there?","choices":["10 أجهزة و18 مشاركًا","18 جهازًا و10 مشاركين","8 أجهزة و10 مشاركين","12 جهازًا و18 مشاركًا"],"answer":"10 أجهزة و18 مشاركًا"},
+      {"id":"d07","type":"singleChoice","audio":"audio/listening-segment-03.mp3","promptAr":"ما حل مشكلة الأجهزة؟","promptEn":"What is the solution to the device shortage?","choices":["العمل في أزواج","إلغاء الجزء العملي","شراء ثمانية أجهزة فورًا","تقليل عدد المساعدين"],"answer":"العمل في أزواج"},
+      {"id":"d08","type":"singleChoice","audio":"audio/listening-segment-03.mp3","promptAr":"متى تصبح القاعة متاحة؟","promptEn":"When does the room become available?","choices":["الحادية عشرة","التاسعة","العاشرة","الثانية عشرة"],"answer":"الحادية عشرة"},
+      {"id":"d09","type":"singleChoice","audio":"audio/listening-segment-04.mp3","promptAr":"كيف سيعرفان أن التدريب نجح؟","promptEn":"How will they know the training succeeded?","choices":["ينجز المشاركون المهمة دون مساعدة مباشرة","يحضر جميع المشاركين مبكرًا","يستمع المشاركون إلى محاضرة طويلة","يستعمل كل مشارك جهازًا منفردًا"],"answer":"ينجز المشاركون المهمة دون مساعدة مباشرة"},
+      {"id":"d10","type":"sequence","promptAr":"رتّب القرارات كما وردت.","promptEn":"Order the decisions as they occurred.","events":["تغيير المحاضرة إلى تدريب عملي","اختيار ثلاث محطات","طلب مساعدين","العمل في أزواج","وضع مهمة لقياس النجاح"],"answer":["تغيير المحاضرة إلى تدريب عملي","اختيار ثلاث محطات","طلب مساعدين","العمل في أزواج","وضع مهمة لقياس النجاح"]}
+    ]},
+    {"id":"language","titleAr":"الاستماع الثالث: اللغة في السياق","titleEn":"Third listening: Language in context","items":[
+      {"id":"l01","type":"audioChoice","audio":"audio/listening-segment-01.mp3","promptAr":"أي فعل سمعته بمعنى studied؟","promptEn":"Which verb did you hear meaning studied?","choices":["دَرَسْتُ","قَرَأْتُ","عَمِلْتُ","عَلَّمْتُ"],"answer":"دَرَسْتُ"},
+      {"id":"l02","type":"contextMeaning","promptAr":"«التدريب العملي أنسب لهم». ما المعنى؟","promptEn":"What does أنسب لهم mean?","choices":["more suitable for them","more expensive for them","more difficult for them","less useful for them"],"answer":"more suitable for them"},
+      {"id":"l03","type":"singleChoice","promptAr":"ما مصدر «تَوَاصَلْتُ»؟","promptEn":"What is the verbal noun of تَوَاصَلْتُ?","choices":["تَوَاصُل","وُصُول","اِتِّصَالَات","مُشَارَكَة"],"answer":"تَوَاصُل"},
+      {"id":"l04","type":"audioChoice","audio":"audio/listening-segment-02.mp3","promptAr":"أي كلمتين تصفان يوسف؟","promptEn":"Which two words describe Youssef?","choices":["مُهْتَمّ وناجح","مبتدئ ومشغول","مساعد ومتغيّر","معلّم ومحتاج"],"answer":"مُهْتَمّ وناجح"},
+      {"id":"l05","type":"contextMeaning","promptAr":"ما معنى «يعملوا في أزواج»؟","promptEn":"What does يعملوا في أزواج mean?","choices":["يعمل كل شخصين معًا","يعمل الجميع منفردين","يعمل المساعدون فقط","يستمع المشاركون دون عمل"],"answer":"يعمل كل شخصين معًا"},
+      {"id":"l06","type":"singleChoice","promptAr":"ما مصدر «تَغَيَّرَ»؟","promptEn":"What is the verbal noun of تَغَيَّرَ?","choices":["تَغَيُّر","تَغْيِير","مُتَغَيِّر","غَيْر"],"answer":"تَغَيُّر"},
+      {"id":"l07","type":"fillBlank","promptAr":"المشارك ___ بالعمل أكثر من الاستماع الطويل.","promptEn":"The participant ___ more through practice than long listening.","choices":["يَتَعَلَّمُ","يُعَلِّمُ","يُقَرِّرُ","يَتَوَاصَلُ"],"answer":"يَتَعَلَّمُ"},
+      {"id":"l08","type":"singleChoice","promptAr":"أي كلمة في نهاية الحوار تعني development؟","promptEn":"Which final word means development?","choices":["تَطْوِير","تَعْلِيم","تَخْطِيط","تَوَاصُل"],"answer":"تَطْوِير"}
+    ]},
+    {"id":"inference","titleAr":"الاستنتاج","titleEn":"Inference","items":[
+      {"id":"i01","type":"singleChoice","promptAr":"لماذا رفضا المحاضرة الطويلة؟","promptEn":"Why did they reject the long lecture?","choices":["لأن المبتدئين يحتاجون إلى الممارسة","لأن القاعة كبيرة جدًا","لأن يوسف لم يوافق","لأن الأجهزة كثيرة"],"answer":"لأن المبتدئين يحتاجون إلى الممارسة"},
+      {"id":"i02","type":"singleChoice","promptAr":"ماذا نستنتج عن مريم ودانيال؟","promptEn":"What can we infer about Maryam and Daniel?","choices":["يعدّلان الخطة عند ظهور معلومات جديدة","يرفضان استعمال الاستبيان","يفضّلان العمل منفردين","لا يهتمان بقياس النتائج"],"answer":"يعدّلان الخطة عند ظهور معلومات جديدة"},
+      {"id":"i03","type":"shortEvidence","promptAr":"اذكر دليلًا على أن الورشة تركز على قدرة المتعلم، لا على الاستماع فقط.","promptEn":"Give evidence that the workshop focuses on learner ability, not listening alone.","modelAnswerAr":"سيستعمل المشاركون الأجهزة بأنفسهم وينجزون مهمة دون مساعدة مباشرة.","requiredAny":["بأنفسهم","دون مساعدة مباشرة","ينجزوا المهمة"]},
+      {"id":"i04","type":"singleChoice","promptAr":"ما أفضل وصف للخطة النهائية؟","promptEn":"What best describes the final plan?","choices":["عملية ومرنة وقابلة للقياس","طويلة ونظرية","غير منظمة","تعتمد على جهاز لكل شخص"],"answer":"عملية ومرنة وقابلة للقياس"}
+    ]},
+    {"id":"after","titleAr":"بعد الاستماع","titleEn":"After listening","items":[
+      {"id":"a01","type":"summaryBuilder","promptAr":"لخّص الخطة في أربع جمل: الهدف، الأنشطة، المشكلتان، معيار النجاح. استعمل أربع كلمات من الدرس.","promptEn":"Summarize the plan in four sentences: goal, activities, two problems, and success criterion. Use four lesson words.","minimumTargetVocabulary":4,"requiredParts":["الهدف","الأنشطة","المشكلتان","معيار النجاح"]},
+      {"id":"a02","type":"solutionTask","promptAr":"سجّل أو اكتب ردًا من 60–80 كلمة: لديك 20 متعلمًا و6 حواسيب وساعة واحدة. كيف ستغيّر الخطة؟ استعمل خمس كلمات من الدرس.","promptEn":"Record or write a 60–80 word response: you have 20 learners, 6 computers, and one hour. How will you adapt the plan? Use five lesson words.","minimumWords":60,"maximumWords":80,"minimumTargetVocabulary":5,"rubric":{"solution":3,"organization":2,"vocabulary":3,"accuracy":2}},
+      {"id":"a03","type":"reflection","promptAr":"أي قرار في الحوار كان أهم؟ اذكر القرار وسببين.","promptEn":"Which decision in the dialogue was most important? Name it and give two reasons.","minimumReasons":2}
+    ]}
+  ],
+  "feedbackPolicy":{"objectiveImmediate":true,"bilingual":true,"maximumAttempts":2,"showTranscriptEvidenceAfterSecondAttempt":true}
+}

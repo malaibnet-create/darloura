@@ -1,0 +1,95 @@
+{
+  "lessonId": "level-03-lesson-01-listening",
+  "items": [
+    {
+      "id": "listening-full",
+      "path": "audio/listening-full.mp3",
+      "role": "full-dialogue",
+      "sectionId": null
+    },
+    {
+      "id": "listening-section-01",
+      "path": "audio/listening-section-01.mp3",
+      "role": "section",
+      "sectionId": "s01"
+    },
+    {
+      "id": "listening-section-02",
+      "path": "audio/listening-section-02.mp3",
+      "role": "section",
+      "sectionId": "s02"
+    },
+    {
+      "id": "listening-section-03",
+      "path": "audio/listening-section-03.mp3",
+      "role": "section",
+      "sectionId": "s03"
+    },
+    {
+      "id": "listening-section-04",
+      "path": "audio/listening-section-04.mp3",
+      "role": "section",
+      "sectionId": "s04"
+    },
+    {
+      "id": "expression-p01",
+      "path": "audio/expression-p01.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p01"
+    },
+    {
+      "id": "expression-p02",
+      "path": "audio/expression-p02.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p02"
+    },
+    {
+      "id": "expression-p03",
+      "path": "audio/expression-p03.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p03"
+    },
+    {
+      "id": "expression-p04",
+      "path": "audio/expression-p04.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p04"
+    },
+    {
+      "id": "expression-p05",
+      "path": "audio/expression-p05.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p05"
+    },
+    {
+      "id": "expression-p06",
+      "path": "audio/expression-p06.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p06"
+    },
+    {
+      "id": "expression-p07",
+      "path": "audio/expression-p07.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p07"
+    },
+    {
+      "id": "expression-p08",
+      "path": "audio/expression-p08.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p08"
+    },
+    {
+      "id": "expression-p09",
+      "path": "audio/expression-p09.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p09"
+    },
+    {
+      "id": "expression-p10",
+      "path": "audio/expression-p10.mp3",
+      "role": "expression-in-context",
+      "phraseId": "p10"
+    }
+  ]
+}

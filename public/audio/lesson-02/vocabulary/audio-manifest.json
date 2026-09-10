@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "lesson": "lesson-02",
+  "section": "vocabulary",
+  "language": "ar-MSA",
+  "publicBasePath": "/audio/lesson-02/vocabulary",
+  "voice": "Razan – Academic & Cultural Narration",
+  "clips": {
+    "l2v-word-01": {
+      "file": "audio/word-01-yatakallam.mp3",
+      "text": "يَتَكَلَّمُ",
+      "usage": "vocabulary-word",
+      "wordId": 1
+    },
+    "l2v-example-01": {
+      "file": "audio/example-01-yatakallam.mp3",
+      "text": "يَتَكَلَّمُ يُوسُفُ الْعَرَبِيَّةَ.",
+      "usage": "vocabulary-example",
+      "wordId": 1
+    },
+    "l2v-word-02": {
+      "file": "audio/word-02-yatakallam-an.mp3",
+      "text": "يَتَكَلَّمُ عَنْ",
+      "usage": "vocabulary-word",
+      "wordId": 2
+    },
+    "l2v-example-02": {
+      "file": "audio/example-02-yatakallam-an.mp3",
+      "text": "تَتَكَلَّمُ سَلْمَى عَنْ أُسْرَتِهَا.",
+      "usage": "vocabulary-example",
+      "wordId": 2
+    },
+    "l2v-word-03": {
+      "file": "audio/word-03-li-indi.mp3",
+      "text": "لِي / عِنْدِي",
+      "usage": "vocabulary-word",
+      "wordId": 3
+    },
+    "l2v-example-03": {
+      "file": "audio/example-03-li-indi.mp3",
+      "text": "لِي أُسْرَةٌ صَغِيرَةٌ، وَعِنْدِي كِتَابٌ عَرَبِيٌّ.",
+      "usage": "vocabulary-example",
+      "wordId": 3
+    },
+    "l2v-word-04": {
+      "file": "audio/word-04-lugha.mp3",
+      "text": "لُغَةٌ",
+      "usage": "vocabulary-word",
+      "wordId": 4
+    },
+    "l2v-example-04": {
+      "file": "audio/example-04-lugha.mp3",
+      "text": "أَدْرُسُ لُغَةً جَدِيدَةً.",
+      "usage": "vocabulary-example",
+      "wordId": 4
+    },
+    "l2v-word-05": {
+      "file": "audio/word-05-almasaa.mp3",
+      "text": "الْمَسَاءُ",
+      "usage": "vocabulary-word",
+      "wordId": 5
+    },
+    "l2v-example-05": {
+      "file": "audio/example-05-almasaa.mp3",
+      "text": "أَدْرُسُ فِي الْمَسَاءِ.",
+      "usage": "vocabulary-example",
+      "wordId": 5
+    },
+    "l2v-word-06": {
+      "file": "audio/word-06-allayl.mp3",
+      "text": "اللَّيْلُ",
+      "usage": "vocabulary-word",
+      "wordId": 6
+    },
+    "l2v-example-06": {
+      "file": "audio/example-06-allayl.mp3",
+      "text": "اللَّيْلُ هَادِئٌ.",
+      "usage": "vocabulary-example",
+      "wordId": 6
+    },
+    "l2v-word-07": {
+      "file": "audio/word-07-annahar.mp3",
+      "text": "النَّهَارُ",
+      "usage": "vocabulary-word",
+      "wordId": 7
+    },
+    "l2v-example-07": {
+      "file": "audio/example-07-annahar.mp3",
+      "text": "أَعْمَلُ فِي النَّهَارِ.",
+      "usage": "vocabulary-example",
+      "wordId": 7
+    },
+    "l2v-word-08": {
+      "file": "audio/word-08-wahdahu-wahdaha.mp3",
+      "text": "وَحْدَهُ / وَحْدَهَا",
+      "usage": "vocabulary-word",
+      "wordId": 8
+    },
+    "l2v-example-08": {
+      "file": "audio/example-08-wahdahu-wahdaha.mp3",
+      "text": "يَسْكُنُ يُوسُفُ وَحْدَهُ.",
+      "usage": "vocabulary-example",
+      "wordId": 8
+    },
+    "l2v-word-09": {
+      "file": "audio/word-09-muwazzaf-muwazzafa.mp3",
+      "text": "مُوَظَّفٌ / مُوَظَّفَةٌ",
+      "usage": "vocabulary-word",
+      "wordId": 9
+    },
+    "l2v-example-09": {
+      "file": "audio/example-09-muwazzaf-muwazzafa.mp3",
+      "text": "وَالِدَتِي مُوَظَّفَةٌ فِي مَرْكَزٍ.",
+      "usage": "vocabulary-example",
+      "wordId": 9
+    },
+    "l2v-word-10": {
+      "file": "audio/word-10-alyawm.mp3",
+      "text": "الْيَوْمَ",
+      "usage": "vocabulary-word",
+      "wordId": 10
+    },
+    "l2v-example-10": {
+      "file": "audio/example-10-alyawm.mp3",
+      "text": "أَدْرُسُ الْفُصْحَى الْيَوْمَ.",
+      "usage": "vocabulary-example",
+      "wordId": 10
+    },
+    "l2v-word-11": {
+      "file": "audio/word-11-alfusha.mp3",
+      "text": "الْفُصْحَى",
+      "usage": "vocabulary-word",
+      "wordId": 11
+    },
+    "l2v-example-11": {
+      "file": "audio/example-11-alfusha.mp3",
+      "text": "أَتَكَلَّمُ الْعَرَبِيَّةَ الْفُصْحَى.",
+      "usage": "vocabulary-example",
+      "wordId": 11
+    },
+    "l2v-word-12": {
+      "file": "audio/word-12-usra.mp3",
+      "text": "أُسْرَةٌ",
+      "usage": "vocabulary-word",
+      "wordId": 12
+    },
+    "l2v-example-12": {
+      "file": "audio/example-12-usra.mp3",
+      "text": "هٰذِهِ أُسْرَتِي.",
+      "usage": "vocabulary-example",
+      "wordId": 12
+    },
+    "l2v-word-13": {
+      "file": "audio/word-13-annas.mp3",
+      "text": "النَّاسُ",
+      "usage": "vocabulary-word",
+      "wordId": 13
+    },
+    "l2v-example-13": {
+      "file": "audio/example-13-annas.mp3",
+      "text": "النَّاسُ فِي مَكْنَاسَ لُطَفَاءُ.",
+      "usage": "vocabulary-example",
+      "wordId": 13
+    },
+    "l2v-word-14": {
+      "file": "audio/word-14-aydan.mp3",
+      "text": "أَيْضًا",
+      "usage": "vocabulary-word",
+      "wordId": 14
+    },
+    "l2v-example-14": {
+      "file": "audio/example-14-aydan.mp3",
+      "text": "أَدْرُسُ الْعَرَبِيَّةَ وَالْإِنْجِلِيزِيَّةَ أَيْضًا.",
+      "usage": "vocabulary-example",
+      "wordId": 14
+    },
+    "l2v-word-15": {
+      "file": "audio/word-15-taakkad.mp3",
+      "text": "تَأَكَّدْ",
+      "usage": "vocabulary-word",
+      "wordId": 15
+    },
+    "l2v-example-15": {
+      "file": "audio/example-15-taakkad.mp3",
+      "text": "تَأَكَّدْ مِنَ الْعُنْوَانِ.",
+      "usage": "vocabulary-example",
+      "wordId": 15
+    },
+    "l2v-word-16": {
+      "file": "audio/word-16-attarjama.mp3",
+      "text": "التَّرْجَمَةُ مِنْ ... إِلَى ...",
+      "usage": "vocabulary-word",
+      "wordId": 16
+    },
+    "l2v-example-16": {
+      "file": "audio/example-16-attarjama.mp3",
+      "text": "أَعْمَلُ فِي التَّرْجَمَةِ مِنَ الْعَرَبِيَّةِ إِلَى الْإِنْجِلِيزِيَّةِ.",
+      "usage": "vocabulary-example",
+      "wordId": 16
+    },
+    "l2v-word-17": {
+      "file": "audio/word-17-mutarjim-mutarjima.mp3",
+      "text": "مُتَرْجِمٌ / مُتَرْجِمَةٌ",
+      "usage": "vocabulary-word",
+      "wordId": 17
+    },
+    "l2v-example-17": {
+      "file": "audio/example-17-mutarjim-mutarjima.mp3",
+      "text": "خَالَتِي مُتَرْجِمَةٌ.",
+      "usage": "vocabulary-example",
+      "wordId": 17
+    },
+    "l2v-word-18": {
+      "file": "audio/word-18-mutakhassis.mp3",
+      "text": "مُتَخَصِّصٌ / مُتَخَصِّصَةٌ فِي",
+      "usage": "vocabulary-word",
+      "wordId": 18
+    },
+    "l2v-example-18": {
+      "file": "audio/example-18-mutakhassis.mp3",
+      "text": "وَالِدِي مُتَخَصِّصٌ فِي اللُّغَةِ الْعَرَبِيَّةِ.",
+      "usage": "vocabulary-example",
+      "wordId": 18
+    },
+    "l2v-word-19": {
+      "file": "audio/word-19-khala.mp3",
+      "text": "خَالَةٌ",
+      "usage": "vocabulary-word",
+      "wordId": 19
+    },
+    "l2v-example-19": {
+      "file": "audio/example-19-khala.mp3",
+      "text": "خَالَتِي تَسْكُنُ فِي الرِّبَاطِ.",
+      "usage": "vocabulary-example",
+      "wordId": 19
+    },
+    "l2v-word-20": {
+      "file": "audio/word-20-daiman.mp3",
+      "text": "دَائِمًا",
+      "usage": "vocabulary-word",
+      "wordId": 20
+    },
+    "l2v-example-20": {
+      "file": "audio/example-20-daiman.mp3",
+      "text": "أَدْرُسُ الْعَرَبِيَّةَ دَائِمًا.",
+      "usage": "vocabulary-example",
+      "wordId": 20
+    },
+    "l2v-word-21": {
+      "file": "audio/word-21-markaz.mp3",
+      "text": "مَرْكَزٌ",
+      "usage": "vocabulary-word",
+      "wordId": 21
+    },
+    "l2v-example-21": {
+      "file": "audio/example-21-markaz.mp3",
+      "text": "هٰذَا مَرْكَزُ دَارِ اللُّغَةِ.",
+      "usage": "vocabulary-example",
+      "wordId": 21
+    },
+    "l2v-word-22": {
+      "file": "audio/word-22-asharq-alawsat.mp3",
+      "text": "الشَّرْقُ الْأَوْسَطُ",
+      "usage": "vocabulary-word",
+      "wordId": 22
+    },
+    "l2v-example-22": {
+      "file": "audio/example-22-asharq-alawsat.mp3",
+      "text": "يَتَكَلَّمُ النَّاسُ الْعَرَبِيَّةَ فِي الشَّرْقِ الْأَوْسَطِ.",
+      "usage": "vocabulary-example",
+      "wordId": 22
+    },
+    "l2v-word-23": {
+      "file": "audio/word-23-mashghul.mp3",
+      "text": "مَشْغُولٌ / مَشْغُولَةٌ بِـ",
+      "usage": "vocabulary-word",
+      "wordId": 23
+    },
+    "l2v-example-23": {
+      "file": "audio/example-23-mashghul.mp3",
+      "text": "أَنَا مَشْغُولٌ بِالْعَمَلِ الْيَوْمَ.",
+      "usage": "vocabulary-example",
+      "wordId": 23
+    },
+    "l2v-word-24": {
+      "file": "audio/word-24-alamal-ashughl.mp3",
+      "text": "الْعَمَلُ / الشُّغْلُ",
+      "usage": "vocabulary-word",
+      "wordId": 24
+    },
+    "l2v-example-24": {
+      "file": "audio/example-24-alamal-ashughl.mp3",
+      "text": "عِنْدِي عَمَلٌ فِي الْمَرْكَزِ الْيَوْمَ.",
+      "usage": "vocabulary-example",
+      "wordId": 24
+    },
+    "l2v-word-25": {
+      "file": "audio/word-25-ghadan.mp3",
+      "text": "غَدًا",
+      "usage": "vocabulary-word",
+      "wordId": 25
+    },
+    "l2v-example-25": {
+      "file": "audio/example-25-ghadan.mp3",
+      "text": "الدَّرْسُ غَدًا.",
+      "usage": "vocabulary-example",
+      "wordId": 25
+    },
+    "l2v-word-26": {
+      "file": "audio/word-26-filan.mp3",
+      "text": "فِعْلًا",
+      "usage": "vocabulary-word",
+      "wordId": 26
+    },
+    "l2v-example-26": {
+      "file": "audio/example-26-filan.mp3",
+      "text": "هُوَ مُتَرْجِمٌ فِعْلًا.",
+      "usage": "vocabulary-example",
+      "wordId": 26
+    },
+    "l2v-word-27": {
+      "file": "audio/word-27-alqabul.mp3",
+      "text": "الْقَبُولُ",
+      "usage": "vocabulary-word",
+      "wordId": 27
+    },
+    "l2v-example-27": {
+      "file": "audio/example-27-alqabul.mp3",
+      "text": "الْقَبُولُ فِي الْمَرْكَزِ مُهِمٌّ.",
+      "usage": "vocabulary-example",
+      "wordId": 27
+    }
+  }
+}

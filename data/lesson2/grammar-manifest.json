@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "lesson": "lesson-02",
+  "section": "grammar",
+  "publicBasePath": "/audio/lesson-02/grammar",
+  "audioFormat": {
+    "container": "mp3",
+    "sampleRateHz": 44100,
+    "bitRateKbps": 128
+  },
+  "generation": {
+    "voice": "Razan – Academic & Cultural Narration",
+    "model": "Eleven Multilingual v2",
+    "speed": 0.81,
+    "stability": 0.61,
+    "similarity": 0.75,
+    "style": 0,
+    "speakerBoost": true
+  },
+  "clips": {
+    "g2-pronoun-ana": {
+      "file": "audio/pronoun-ana.mp3",
+      "text": "أَنَا",
+      "usage": "pronoun",
+      "card": "pronouns"
+    },
+    "g2-pronoun-nahnu": {
+      "file": "audio/pronoun-nahnu.mp3",
+      "text": "نَحْنُ",
+      "usage": "pronoun",
+      "card": "pronouns"
+    },
+    "g2-pronoun-anta": {
+      "file": "audio/pronoun-anta.mp3",
+      "text": "أَنْتَ",
+      "usage": "pronoun",
+      "card": "pronouns"
+    },
+    "g2-pronoun-antum": {
+      "file": "audio/pronoun-antum.mp3",
+      "text": "أَنْتُمْ",
+      "usage": "pronoun",
+      "card": "pronouns"
+    },
+    "g2-pronoun-huwa": {
+      "file": "audio/pronoun-huwa.mp3",
+      "text": "هُوَ",
+      "usage": "pronoun",
+      "card": "pronouns"
+    },
+    "g2-pronoun-hum": {
+      "file": "audio/pronoun-hum.mp3",
+      "text": "هُمْ",
+      "usage": "pronoun",
+      "card": "pronouns"
+    },
+    "g2-verb-atakallamu": {
+      "file": "audio/verb-atakallamu.mp3",
+      "text": "أَتَكَلَّمُ",
+      "usage": "verb-form",
+      "card": "pronouns"
+    },
+    "g2-verb-natakallamu": {
+      "file": "audio/verb-natakallamu.mp3",
+      "text": "نَتَكَلَّمُ",
+      "usage": "verb-form",
+      "card": "pronouns"
+    },
+    "g2-verb-tatakallamu": {
+      "file": "audio/verb-tatakallamu.mp3",
+      "text": "تَتَكَلَّمُ",
+      "usage": "verb-form",
+      "card": "pronouns"
+    },
+    "g2-verb-tatakalluna": {
+      "file": "audio/verb-tatakalluna.mp3",
+      "text": "تَتَكَلَّمُونَ",
+      "usage": "verb-form",
+      "card": "pronouns"
+    },
+    "g2-verb-yatakallamu": {
+      "file": "audio/verb-yatakallamu.mp3",
+      "text": "يَتَكَلَّمُ",
+      "usage": "verb-form",
+      "card": "pronouns"
+    },
+    "g2-verb-yatakalluna": {
+      "file": "audio/verb-yatakalluna.mp3",
+      "text": "يَتَكَلَّمُونَ",
+      "usage": "verb-form",
+      "card": "pronouns"
+    },
+    "g2-pronoun-example-1": {
+      "file": "audio/pronoun-example-01.mp3",
+      "text": "نَحْنُ نَعْمَلُ فِي مَرْكَزِ التَّرْجَمَةِ.",
+      "usage": "example-sentence",
+      "card": "pronouns"
+    },
+    "g2-pronoun-example-2": {
+      "file": "audio/pronoun-example-02.mp3",
+      "text": "أَنْتُمْ تَعْمَلُونَ فِي النَّهَارِ.",
+      "usage": "example-sentence",
+      "card": "pronouns"
+    },
+    "g2-pronoun-example-3": {
+      "file": "audio/pronoun-example-03.mp3",
+      "text": "هُمْ يَعْمَلُونَ فِي الْمَرْكَزِ.",
+      "usage": "example-sentence",
+      "card": "pronouns"
+    },
+    "g2-pronoun-example-4": {
+      "file": "audio/pronoun-example-04.mp3",
+      "text": "نَحْنُ نَدْرُسُ فِي الْمَسَاءِ.",
+      "usage": "example-sentence",
+      "card": "pronouns"
+    },
+    "g2-pronoun-example-5": {
+      "file": "audio/pronoun-example-05.mp3",
+      "text": "هُمْ يَتَكَلَّمُونَ الْعَرَبِيَّةَ وَالْإِنْجِلِيزِيَّةَ.",
+      "usage": "example-sentence",
+      "card": "pronouns"
+    },
+    "g2-smp-mutarjim-singular": {
+      "file": "audio/smp-mutarjim-singular.mp3",
+      "text": "مُتَرْجِمٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mutarjim-plural": {
+      "file": "audio/smp-mutarjim-plural.mp3",
+      "text": "مُتَرْجِمُونَ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mutarjim-pair": {
+      "file": "audio/smp-mutarjim-pair.mp3",
+      "text": "مُتَرْجِمٌ. مُتَرْجِمُونَ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-smp-muwazzaf-singular": {
+      "file": "audio/smp-muwazzaf-singular.mp3",
+      "text": "مُوَظَّفٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-muwazzaf-plural": {
+      "file": "audio/smp-muwazzaf-plural.mp3",
+      "text": "مُوَظَّفُونَ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-muwazzaf-pair": {
+      "file": "audio/smp-muwazzaf-pair.mp3",
+      "text": "مُوَظَّفٌ. مُوَظَّفُونَ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mutakhassis-singular": {
+      "file": "audio/smp-mutakhassis-singular.mp3",
+      "text": "مُتَخَصِّصٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mutakhassis-plural": {
+      "file": "audio/smp-mutakhassis-plural.mp3",
+      "text": "مُتَخَصِّصُونَ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mutakhassis-pair": {
+      "file": "audio/smp-mutakhassis-pair.mp3",
+      "text": "مُتَخَصِّصٌ. مُتَخَصِّصُونَ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-smp-maghribi-singular": {
+      "file": "audio/smp-maghribi-singular.mp3",
+      "text": "مَغْرِبِيٌّ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-maghribi-plural": {
+      "file": "audio/smp-maghribi-plural.mp3",
+      "text": "مَغْرِبِيُّونَ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-maghribi-pair": {
+      "file": "audio/smp-maghribi-pair.mp3",
+      "text": "مَغْرِبِيٌّ. مَغْرِبِيُّونَ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mashghul-singular": {
+      "file": "audio/smp-mashghul-singular.mp3",
+      "text": "مَشْغُولٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mashghul-plural": {
+      "file": "audio/smp-mashghul-plural.mp3",
+      "text": "مَشْغُولُونَ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-smp-mashghul-pair": {
+      "file": "audio/smp-mashghul-pair.mp3",
+      "text": "مَشْغُولٌ. مَشْغُولُونَ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-kitab-singular": {
+      "file": "audio/bp-kitab-singular.mp3",
+      "text": "كِتَابٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-kitab-plural": {
+      "file": "audio/bp-kitab-plural.mp3",
+      "text": "كُتُبٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-kitab-pair": {
+      "file": "audio/bp-kitab-pair.mp3",
+      "text": "كِتَابٌ. كُتُبٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-madina-singular": {
+      "file": "audio/bp-madina-singular.mp3",
+      "text": "مَدِينَةٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-madina-plural": {
+      "file": "audio/bp-madina-plural.mp3",
+      "text": "مُدُنٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-madina-pair": {
+      "file": "audio/bp-madina-pair.mp3",
+      "text": "مَدِينَةٌ. مُدُنٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-bab-singular": {
+      "file": "audio/bp-bab-singular.mp3",
+      "text": "بَابٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-bab-plural": {
+      "file": "audio/bp-bab-plural.mp3",
+      "text": "أَبْوَابٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-bab-pair": {
+      "file": "audio/bp-bab-pair.mp3",
+      "text": "بَابٌ. أَبْوَابٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-khal-singular": {
+      "file": "audio/bp-khal-singular.mp3",
+      "text": "خَالٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-khal-plural": {
+      "file": "audio/bp-khal-plural.mp3",
+      "text": "أَخْوَالٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-khal-pair": {
+      "file": "audio/bp-khal-pair.mp3",
+      "text": "خَالٌ. أَخْوَالٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-talib-singular": {
+      "file": "audio/bp-talib-singular.mp3",
+      "text": "طَالِبٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-talib-plural": {
+      "file": "audio/bp-talib-plural.mp3",
+      "text": "طُلَّابٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-talib-pair": {
+      "file": "audio/bp-talib-pair.mp3",
+      "text": "طَالِبٌ. طُلَّابٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-rajul-singular": {
+      "file": "audio/bp-rajul-singular.mp3",
+      "text": "رَجُلٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-rajul-plural": {
+      "file": "audio/bp-rajul-plural.mp3",
+      "text": "رِجَالٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-rajul-pair": {
+      "file": "audio/bp-rajul-pair.mp3",
+      "text": "رَجُلٌ. رِجَالٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-jar-singular": {
+      "file": "audio/bp-jar-singular.mp3",
+      "text": "جَارٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-jar-plural": {
+      "file": "audio/bp-jar-plural.mp3",
+      "text": "جِيرَانٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-jar-pair": {
+      "file": "audio/bp-jar-pair.mp3",
+      "text": "جَارٌ. جِيرَانٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-bp-shakhs-singular": {
+      "file": "audio/bp-shakhs-singular.mp3",
+      "text": "شَخْصٌ",
+      "usage": "singular-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-shakhs-plural": {
+      "file": "audio/bp-shakhs-plural.mp3",
+      "text": "أَشْخَاصٌ",
+      "usage": "plural-word",
+      "card": "noun-plurals"
+    },
+    "g2-bp-shakhs-pair": {
+      "file": "audio/bp-shakhs-pair.mp3",
+      "text": "شَخْصٌ. أَشْخَاصٌ.",
+      "usage": "learning-pair",
+      "card": "noun-plurals"
+    },
+    "g2-human-1": {
+      "file": "audio/agreement-human-01.mp3",
+      "text": "الْمُتَرْجِمُونَ مَشْغُولُونَ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-human-2": {
+      "file": "audio/agreement-human-02.mp3",
+      "text": "الْمُوَظَّفُونَ مَغْرِبِيُّونَ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-human-3": {
+      "file": "audio/agreement-human-03.mp3",
+      "text": "الطُّلَّابُ جَدِيدُونَ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-human-4": {
+      "file": "audio/agreement-human-04.mp3",
+      "text": "هُمْ مُتَخَصِّصُونَ فِي التَّرْجَمَةِ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-nonhuman-1": {
+      "file": "audio/agreement-nonhuman-01.mp3",
+      "text": "الْكُتُبُ جَدِيدَةٌ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-nonhuman-2": {
+      "file": "audio/agreement-nonhuman-02.mp3",
+      "text": "الْمُدُنُ جَمِيلَةٌ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-nonhuman-3": {
+      "file": "audio/agreement-nonhuman-03.mp3",
+      "text": "الْأَبْوَابُ كَبِيرَةٌ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-nonhuman-4": {
+      "file": "audio/agreement-nonhuman-04.mp3",
+      "text": "الْأَخْبَارُ مُهِمَّةٌ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    },
+    "g2-nonhuman-5": {
+      "file": "audio/agreement-nonhuman-05.mp3",
+      "text": "الصُّفُوفُ كَبِيرَةٌ.",
+      "usage": "agreement-example",
+      "card": "agreement"
+    }
+  }
+}

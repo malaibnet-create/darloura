@@ -1,0 +1,87 @@
+{
+  "exam": {
+    "id": "level-02-lesson-01-final-exam",
+    "titleAr": "امتحان الدرس الأول",
+    "titleEn": "Lesson 1 Final Exam",
+    "level": "Lower-intermediate (A2+/B1-)",
+    "totalScore": 100,
+    "passScore": 80,
+    "estimatedMinutes": { "minimum": 45, "maximum": 55 },
+    "gradedTasks": 20,
+    "sections": [
+      { "id": "vocabulary", "titleAr": "المفردات", "titleEn": "Vocabulary", "score": 20, "minutes": 7, "items": 5 },
+      { "id": "reading", "titleAr": "القراءة", "titleEn": "Reading", "score": 20, "minutes": 10, "items": 4 },
+      { "id": "listening", "titleAr": "الاستماع", "titleEn": "Listening", "score": 20, "minutes": 8, "items": 4 },
+      { "id": "grammar", "titleAr": "القواعد", "titleEn": "Grammar", "score": 20, "minutes": 8, "items": 5 },
+      { "id": "writing", "titleAr": "الكتابة", "titleEn": "Writing", "score": 10, "minutes": 12, "items": 1, "minimumToPass": 5 },
+      { "id": "speaking", "titleAr": "المحادثة الصوتية", "titleEn": "Speaking", "score": 10, "minutes": 5, "items": 1, "minimumToPass": 5 }
+    ],
+    "progressionRule": "Pass with at least 80/100 and at least 5/10 in both writing and speaking.",
+    "attemptPolicy": {
+      "maxListeningPlays": 2,
+      "autosave": true,
+      "showAnswersBeforeSubmit": false,
+      "unlimitedRetakes": true,
+      "keepBestScore": true,
+      "shuffleOptions": true,
+      "resumeInterruptedAttempt": true
+    }
+  },
+  "coverage": {
+    "vocabularyFamilies": ["تعلم", "علم", "درس", "عمل", "شارك", "خطط", "قرر", "اختار", "استعمل", "ساعد", "احتاج", "تواصل", "اهتم", "تغير", "تطور", "نجح"],
+    "grammar": ["أنْ + المضارع المنصوب", "حرف الجر + المصدر"],
+    "skills": ["recall", "understanding", "application", "reading", "listening", "writing", "speaking"]
+  },
+  "reading": {
+    "titleAr": "خطة مريم لتطوير مهاراتها",
+    "wordCount": 147,
+    "textAr": "تدرس مريم في معهد للغات، وهي مهتمة بتعلّم العربية من أجل عملها. في بداية الفصل قررت أن تطوّر مهارة الكلام، فخططت للدراسة مدة ثلاثة أشهر. اختارت موضوعًا جديدًا كل أسبوع، واستعملت تطبيقًا لتنظيم وقتها، وشاركت في نادٍ لغوي كل يوم سبت. كما تواصلت مع معلمتها عندما احتاجت إلى شرح كلمة أو قاعدة.\n\nبعد شهر تغيّر جدول عمل مريم، ولم تعد تستطيع الحضور في الصباح. لذلك اختارت أن تدرس في المساء بدلًا من ترك البرنامج. كانت الكتابة أصعب مهارة عندها، فساعدتها زميلتها على فهم الأخطاء وتنظيم الأفكار. وبفضل العمل المستمر، تطور مستواها تدريجيًا.\n\nفي نهاية الأشهر الثلاثة قدمت مريم عرضًا قصيرًا بالعربية أمام زملائها. تكلمت بوضوح وأجابت عن أسئلتهم، فشعرت أن خطتها نجحت. تقول مريم إن النجاح لا يحتاج إلى وقت طويل فقط، بل يحتاج أيضًا إلى تخطيط وتواصل ومشاركة. وتنصح كل متعلم بأن يختار هدفًا واضحًا، وأن يغير خطته إذا تغيرت ظروفه، من غير أن يترك التعلم.",
+    "releasePolicy": "Visible only during reading; no translation or dictionary overlay in exam mode."
+  },
+  "listening": {
+    "titleAr": "مراحل مشروع دراسي",
+    "audio": "audio/exam-listening-full.mp3",
+    "source": "New exam master assembled from six clean studio sentence masters from Lesson 1 vocabulary; it does not reuse the lesson listening recording.",
+    "speaker": "Arabic educational narrator",
+    "scriptAr": [
+      "يَهْتَمُّ يُوسُفُ بِتَارِيخِ المُدُنِ القَدِيمَةِ.",
+      "اِخْتَارَ الطَّالِبُ مَوْضُوعًا يُنَاسِبُ اهْتِمَامَهُ.",
+      "خَطَّطَ الفَرِيقُ لِإِنْهَاءِ العَمَلِ فِي أُسْبُوعٍ.",
+      "اِسْتَعْمَلْنَا تَطْبِيقًا لِتَنْظِيمِ المَوَاعِيدِ.",
+      "سَاعَدَنِي زَمِيلِي عَلَى فَهْمِ التَّمْرِينِ.",
+      "نَجَحَ الفَرِيقُ فِي تَنْفِيذِ خُطَّتِهِ."
+    ],
+    "policy": { "maxPlays": 2, "transcriptVisibleBeforeSubmit": false, "allowSeeking": false, "playbackSpeed": 1, "countPlayAfterPercent": 80 }
+  },
+  "writing": {
+    "promptAr": "اكتب بين 70 و90 كلمة عن خطة واقعية لتطوير مهارة تريد تعلمها. اذكر هدفك، والمدة، وما ستستعمله، ومن سيساعدك، وكيف ستعرف أنك نجحت. استعمل خمس كلمات من مفردات الدرس، وجملة فيها «أنْ + المضارع»، وتعبيرًا فيه «حرف جر + مصدر».",
+    "promptEn": "Write 70–90 Arabic words about a realistic plan to develop a skill you want to learn. State your goal, duration, resources, who will help you, and how you will know you succeeded. Use five Lesson 1 words, one an + present verb structure, and one preposition + verbal noun structure.",
+    "wordRange": { "minimum": 70, "maximum": 90 },
+    "acceptWithoutDiacritics": true,
+    "score": 10,
+    "rubric": [
+      { "id": "task", "max": 3, "labelAr": "إنجاز المهمة" },
+      { "id": "vocabulary", "max": 2, "labelAr": "مفردات الدرس" },
+      { "id": "grammar", "max": 2, "labelAr": "القاعدتان" },
+      { "id": "organization", "max": 2, "labelAr": "تنظيم الأفكار" },
+      { "id": "mechanics", "max": 1, "labelAr": "الإملاء والترقيم" }
+    ]
+  },
+  "speaking": {
+    "scenarioAr": "تخطط مع المحاور لنادٍ أسبوعي يساعد الطلاب على تطوير العربية. اختر هدفًا، واقترح نشاطين، وقسّم العمل، ثم عالج تغيرًا مفاجئًا في الموعد واتخذ قرارًا نهائيًا.",
+    "score": 10,
+    "durationMinutes": { "minimum": 3, "maximum": 5 },
+    "minimumLearnerTurns": 6,
+    "minimumVocabularyFamilies": 5,
+    "model": "gpt-realtime-2.1",
+    "transport": "WebRTC",
+    "voice": "marin",
+    "rubric": [
+      { "id": "task", "max": 3, "labelAr": "إنجاز المهمة" },
+      { "id": "vocabulary", "max": 2, "labelAr": "تفعيل المفردات" },
+      { "id": "grammar", "max": 2, "labelAr": "القاعدتان" },
+      { "id": "interaction", "max": 2, "labelAr": "التفاعل والترابط" },
+      { "id": "intelligibility", "max": 1, "labelAr": "وضوح الكلام", "note": "Do not deduct for a foreign accent if intelligible." }
+    ]
+  }
+}

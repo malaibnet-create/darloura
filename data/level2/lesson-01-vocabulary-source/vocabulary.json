@@ -1,0 +1,51 @@
+[
+  {
+    "id":"v01","root":"ع ل م","headwordAr":"تَعَلَّمَ","meaningEn":"to learn","partOfSpeech":"verb","icon":"GraduationCap","past":"تَعَلَّمَ","present":"يَتَعَلَّمُ","masdar":"تَعَلُّم","activeParticiple":"مُتَعَلِّم","passiveParticiple":null,"noteEn":"Form V: to acquire knowledge or a skill.","exampleAr":"تَعَلَّمَ سَامِي كَلِمَاتٍ جَدِيدَةً فِي الدَّرْسِ.","exampleEn":"Sami learned new words in the lesson.","familyAudio":"audio/family-v01.mp3","exampleAudio":"audio/example-v01.mp3"
+  },
+  {
+    "id":"v02","root":"ع ل م","headwordAr":"عَلَّمَ","meaningEn":"to teach","partOfSpeech":"verb","icon":"Presentation","past":"عَلَّمَ","present":"يُعَلِّمُ","masdar":"تَعْلِيم","activeParticiple":"مُعَلِّم","passiveParticiple":"مُعَلَّم","noteEn":"Form II: to cause someone to learn; to teach.","exampleAr":"عَلَّمَتِ الأُسْتَاذَةُ الطُّلَّابَ كَيْفَ يَكْتُبُونَ رِسَالَةً.","exampleEn":"The teacher taught the students how to write a letter.","familyAudio":"audio/family-v02.mp3","exampleAudio":"audio/example-v02.mp3"
+  },
+  {
+    "id":"v03","root":"د ر س","headwordAr":"دَرَسَ","meaningEn":"to study","partOfSpeech":"verb","icon":"BookOpen","past":"دَرَسَ","present":"يَدْرُسُ","masdar":"دِرَاسَة","activeParticiple":"دَارِس","passiveParticiple":"مَدْرُوس","noteEn":"The passive participle means studied or examined.","exampleAr":"دَرَسْنَا المَوْضُوعَ قَبْلَ أَنْ نُنَاقِشَهُ.","exampleEn":"We studied the topic before discussing it.","familyAudio":"audio/family-v03.mp3","exampleAudio":"audio/example-v03.mp3"
+  },
+  {
+    "id":"v04","root":"ع م ل","headwordAr":"عَمِلَ","meaningEn":"to work","partOfSpeech":"verb","icon":"BriefcaseBusiness","past":"عَمِلَ","present":"يَعْمَلُ","masdar":"عَمَل","activeParticiple":"عَامِل","passiveParticiple":"مَعْمُول","noteEn":"مَعْمُول often appears in phrases such as معمول به: in force or applied.","exampleAr":"عَمِلَتْ لَيْلَى مَعَ فَرِيقٍ صَغِيرٍ فِي المَشْرُوعِ.","exampleEn":"Layla worked with a small team on the project.","familyAudio":"audio/family-v04.mp3","exampleAudio":"audio/example-v04.mp3"
+  },
+  {
+    "id":"v05","root":"ش ر ك","headwordAr":"شَارَكَ","meaningEn":"to participate / share","partOfSpeech":"verb","icon":"Users","past":"شَارَكَ","present":"يُشَارِكُ","masdar":"مُشَارَكَة","activeParticiple":"مُشَارِك","passiveParticiple":null,"noteEn":"Usually followed by في for participating in something.","exampleAr":"شَارَكَ عُمَرُ فِي نَشَاطٍ ثَقَافِيٍّ بِالجَامِعَةِ.","exampleEn":"Omar participated in a cultural activity at the university.","familyAudio":"audio/family-v05.mp3","exampleAudio":"audio/example-v05.mp3"
+  },
+  {
+    "id":"v06","root":"خ ط ط","headwordAr":"خَطَّطَ","meaningEn":"to plan","partOfSpeech":"verb","icon":"ListChecks","past":"خَطَّطَ","present":"يُخَطِّطُ","masdar":"تَخْطِيط","activeParticiple":"مُخَطِّط","passiveParticiple":"مُخَطَّط","noteEn":"The active and passive participles differ through vowel marks.","exampleAr":"خَطَّطَ الفَرِيقُ لِإِنْهَاءِ العَمَلِ فِي أُسْبُوعٍ.","exampleEn":"The team planned to finish the work in one week.","familyAudio":"audio/family-v06.mp3","exampleAudio":"audio/example-v06.mp3"
+  },
+  {
+    "id":"v07","root":"ق ر ر","headwordAr":"قَرَّرَ","meaningEn":"to decide","partOfSpeech":"verb","icon":"BadgeCheck","past":"قَرَّرَ","present":"يُقَرِّرُ","masdar":"قَرَار","activeParticiple":"مُقَرِّر","passiveParticiple":"مُقَرَّر","noteEn":"قَرَار is a decision; مُقَرَّر can mean مقرر دراسي: a course.","exampleAr":"قَرَّرَتْ هِنْدٌ أَنْ تَتَعَلَّمَ مَهَارَةً جَدِيدَةً.","exampleEn":"Hind decided to learn a new skill.","familyAudio":"audio/family-v07.mp3","exampleAudio":"audio/example-v07.mp3"
+  },
+  {
+    "id":"v08","root":"خ ي ر","headwordAr":"اِخْتَارَ","meaningEn":"to choose","partOfSpeech":"verb","icon":"CircleCheckBig","past":"اِخْتَارَ","present":"يَخْتَارُ","masdar":"اِخْتِيَار","activeParticiple":"مُخْتَار","passiveParticiple":"مُخْتَار","noteEn":"The context tells whether مُختار means chooser/chosen; it can also be a name.","exampleAr":"اِخْتَارَ الطَّالِبُ مَوْضُوعًا يُنَاسِبُ اهْتِمَامَهُ.","exampleEn":"The student chose a topic that suited his interest.","familyAudio":"audio/family-v08.mp3","exampleAudio":"audio/example-v08.mp3"
+  },
+  {
+    "id":"v09","root":"ع م ل","headwordAr":"اِسْتَعْمَلَ","meaningEn":"to use","partOfSpeech":"verb","icon":"Wrench","past":"اِسْتَعْمَلَ","present":"يَسْتَعْمِلُ","masdar":"اِسْتِعْمَال","activeParticiple":"مُسْتَعْمِل","passiveParticiple":"مُسْتَعْمَل","noteEn":"مُستعمِل is the user; مُستعمَل is used or second-hand.","exampleAr":"اِسْتَعْمَلْنَا تَطْبِيقًا لِتَنْظِيمِ المَوَاعِيدِ.","exampleEn":"We used an application to organize appointments.","familyAudio":"audio/family-v09.mp3","exampleAudio":"audio/example-v09.mp3"
+  },
+  {
+    "id":"v10","root":"س ع د","headwordAr":"سَاعَدَ","meaningEn":"to help","partOfSpeech":"verb","icon":"HandHelping","past":"سَاعَدَ","present":"يُسَاعِدُ","masdar":"مُسَاعَدَة","activeParticiple":"مُسَاعِد","passiveParticiple":null,"noteEn":"The person helped usually follows directly: ساعدَ الطالبَ.","exampleAr":"سَاعَدَنِي زَمِيلِي عَلَى فَهْمِ التَّمْرِينِ.","exampleEn":"My colleague helped me understand the exercise.","familyAudio":"audio/family-v10.mp3","exampleAudio":"audio/example-v10.mp3"
+  },
+  {
+    "id":"v11","root":"ح و ج","headwordAr":"اِحْتَاجَ","meaningEn":"to need","partOfSpeech":"verb","icon":"CircleHelp","past":"اِحْتَاجَ","present":"يَحْتَاجُ","masdar":"اِحْتِيَاج","activeParticiple":"مُحْتَاج","passiveParticiple":null,"noteEn":"Use إلى after the verb: يحتاج إلى وقت.","exampleAr":"يَحْتَاجُ هَذَا العَمَلُ إِلَى وَقْتٍ وَتَخْطِيطٍ.","exampleEn":"This work needs time and planning.","familyAudio":"audio/family-v11.mp3","exampleAudio":"audio/example-v11.mp3"
+  },
+  {
+    "id":"v12","root":"و ص ل","headwordAr":"تَوَاصَلَ","meaningEn":"to communicate / stay in contact","partOfSpeech":"verb","icon":"MessagesSquare","past":"تَوَاصَلَ","present":"يَتَوَاصَلُ","masdar":"تَوَاصُل","activeParticiple":"مُتَوَاصِل","passiveParticiple":null,"noteEn":"Use مع for the person contacted.","exampleAr":"تَوَاصَلَتْ مَرْيَمُ مَعَ المُعَلِّمِ عَبْرَ البَرِيدِ الإِلِكْتُرُونِيِّ.","exampleEn":"Maryam contacted the teacher by email.","familyAudio":"audio/family-v12.mp3","exampleAudio":"audio/example-v12.mp3"
+  },
+  {
+    "id":"v13","root":"ه م م","headwordAr":"اِهْتَمَّ","meaningEn":"to be interested / care","partOfSpeech":"verb","icon":"HeartHandshake","past":"اِهْتَمَّ","present":"يَهْتَمُّ","masdar":"اِهْتِمَام","activeParticiple":"مُهْتَمّ","passiveParticiple":null,"noteEn":"Use بـ after the verb or participle: مهتمّ بالتاريخ.","exampleAr":"يَهْتَمُّ يُوسُفُ بِتَارِيخِ المُدُنِ القَدِيمَةِ.","exampleEn":"Youssef is interested in the history of ancient cities.","familyAudio":"audio/family-v13.mp3","exampleAudio":"audio/example-v13.mp3"
+  },
+  {
+    "id":"v14","root":"غ ي ر","headwordAr":"تَغَيَّرَ","meaningEn":"to change","partOfSpeech":"verb","icon":"RefreshCw","past":"تَغَيَّرَ","present":"يَتَغَيَّرُ","masdar":"تَغَيُّر","activeParticiple":"مُتَغَيِّر","passiveParticiple":null,"noteEn":"Intransitive: the thing itself changes.","exampleAr":"تَغَيَّرَ جَدْوَلُ الدُّرُوسِ بَعْدَ العُطْلَةِ.","exampleEn":"The class schedule changed after the holiday.","familyAudio":"audio/family-v14.mp3","exampleAudio":"audio/example-v14.mp3"
+  },
+  {
+    "id":"v15","root":"ط و ر","headwordAr":"تَطَوَّرَ","meaningEn":"to develop / improve","partOfSpeech":"verb","icon":"TrendingUp","past":"تَطَوَّرَ","present":"يَتَطَوَّرُ","masdar":"تَطَوُّر","activeParticiple":"مُتَطَوِّر","passiveParticiple":null,"noteEn":"Used for skills, technology, cities, and situations that develop.","exampleAr":"تَطَوَّرَ مُسْتَوَى الطَّالِبَةِ بِفَضْلِ المُرَاجَعَةِ اليَوْمِيَّةِ.","exampleEn":"The student's level improved thanks to daily review.","familyAudio":"audio/family-v15.mp3","exampleAudio":"audio/example-v15.mp3"
+  },
+  {
+    "id":"v16","root":"ن ج ح","headwordAr":"نَجَحَ","meaningEn":"to succeed / pass","partOfSpeech":"verb","icon":"Trophy","past":"نَجَحَ","present":"يَنْجَحُ","masdar":"نَجَاح","activeParticiple":"نَاجِح","passiveParticiple":null,"noteEn":"Use في with an exam, task, or field: نجح في الامتحان.","exampleAr":"نَجَحَ الفَرِيقُ فِي تَنْفِيذِ خُطَّتِهِ.","exampleEn":"The team succeeded in carrying out its plan.","familyAudio":"audio/family-v16.mp3","exampleAudio":"audio/example-v16.mp3"
+  }
+]
+

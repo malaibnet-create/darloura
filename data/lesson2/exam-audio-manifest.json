@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "lessonId": "lesson-02-exam",
+  "basePath": "/audio/lesson-02/exam/",
+  "clips": [
+    {
+      "id": "l2-exam-listening-01",
+      "file": "exam-listening-01.mp3",
+      "category": "listening",
+      "text": "مَرْيَمُ مُتَرْجِمَةٌ فِي مَرْكَزٍ بِمَكْنَاسَ. تَعْمَلُ فِي النَّهَارِ، وَهِيَ مَشْغُولَةٌ بِالْعَمَلِ الْيَوْمَ.",
+      "maxPlaysPerAttempt": 2,
+      "transcriptHiddenUntilAnswered": true
+    },
+    {
+      "id": "l2-exam-listening-02",
+      "file": "exam-listening-02.mp3",
+      "category": "listening",
+      "text": "نَحْنُ طُلَّابٌ جُدُدٌ. نَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ، وَنَدْرُسُ الْفُصْحَى. دَرْسُنَا غَدًا فِي الْمَسَاءِ.",
+      "maxPlaysPerAttempt": 2,
+      "transcriptHiddenUntilAnswered": true
+    },
+    {
+      "id": "l2-exam-speaking-model",
+      "file": "exam-speaking-model.mp3",
+      "category": "speaking-model",
+      "text": "أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا. دَرْسِي غَدًا فِي الْمَسَاءِ.",
+      "maxPlaysPerAttempt": null,
+      "transcriptHiddenUntilAnswered": false
+    }
+  ]
+}
+

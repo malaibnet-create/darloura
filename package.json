@@ -1,0 +1,50 @@
+{
+  "name": "arabicpath",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app components data lib scripts",
+    "lint:ai-tutor": "eslint app/ai-tutor app/api/ai-tutor lib/ai-tutor lib/conversation-realtime.mjs scripts/test-ai-tutor.mjs",
+    "typecheck": "tsc --noEmit --incremental false",
+    "test:ai-tutor": "node scripts/test-ai-tutor.mjs",
+    "test:conversation": "node scripts/test-conversation-realtime.mjs",
+    "test:user-storage": "node scripts/test-user-scoped-storage.mjs",
+    "test:exam-access": "node scripts/test-exam-access-rules.mjs",
+    "test:curriculum": "node scripts/test-curriculum-routes.mjs",
+    "test:audio-assets": "node scripts/test-audio-assets.mjs",
+    "test:a1-lesson2": "node scripts/test-a1-lesson2-learning-flow.mjs",
+    "test:auth-otp": "node scripts/test-auth-otp-flow.mjs",
+    "validate:conversation": "node scripts/validate-level3-conversation.mjs",
+    "test:level3-exam": "node scripts/test-level3-final-exam.mjs",
+    "validate:level3-exam": "node scripts/validate-level3-final-exam.mjs",
+    "validate:level2-vocabulary": "node scripts/validate-level2-vocabulary.mjs",
+    "validate:level2-reading": "node scripts/validate-level2-reading.mjs",
+    "test:level2-reading": "node scripts/test-level2-reading-runtime.mjs",
+    "validate:level2-listening": "node scripts/validate-level2-listening.mjs",
+    "test:level2-listening": "node scripts/test-level2-listening-runtime.mjs",
+    "test:level2-grammar": "node scripts/test-level2-grammar-runtime.mjs",
+    "validate:level2-grammar": "node scripts/validate-level2-grammar.mjs",
+    "validate:level2-conversation": "node scripts/validate-level2-conversation.mjs",
+    "test:level2-exam": "node scripts/test-level2-final-exam.mjs",
+    "validate:level2-exam": "node scripts/validate-level2-final-exam.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "next": "latest",
+    "openai": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.3",
+    "typescript": "latest"
+  }
+}

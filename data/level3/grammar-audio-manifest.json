@@ -1,0 +1,116 @@
+{
+  "lessonId": "level-03-lesson-01-grammar",
+  "items": [
+    {
+      "id": "lesson-intro",
+      "path": "audio/lesson-intro.mp3",
+      "role": "intro",
+      "textAr": "فِي هَذَا الدَّرْسِ نَتَعَلَّمُ ثَلَاثَ قَوَاعِدَ مُتَرَابِطَةً: مَوْقِعَ اسْمِ الإِشَارَةِ، وَتَصْرِيفَ الفِعْلِ الأَجْوَفِ، وَمَعَانِيَ «مَا» فِي التَّرَاكِيبِ الفِعْلِيَّةِ وَالظَّرْفِيَّةِ."
+    },
+    {
+      "id": "g01r01",
+      "path": "audio/g01-example-01.mp3",
+      "role": "example",
+      "moduleId": "g01",
+      "textAr": "هَذَا القَرَارُ مُهِمٌّ."
+    },
+    {
+      "id": "g01r02",
+      "path": "audio/g01-example-02.mp3",
+      "role": "example",
+      "moduleId": "g01",
+      "textAr": "قَرَارُنَا هَذَا مُهِمٌّ."
+    },
+    {
+      "id": "g01r03",
+      "path": "audio/g01-example-03.mp3",
+      "role": "example",
+      "moduleId": "g01",
+      "textAr": "خُطَّةُ الجَامِعَةِ هَذِهِ مُتَوَازِنَةٌ."
+    },
+    {
+      "id": "g01r04",
+      "path": "audio/g01-example-04.mp3",
+      "role": "example",
+      "moduleId": "g01",
+      "textAr": "نَاقَشْتُ الاقْتِرَاحَيْنِ هَذَيْنِ."
+    },
+    {
+      "id": "g02r01",
+      "path": "audio/g02-example-01.mp3",
+      "role": "example",
+      "moduleId": "g02",
+      "textAr": "قَالَ البَاحِثُ رَأْيَهُ، وَبَاعَ التَّاجِرُ بَضَاعَتَهُ."
+    },
+    {
+      "id": "g02r02",
+      "path": "audio/g02-example-02.mp3",
+      "role": "example",
+      "moduleId": "g02",
+      "textAr": "قُلْنَا الحَقِيقَةَ وَبِعْنَا المُنْتَجَ بِسِعْرٍ عَادِلٍ."
+    },
+    {
+      "id": "g02r03",
+      "path": "audio/g02-example-03.mp3",
+      "role": "example",
+      "moduleId": "g02",
+      "textAr": "يَقُولُ الخَبِيرُ إِنَّ السُّوقَ يَبِيعُ مُنْتَجَاتٍ مَحَلِّيَّةً."
+    },
+    {
+      "id": "g02r04",
+      "path": "audio/g02-example-04.mp3",
+      "role": "example",
+      "moduleId": "g02",
+      "textAr": "لَمْ يَقُلْ ذَلِكَ. قُلْ رَأْيَكَ بِوُضُوحٍ."
+    },
+    {
+      "id": "g02r05",
+      "path": "audio/g02-example-05.mp3",
+      "role": "example",
+      "moduleId": "g02",
+      "textAr": "المُتَحَدِّثُ قَائِلٌ الحَقَّ، وَالتَّاجِرُ بَائِعٌ مُنْصِفٌ."
+    },
+    {
+      "id": "g03r01",
+      "path": "audio/g03-example-01.mp3",
+      "role": "example",
+      "moduleId": "g03",
+      "textAr": "مَا غَيَّرَ الفَرِيقُ الخُطَّةَ قَبْلَ جَمْعِ البَيَانَاتِ."
+    },
+    {
+      "id": "g03r02",
+      "path": "audio/g03-example-02.mp3",
+      "role": "example",
+      "moduleId": "g03",
+      "textAr": "مَا يَعْتَمِدُ البَحْثُ الجَيِّدُ عَلَى رَأْيٍ وَاحِدٍ."
+    },
+    {
+      "id": "g03r03",
+      "path": "audio/g03-example-03.mp3",
+      "role": "example",
+      "moduleId": "g03",
+      "textAr": "رَاجَعْنَا القَرَارَ عِنْدَمَا ظَهَرَتْ بَيَانَاتٌ جَدِيدَةٌ، وَنَشَرْنَا النَّتِيجَةَ بَعْدَمَا تَأَكَّدْنَا مِنْهَا."
+    },
+    {
+      "id": "g03r04",
+      "path": "audio/g03-example-04.mp3",
+      "role": "example",
+      "moduleId": "g03",
+      "textAr": "كُلَّمَا اتَّسَعَ الحِوَارُ تَحَسَّنَ القَرَارُ، بَيْنَمَا كَانَ الفَرِيقُ يُرَاجِعُ التَّفَاصِيلَ."
+    },
+    {
+      "id": "g03r05",
+      "path": "audio/g03-example-05.mp3",
+      "role": "example",
+      "moduleId": "g03",
+      "textAr": "يُمْكِنُ تَعْدِيلُ الخُطَّةِ مَا دَامَ الحِوَارُ مَفْتُوحًا."
+    },
+    {
+      "id": "g03r06",
+      "path": "audio/g03-example-06.mp3",
+      "role": "example",
+      "moduleId": "g03",
+      "textAr": "مَا الَّذِي غَيَّرَ القَرَارَ؟ وَمَا غَيَّرَ الفَرِيقُ الخُطَّةَ قَبْلَ التَّشَاوُرِ."
+    }
+  ]
+}

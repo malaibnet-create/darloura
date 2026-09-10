@@ -1,0 +1,37 @@
+{
+  "lessonId":"level-03-lesson-01-phrases",
+  "instructionsAr":"أجب عن عشرين سؤالًا. تظهر التغذية الراجعة بعد كل إجابة، وتُضاف العبارات المرتبطة بأخطائك إلى قائمة المراجعة.",
+  "instructionsEn":"Answer twenty questions. Feedback appears after each answer, and expressions linked to errors are added to review.",
+  "questions":[
+    {"id":"q01","stage":"classification","type":"singleChoice","promptAr":"أي عبارة تُستعمل لتقديم شرط سلبي بمعنى unless؟","options":["طَالَمَا أَنَّ","مَا لَمْ","وَمِنْ ثَمَّ","بِالذَّاتِ"],"answer":1,"phraseIds":["p07"],"feedbackEn":"ما لم introduces a necessary condition and is equivalent to unless."},
+    {"id":"q02","stage":"classification","type":"singleChoice","promptAr":"أي عبارتين تنتميان إلى التخصيص والتوكيد؟","options":["بِالأَخَصِّ وبِالذَّاتِ","كَثِيرًا مَا ومَا لَمْ","وَمِنْ ثَمَّ ولَا سَبِيلَ إِلَى","اِرْتَكَبَ خَطَأً ومِمَّا"],"answer":0,"phraseIds":["p03","p04"],"feedbackEn":"بالأخص selects a notable member of a group; بالذات emphasizes one specific item."},
+    {"id":"q03","stage":"classification","type":"singleChoice","promptAr":"أي عبارة تدل على استحالة الوصول إلى نتيجة؟","options":["لَا سَبِيلَ إِلَى","كَثِيرًا مَا","عَلَى الأَخَصِّ","طَالَمَا أَنَّ"],"answer":0,"phraseIds":["p09"],"feedbackEn":"لا سبيل إلى means that no way or possibility exists."},
+
+    {"id":"q04","stage":"contextMeaning","type":"singleChoice","promptAr":"«تَمَادَى المُتَحَدِّثُ فِي المُقَاطَعَةِ إِلَى أَنْ تَوَقَّفَ الاجْتِمَاعُ». ماذا توحي كلمة تَمَادَى؟","options":["بدأ المقاطعة بهدوء","تجاوز الحد في المقاطعة","اعتذر عن المقاطعة","نسي موعد الاجتماع"],"answer":1,"phraseIds":["p02"],"feedbackEn":"تمادى suggests continuing too far, usually in a negative behaviour."},
+    {"id":"q05","stage":"contextMeaning","type":"singleChoice","promptAr":"«كَثِيرًا مَا تَتَغَيَّرُ القَرَارَاتُ بَعْدَ النِّقَاشِ». ما المعنى؟","options":["لا تتغير القرارات أبدًا","تتغير القرارات مرة واحدة","تتغير القرارات في مرات كثيرة","يجب أن تتغير القرارات الآن"],"answer":2,"phraseIds":["p08"],"feedbackEn":"كثيرًا ما expresses frequent occurrence: often."},
+    {"id":"q06","stage":"contextMeaning","type":"singleChoice","promptAr":"«قَبِلَ المَسْؤُولُ النَّقْدَ، مِمَّا خَفَّفَ الخِلَافَ». إلى ماذا تعود «مِمَّا»؟","options":["إلى المسؤول وحده","إلى النقد وحده","إلى قبول المسؤول للنقد كله","إلى الخلاف وحده"],"answer":2,"phraseIds":["p10"],"feedbackEn":"مما refers back to the whole preceding event, not just one noun."},
+
+    {"id":"q07","stage":"appropriateExpression","type":"singleChoice","promptAr":"نحتاج إلى دعم المرافق الثقافية، ______ المكتبات العامة.","options":["مَا لَمْ","بِالأَخَصِّ","وَمِنْ ثَمَّ","طَالَمَا أَنَّ"],"answer":1,"phraseIds":["p03"],"feedbackEn":"The sentence names libraries as a particularly important member of a broader group."},
+    {"id":"q08","stage":"appropriateExpression","type":"singleChoice","promptAr":"اخترنا هذا المبنى ______ لأنه قريب من السكان.","options":["بِالذَّاتِ","كَثِيرًا مَا","مِمَّا","مَا لَمْ"],"answer":0,"phraseIds":["p04"],"feedbackEn":"بالذات emphasizes this one specific building."},
+    {"id":"q09","stage":"appropriateExpression","type":"singleChoice","promptAr":"تغيّرت المعطيات، ______ أصبح تعديل القرار ضروريًّا.","options":["طَالَمَا أَنَّ","بِالأَخَصِّ","وَمِنْ ثَمَّ","مَا لَمْ"],"answer":2,"phraseIds":["p06"],"feedbackEn":"ومن ثم introduces a logical result in a new clause."},
+    {"id":"q10","stage":"appropriateExpression","type":"singleChoice","promptAr":"لن تتحسن الخدمات ______ تُخصَّصْ لها ميزانية كافية.","options":["بِالذَّاتِ","مَا لَمْ","كَثِيرًا مَا","وَمِنْ ثَمَّ"],"answer":1,"phraseIds":["p07"],"feedbackEn":"ما لم means unless and is followed by a jussive present verb."},
+
+    {"id":"q11","stage":"completion","type":"singleChoice","promptAr":"سنواصل الحوار ______ جميع الأطراف تحترم قواعده.","options":["طَالَمَا أَنَّ","لَا سَبِيلَ إِلَى","مِمَّا","بِالأَخَصِّ"],"answer":0,"phraseIds":["p05"],"feedbackEn":"طالما أن links the continuation of the dialogue to an ongoing condition."},
+    {"id":"q12","stage":"completion","type":"singleChoice","promptAr":"______ استعادة الثقة من دون شفافية.","options":["كَثِيرًا مَا","وَمِنْ ثَمَّ","لَا سَبِيلَ إِلَى","بِالذَّاتِ"],"answer":2,"phraseIds":["p09"],"feedbackEn":"لا سبيل إلى is followed by a noun or verbal noun: استعادة."},
+    {"id":"q13","stage":"completion","type":"singleChoice","promptAr":"نشر المجلس المعلومات كاملة، ______ ساعد السكان على فهم القرار.","options":["مِمَّا","مَا لَمْ","بِالأَخَصِّ","طَالَمَا أَنَّ"],"answer":0,"phraseIds":["p10"],"feedbackEn":"مما links the first event directly to its result within the same sentence."},
+    {"id":"q14","stage":"completion","type":"singleChoice","promptAr":"______ المؤسساتُ مراجعةَ قراراتها بعد ظهور معلومات جديدة.","options":["لَا سَبِيلَ إِلَى","كَثِيرًا مَا","بِالذَّاتِ","مَا لَمْ"],"answer":1,"phraseIds":["p08"],"feedbackEn":"كثيرًا ما + verb expresses that an event happens often."},
+
+    {"id":"q15","stage":"ordering","type":"reorder","promptAr":"رتّب الكلمات لتكوين جملة سليمة.","tokens":["الفريقُ","في","تمادى","الدفاعِ","القرارِ","عن","إلى أن ظهرت أخطاؤه"],"answer":["تمادى","الفريقُ","في","الدفاعِ","عن","القرارِ","إلى أن ظهرت أخطاؤه"],"phraseIds":["p02"],"feedbackEn":"Use تمادى + subject + في + verbal noun, followed by إلى أن + result."},
+    {"id":"q16","stage":"ordering","type":"reorder","promptAr":"رتّب الكلمات لتكوين جملة سليمة.","tokens":["المسؤولُ","خطأً","عندما","ارتكبَ","أهملَ","التقريرَ"],"answer":["ارتكبَ","المسؤولُ","خطأً","عندما","أهملَ","التقريرَ"],"phraseIds":["p01"],"feedbackEn":"ارتكب takes a direct object: ارتكب المسؤول خطأً."},
+
+    {"id":"q17","stage":"errorCorrection","type":"singleChoice","promptAr":"اختر الجملة الصحيحة.","options":["تمادى العضوُ على الرفضِ.","تمادى العضوُ في الرفضِ.","تمادى العضوُ بالرفضِ.","تمادى العضوُ من الرفضِ."],"answer":1,"phraseIds":["p02"],"feedbackEn":"The usual preposition after تمادى is في."},
+    {"id":"q18","stage":"errorCorrection","type":"singleChoice","promptAr":"اختر الجملة الصحيحة.","options":["لا سبيلَ أن نحلَّ المشكلةَ.","لا سبيلَ في حلِّ المشكلةِ.","لا سبيلَ إلى حلِّ المشكلةِ.","لا سبيلَ من حلِّ المشكلةِ."],"answer":2,"phraseIds":["p09"],"feedbackEn":"The fixed structure is لا سبيل إلى + noun or verbal noun."},
+
+    {"id":"q19","stage":"listening","type":"singleChoice","audio":"audio/listening-q19.mp3","promptAr":"استمع ثم اختر العبارة التي سمعتها.","options":["بِالذَّاتِ","بِالأَخَصِّ","وَمِنْ ثَمَّ","مَا لَمْ"],"answer":1,"phraseIds":["p03"],"transcriptAr":"يَحْتَاجُ الحَيُّ إِلَى مَرَافِقَ جَدِيدَةٍ، بِالأَخَصِّ مَرْكَزًا ثَقَافِيًّا لِلشَّبَابِ.","feedbackEn":"The speaker selects a cultural centre from the broader category of facilities."},
+    {"id":"q20","stage":"listening","type":"singleChoice","audio":"audio/listening-q20.mp3","promptAr":"استمع: ما العلاقة بين الجملتين؟","options":["تخصيص","شرط","نتيجة","تكرار"],"answer":2,"phraseIds":["p06"],"transcriptAr":"اعْتَرَفَ المَجْلِسُ بِالخَطَإِ، وَمِنْ ثَمَّ قَرَّرَ مُرَاجَعَةَ المَشْرُوعِ.","feedbackEn":"ومن ثم marks a logical result."}
+  ],
+  "guidedProduction":[
+    {"id":"gp01","mode":"writing","promptAr":"اكتب ثلاث جمل عن قرار تغيّر بعد نقاش. استعمل: ما لم، ومن ثم، ومما.","requiredPhraseIds":["p07","p06","p10"]},
+    {"id":"gp02","mode":"speaking","promptAr":"تحدّث مدة دقيقة عن خطأ تعلّمتَ منه. استعمل عبارتين على الأقل من الدرس.","requiredPhraseCount":2}
+  ]
+}

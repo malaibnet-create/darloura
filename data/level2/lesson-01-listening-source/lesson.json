@@ -1,0 +1,21 @@
+{
+  "id":"level-02-lesson-01-listening",
+  "level":"Lower-intermediate (A2+/B1-)",
+  "lesson":1,
+  "titleAr":"خُطَّةٌ لِوَرْشَةِ السَّبْتِ",
+  "titleEn":"A Plan for Saturday's Workshop",
+  "estimatedMinutes":45,
+  "direction":"rtl",
+  "openingImage":{"path":"images/listening-opening-workshop.png","altAr":"طالبان يخططان لورشة تعليمية في مركز ثقافي، وعلى الطاولة حواسيب وأجهزة لوحية.","altEn":"Two students planning an educational workshop in a cultural center, with laptops and tablets on the table.","credit":"AI-generated original educational image"},
+  "objectivesAr":["فهم موضوع حوار طبيعي وهدف المتحدثين.","استخراج الأعداد والتفاصيل وتسلسل القرارات.","استنتاج أسباب التغيير ومعايير النجاح.","فهم مفردات الدرس عند سماعها في سياق جديد.","تلخيص الخطة واقتراح حل لموقف مشابه."],
+  "objectivesEn":["Understand the topic and purpose of a natural dialogue.","Retrieve numbers, details, and the sequence of decisions.","Infer reasons for changes and criteria for success.","Understand lesson vocabulary in a new spoken context.","Summarize the plan and propose a solution to a similar situation."],
+  "flow":[
+    {"id":"before","titleAr":"قبل الاستماع","titleEn":"Before listening","minutes":6},
+    {"id":"gist","titleAr":"الاستماع الأول","titleEn":"First listening","minutes":8},
+    {"id":"details","titleAr":"الاستماع الثاني","titleEn":"Second listening","minutes":14},
+    {"id":"language","titleAr":"الاستماع الثالث","titleEn":"Third listening","minutes":9},
+    {"id":"after","titleAr":"بعد الاستماع","titleEn":"After listening","minutes":8}
+  ],
+  "policy":{"fullAudioMaxPlays":2,"segmentMaxPlays":2,"transcriptVisibleBeforeCompletion":false,"allowSeeking":false,"playbackSpeeds":[0.9,1],"pronunciationTraining":false,"autosave":true,"keepBestScore":true,"objectiveMasteryPercent":75}
+}
+

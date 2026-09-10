@@ -1,0 +1,235 @@
+{
+  "voiceLanguage": "ar",
+  "items": [
+    {
+      "id": "context-opening",
+      "file": "audio/context-opening.mp3",
+      "text": "اِرْتَكَبَ المَجْلِسُ المَحَلِّيُّ خَطَأً عِنْدَمَا أَعْلَنَ مَشْرُوعًا مِنْ دُونِ اسْتِشَارَةِ السُّكَّانِ. وَتَمَادَى بَعْضُ الأَعْضَاءِ فِي الدِّفَاعِ عَنِ القَرَارِ إِلَى أَنْ ظَهَرَتْ نَتَائِجُ دِرَاسَةٍ جَدِيدَةٍ. كَثِيرًا مَا تُخْفِقُ المَشَارِيعُ مَا لَمْ تُرَاعِ حَاجَاتِ النَّاسِ، وَبِالأَخَصِّ حَاجَاتِ الشَّبَابِ. لَا سَبِيلَ إِلَى اسْتِعَادَةِ الثِّقَةِ طَالَمَا أَنَّ المَجْلِسَ يَرْفُضُ الحِوَارَ. لِذَلِكَ اعْتَرَفَ الرَّئِيسُ بِالخَطَإِ، وَمِنْ ثَمَّ قَرَّرَ إِعَادَةَ دِرَاسَةِ المَشْرُوعِ، مِمَّا شَجَّعَ السُّكَّانَ عَلَى المُشَارَكَةِ مِنْ جَدِيدٍ.",
+      "type": "context"
+    },
+    {
+      "id": "phrase-p01",
+      "file": "audio/phrase-p01.mp3",
+      "text": "اِرْتَكَبَ خَطَأً",
+      "type": "phrase",
+      "phraseId": "p01"
+    },
+    {
+      "id": "example-p01e1",
+      "file": "audio/example-p01-01.mp3",
+      "text": "اِرْتَكَبَ المَسْؤُولُ خَطَأً عِنْدَمَا أَهْمَلَ رَأْيَ السُّكَّانِ.",
+      "type": "example",
+      "phraseId": "p01"
+    },
+    {
+      "id": "example-p01e2",
+      "file": "audio/example-p01-02.mp3",
+      "text": "لَا عَيْبَ فِي أَنْ نَعْتَرِفَ بِأَنَّنَا ارْتَكَبْنَا خَطَأً.",
+      "type": "example",
+      "phraseId": "p01"
+    },
+    {
+      "id": "phrase-p02",
+      "file": "audio/phrase-p02.mp3",
+      "text": "تَمَادَى فِي... إِلَى أَنْ...",
+      "type": "phrase",
+      "phraseId": "p02"
+    },
+    {
+      "id": "example-p02e1",
+      "file": "audio/example-p02-01.mp3",
+      "text": "تَمَادَى العُضْوُ فِي رَفْضِ الاقْتِرَاحِ إِلَى أَنْ خَسِرَ دَعْمَ زُمَلَائِهِ.",
+      "type": "example",
+      "phraseId": "p02"
+    },
+    {
+      "id": "example-p02e2",
+      "file": "audio/example-p02-02.mp3",
+      "text": "تَمَادَى المُتَحَدِّثُ فِي المُقَاطَعَةِ إِلَى أَنْ تَوَقَّفَ الاجْتِمَاعُ.",
+      "type": "example",
+      "phraseId": "p02"
+    },
+    {
+      "id": "phrase-p03",
+      "file": "audio/phrase-p03.mp3",
+      "text": "بِالأَخَصِّ / عَلَى الأَخَصِّ",
+      "type": "phrase",
+      "phraseId": "p03"
+    },
+    {
+      "id": "example-p03e1",
+      "file": "audio/example-p03-01.mp3",
+      "text": "يَحْتَاجُ الحَيُّ إِلَى مَرَافِقَ عَامَّةٍ، بِالأَخَصِّ مَكْتَبَةً لِلشَّبَابِ.",
+      "type": "example",
+      "phraseId": "p03"
+    },
+    {
+      "id": "example-p03e2",
+      "file": "audio/example-p03-02.mp3",
+      "text": "أُحِبُّ المَدَائِنَ التَّارِيخِيَّةَ، وَعَلَى الأَخَصِّ مَدِينَةَ وَلِيلِي.",
+      "type": "example",
+      "phraseId": "p03"
+    },
+    {
+      "id": "phrase-p04",
+      "file": "audio/phrase-p04.mp3",
+      "text": "بِالذَّاتِ",
+      "type": "phrase",
+      "phraseId": "p04"
+    },
+    {
+      "id": "example-p04e1",
+      "file": "audio/example-p04-01.mp3",
+      "text": "اخْتَرْنَا هَذَا المَوْقِعَ بِالذَّاتِ لِقُرْبِهِ مِنَ المَدْرَسَةِ.",
+      "type": "example",
+      "phraseId": "p04"
+    },
+    {
+      "id": "example-p04e2",
+      "file": "audio/example-p04-02.mp3",
+      "text": "لِمَاذَا اعْتَرَضْتَ عَلَى هَذِهِ النُّقْطَةِ بِالذَّاتِ؟",
+      "type": "example",
+      "phraseId": "p04"
+    },
+    {
+      "id": "phrase-p05",
+      "file": "audio/phrase-p05.mp3",
+      "text": "طَالَمَا أَنَّ...",
+      "type": "phrase",
+      "phraseId": "p05"
+    },
+    {
+      "id": "example-p05e1",
+      "file": "audio/example-p05-01.mp3",
+      "text": "سَنُوَاصِلُ المَشْرُوعَ طَالَمَا أَنَّ السُّكَّانَ يُؤَيِّدُونَهُ.",
+      "type": "example",
+      "phraseId": "p05"
+    },
+    {
+      "id": "example-p05e2",
+      "file": "audio/example-p05-02.mp3",
+      "text": "يُمْكِنُنَا الاخْتِلَافُ طَالَمَا أَنَّ الحِوَارَ يَبْقَى مُحْتَرَمًا.",
+      "type": "example",
+      "phraseId": "p05"
+    },
+    {
+      "id": "phrase-p06",
+      "file": "audio/phrase-p06.mp3",
+      "text": "وَمِنْ ثَمَّ...",
+      "type": "phrase",
+      "phraseId": "p06"
+    },
+    {
+      "id": "example-p06e1",
+      "file": "audio/example-p06-01.mp3",
+      "text": "تَغَيَّرَتْ حَاجَاتُ الحَيِّ، وَمِنْ ثَمَّ أَصْبَحَ تَعْدِيلُ الخُطَّةِ ضَرُورِيًّا.",
+      "type": "example",
+      "phraseId": "p06"
+    },
+    {
+      "id": "example-p06e2",
+      "file": "audio/example-p06-02.mp3",
+      "text": "اعْتَرَفَ الفَرِيقُ بِالخَطَإِ، وَمِنْ ثَمَّ بَدَأَ البَحْثَ عَنْ حَلٍّ.",
+      "type": "example",
+      "phraseId": "p06"
+    },
+    {
+      "id": "phrase-p07",
+      "file": "audio/phrase-p07.mp3",
+      "text": "مَا لَمْ...",
+      "type": "phrase",
+      "phraseId": "p07"
+    },
+    {
+      "id": "example-p07e1",
+      "file": "audio/example-p07-01.mp3",
+      "text": "لَنْ يَنْجَحَ القَرَارُ مَا لَمْ يُشَارِكِ السُّكَّانُ فِي صِيَاغَتِهِ.",
+      "type": "example",
+      "phraseId": "p07"
+    },
+    {
+      "id": "example-p07e2",
+      "file": "audio/example-p07-02.mp3",
+      "text": "لَا يُمْكِنُ حَلُّ الخِلَافِ مَا لَمْ يَسْتَمِعْ كُلُّ طَرَفٍ إِلَى الآخَرِ.",
+      "type": "example",
+      "phraseId": "p07"
+    },
+    {
+      "id": "phrase-p08",
+      "file": "audio/phrase-p08.mp3",
+      "text": "كَثِيرًا مَا...",
+      "type": "phrase",
+      "phraseId": "p08"
+    },
+    {
+      "id": "example-p08e1",
+      "file": "audio/example-p08-01.mp3",
+      "text": "كَثِيرًا مَا تَتَغَيَّرُ القَرَارَاتُ بَعْدَ نِقَاشٍ عَامٍّ.",
+      "type": "example",
+      "phraseId": "p08"
+    },
+    {
+      "id": "example-p08e2",
+      "file": "audio/example-p08-02.mp3",
+      "text": "كَثِيرًا مَا نَتَعَلَّمُ مِنْ أَخْطَائِنَا أَكْثَرَ مِمَّا نَتَعَلَّمُ مِنْ نَجَاحِنَا.",
+      "type": "example",
+      "phraseId": "p08"
+    },
+    {
+      "id": "phrase-p09",
+      "file": "audio/phrase-p09.mp3",
+      "text": "لَا سَبِيلَ إِلَى...",
+      "type": "phrase",
+      "phraseId": "p09"
+    },
+    {
+      "id": "example-p09e1",
+      "file": "audio/example-p09-01.mp3",
+      "text": "لَا سَبِيلَ إِلَى حَلِّ المُشْكِلَةِ مِنْ دُونِ حِوَارٍ صَرِيحٍ.",
+      "type": "example",
+      "phraseId": "p09"
+    },
+    {
+      "id": "example-p09e2",
+      "file": "audio/example-p09-02.mp3",
+      "text": "لَا سَبِيلَ إِلَى اسْتِعَادَةِ الثِّقَةِ بِالوُعُودِ وَحْدَهَا.",
+      "type": "example",
+      "phraseId": "p09"
+    },
+    {
+      "id": "phrase-p10",
+      "file": "audio/phrase-p10.mp3",
+      "text": "مِمَّا...",
+      "type": "phrase",
+      "phraseId": "p10"
+    },
+    {
+      "id": "example-p10e1",
+      "file": "audio/example-p10-01.mp3",
+      "text": "نَشَرَ المَجْلِسُ البَيَانَ مُبَكِّرًا، مِمَّا أَتَاحَ لِلسُّكَّانِ وَقْتًا لِدِرَاسَتِهِ.",
+      "type": "example",
+      "phraseId": "p10"
+    },
+    {
+      "id": "example-p10e2",
+      "file": "audio/example-p10-02.mp3",
+      "text": "قَبِلَ المَسْؤُولُ النَّقْدَ، مِمَّا خَفَّفَ حِدَّةَ الخِلَافِ.",
+      "type": "example",
+      "phraseId": "p10"
+    },
+    {
+      "id": "listening-q19",
+      "file": "audio/listening-q19.mp3",
+      "text": "يَحْتَاجُ الحَيُّ إِلَى مَرَافِقَ جَدِيدَةٍ، بِالأَخَصِّ مَرْكَزًا ثَقَافِيًّا لِلشَّبَابِ.",
+      "type": "listening",
+      "questionId": "q19"
+    },
+    {
+      "id": "listening-q20",
+      "file": "audio/listening-q20.mp3",
+      "text": "اعْتَرَفَ المَجْلِسُ بِالخَطَإِ، وَمِنْ ثَمَّ قَرَّرَ مُرَاجَعَةَ المَشْرُوعِ.",
+      "type": "listening",
+      "questionId": "q20"
+    }
+  ]
+}

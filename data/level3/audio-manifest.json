@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "lesson": "level-03-vocabulary-01",
+  "section": "vocabulary",
+  "language": "ar-MSA",
+  "publicBasePath": "/audio/level-03/vocabulary/lesson-01",
+  "voice": "Razan – Academic & Cultural Narration",
+  "recommendedSettings": {
+    "model": "Eleven Multilingual v2",
+    "speed": 0.88,
+    "stability": 0.61,
+    "similarity": 0.75,
+    "style": 0
+  },
+  "clipCount": 80,
+  "clips": {
+    "l3v01-word-v01": {
+      "file": "audio/word-v01.mp3",
+      "text": "اِعْتَرَفَ بِـ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v01",
+      "band": "active"
+    },
+    "l3v01-example-v01": {
+      "file": "audio/example-v01.mp3",
+      "text": "اِعْتَرَفَ الْمَسْؤُولُ بِالْخَطَإِ وَوَعَدَ بِتَصْحِيحِهِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v01",
+      "band": "active"
+    },
+    "l3v01-word-v02": {
+      "file": "audio/word-v02.mp3",
+      "text": "اِعْتَمَدَ عَلَى",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v02",
+      "band": "active"
+    },
+    "l3v01-example-v02": {
+      "file": "audio/example-v02.mp3",
+      "text": "اِعْتَمَدَ الْفَرِيقُ عَلَى بَيَانَاتٍ حَدِيثَةٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v02",
+      "band": "active"
+    },
+    "l3v01-word-v03": {
+      "file": "audio/word-v03.mp3",
+      "text": "دَعَا إِلَى",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v03",
+      "band": "active"
+    },
+    "l3v01-example-v03": {
+      "file": "audio/example-v03.mp3",
+      "text": "دَعَا رَئِيسُ الْجَمْعِيَّةِ إِلَى حِوَارٍ هَادِئٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v03",
+      "band": "active"
+    },
+    "l3v01-word-v04": {
+      "file": "audio/word-v04.mp3",
+      "text": "اِمْتَنَعَ عَنْ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v04",
+      "band": "active"
+    },
+    "l3v01-example-v04": {
+      "file": "audio/example-v04.mp3",
+      "text": "اِمْتَنَعَ الْمُتَحَدِّثُ عَنِ التَّعْلِيقِ قَبْلَ نِهَايَةِ الِاجْتِمَاعِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v04",
+      "band": "active"
+    },
+    "l3v01-word-v05": {
+      "file": "audio/word-v05.mp3",
+      "text": "حَرِصَ عَلَى",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v05",
+      "band": "active"
+    },
+    "l3v01-example-v05": {
+      "file": "audio/example-v05.mp3",
+      "text": "حَرِصَ الْمَجْلِسُ عَلَى سَمَاعِ جَمِيعِ الْآرَاءِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v05",
+      "band": "active"
+    },
+    "l3v01-word-v06": {
+      "file": "audio/word-v06.mp3",
+      "text": "أَشَارَ إِلَى",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v06",
+      "band": "active"
+    },
+    "l3v01-example-v06": {
+      "file": "audio/example-v06.mp3",
+      "text": "أَشَارَ التَّقْرِيرُ إِلَى نَقْصٍ فِي الْمَعْلُومَاتِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v06",
+      "band": "active"
+    },
+    "l3v01-word-v07": {
+      "file": "audio/word-v07.mp3",
+      "text": "تَعَامَلَ مَعَ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v07",
+      "band": "active"
+    },
+    "l3v01-example-v07": {
+      "file": "audio/example-v07.mp3",
+      "text": "تَعَامَلَ الْفَرِيقُ مَعَ الِاعْتِرَاضَاتِ بِجِدِّيَّةٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v07",
+      "band": "active"
+    },
+    "l3v01-word-v08": {
+      "file": "audio/word-v08.mp3",
+      "text": "أَعَادَ النَّظَرَ فِي",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v08",
+      "band": "active"
+    },
+    "l3v01-example-v08": {
+      "file": "audio/example-v08.mp3",
+      "text": "أَعَادَ الْمَجْلِسُ النَّظَرَ فِي خُطَّةِ تَهْيِئَةِ السَّاحَةِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v08",
+      "band": "active"
+    },
+    "l3v01-word-v09": {
+      "file": "audio/word-v09.mp3",
+      "text": "مُفَاوَضَاتٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v09",
+      "band": "active"
+    },
+    "l3v01-example-v09": {
+      "file": "audio/example-v09.mp3",
+      "text": "اِسْتَمَرَّتِ الْمُفَاوَضَاتُ سَاعَتَيْنِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v09",
+      "band": "active"
+    },
+    "l3v01-word-v10": {
+      "file": "audio/word-v10.mp3",
+      "text": "تَوَتُّرٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v10",
+      "band": "active"
+    },
+    "l3v01-example-v10": {
+      "file": "audio/example-v10.mp3",
+      "text": "سَاعَدَ الْحِوَارُ عَلَى تَخْفِيفِ التَّوَتُّرِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v10",
+      "band": "active"
+    },
+    "l3v01-word-v11": {
+      "file": "audio/word-v11.mp3",
+      "text": "تَأْثِيرٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v11",
+      "band": "active"
+    },
+    "l3v01-example-v11": {
+      "file": "audio/example-v11.mp3",
+      "text": "كَانَ لِلْقَرَارِ تَأْثِيرٌ وَاضِحٌ فِي حَيَاةِ السُّكَّانِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v11",
+      "band": "active"
+    },
+    "l3v01-word-v12": {
+      "file": "audio/word-v12.mp3",
+      "text": "تَوَقُّعَاتٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v12",
+      "band": "active"
+    },
+    "l3v01-example-v12": {
+      "file": "audio/example-v12.mp3",
+      "text": "ارْتَفَعَتِ التَّوَقُّعَاتُ بَعْدَ نَجَاحِ الِاجْتِمَاعِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v12",
+      "band": "active"
+    },
+    "l3v01-word-v13": {
+      "file": "audio/word-v13.mp3",
+      "text": "اِحْتِمَالٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v13",
+      "band": "active"
+    },
+    "l3v01-example-v13": {
+      "file": "audio/example-v13.mp3",
+      "text": "هُنَاكَ اِحْتِمَالٌ لِعَقْدِ اجْتِمَاعٍ ثَانٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v13",
+      "band": "active"
+    },
+    "l3v01-word-v14": {
+      "file": "audio/word-v14.mp3",
+      "text": "إِيجَابِيٌّ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v14",
+      "band": "active"
+    },
+    "l3v01-example-v14": {
+      "file": "audio/example-v14.mp3",
+      "text": "تَلَقَّى السُّكَّانُ الْخَبَرَ بِشَكْلٍ إِيجَابِيٍّ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v14",
+      "band": "active"
+    },
+    "l3v01-word-v15": {
+      "file": "audio/word-v15.mp3",
+      "text": "عَقْلَانِيٌّ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v15",
+      "band": "active"
+    },
+    "l3v01-example-v15": {
+      "file": "audio/example-v15.mp3",
+      "text": "بَحَثَ الْمُشَارِكُونَ عَنْ حَلٍّ عَقْلَانِيٍّ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v15",
+      "band": "active"
+    },
+    "l3v01-word-v16": {
+      "file": "audio/word-v16.mp3",
+      "text": "مَعْقُولٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v16",
+      "band": "active"
+    },
+    "l3v01-example-v16": {
+      "file": "audio/example-v16.mp3",
+      "text": "قَدَّمَتِ الْجَمْعِيَّةُ اِقْتِرَاحًا مَعْقُولًا.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v16",
+      "band": "active"
+    },
+    "l3v01-word-v17": {
+      "file": "audio/word-v17.mp3",
+      "text": "مَوْضُوعِيٌّ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v17",
+      "band": "active"
+    },
+    "l3v01-example-v17": {
+      "file": "audio/example-v17.mp3",
+      "text": "يَحْتَاجُ الْقَرَارُ إِلَى تَحْلِيلٍ مَوْضُوعِيٍّ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v17",
+      "band": "active"
+    },
+    "l3v01-word-v18": {
+      "file": "audio/word-v18.mp3",
+      "text": "شَرْعِيَّةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v18",
+      "band": "active"
+    },
+    "l3v01-example-v18": {
+      "file": "audio/example-v18.mp3",
+      "text": "نَاقَشَ الْحَاضِرُونَ شَرْعِيَّةَ الْقَرَارِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v18",
+      "band": "active"
+    },
+    "l3v01-word-v19": {
+      "file": "audio/word-v19.mp3",
+      "text": "مَبْدَأٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v19",
+      "band": "active"
+    },
+    "l3v01-example-v19": {
+      "file": "audio/example-v19.mp3",
+      "text": "تَقُومُ الْخُطَّةُ عَلَى مَبْدَأِ الْمُشَارَكَةِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v19",
+      "band": "active"
+    },
+    "l3v01-word-v20": {
+      "file": "audio/word-v20.mp3",
+      "text": "مَفْهُومٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v20",
+      "band": "active"
+    },
+    "l3v01-example-v20": {
+      "file": "audio/example-v20.mp3",
+      "text": "شَرَحَ الْأُسْتَاذُ مَفْهُومَ الْمَسْؤُولِيَّةِ الْعَامَّةِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v20",
+      "band": "active"
+    },
+    "l3v01-word-v21": {
+      "file": "audio/word-v21.mp3",
+      "text": "أَثْبَتَ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v21",
+      "band": "active"
+    },
+    "l3v01-example-v21": {
+      "file": "audio/example-v21.mp3",
+      "text": "أَثْبَتَتِ الْوَثَائِقُ أَنَّ الْمَعْلُومَاتِ قَدِيمَةٌ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v21",
+      "band": "active"
+    },
+    "l3v01-word-v22": {
+      "file": "audio/word-v22.mp3",
+      "text": "تَبَنَّى",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v22",
+      "band": "active"
+    },
+    "l3v01-example-v22": {
+      "file": "audio/example-v22.mp3",
+      "text": "تَبَنَّى الْمَجْلِسُ حَلًّا اقْتَرَحَهُ السُّكَّانُ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v22",
+      "band": "active"
+    },
+    "l3v01-word-v23": {
+      "file": "audio/word-v23.mp3",
+      "text": "بَذَلَ جُهْدًا",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v23",
+      "band": "active"
+    },
+    "l3v01-example-v23": {
+      "file": "audio/example-v23.mp3",
+      "text": "بَذَلَ الْوُسَطَاءُ جُهْدًا لِتَقْرِيبِ وُجُهَاتِ النَّظَرِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v23",
+      "band": "active"
+    },
+    "l3v01-word-v24": {
+      "file": "audio/word-v24.mp3",
+      "text": "إِطَارٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v24",
+      "band": "active"
+    },
+    "l3v01-example-v24": {
+      "file": "audio/example-v24.mp3",
+      "text": "جَرَى النِّقَاشُ فِي إِطَارِ الْقَانُونِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v24",
+      "band": "active"
+    },
+    "l3v01-word-v25": {
+      "file": "audio/word-v25.mp3",
+      "text": "دَلَالَةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v25",
+      "band": "receptive"
+    },
+    "l3v01-example-v25": {
+      "file": "audio/example-v25.mp3",
+      "text": "لِهٰذَا التَّغْيِيرِ دَلَالَةٌ مُهِمَّةٌ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v25",
+      "band": "receptive"
+    },
+    "l3v01-word-v26": {
+      "file": "audio/word-v26.mp3",
+      "text": "بَرِيءٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v26",
+      "band": "receptive"
+    },
+    "l3v01-example-v26": {
+      "file": "audio/example-v26.mp3",
+      "text": "لَا يَجِبُ اتِّهَامُ شَخْصٍ بَرِيءٍ دُونَ دَلِيلٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v26",
+      "band": "receptive"
+    },
+    "l3v01-word-v27": {
+      "file": "audio/word-v27.mp3",
+      "text": "الْبَشَرِيَّةُ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v27",
+      "band": "receptive"
+    },
+    "l3v01-example-v27": {
+      "file": "audio/example-v27.mp3",
+      "text": "تَعَلَّمَتِ الْبَشَرِيَّةُ مِنْ أَخْطَاءٍ كَثِيرَةٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v27",
+      "band": "receptive"
+    },
+    "l3v01-word-v28": {
+      "file": "audio/word-v28.mp3",
+      "text": "اِسْتِثْنَاءٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v28",
+      "band": "receptive"
+    },
+    "l3v01-example-v28": {
+      "file": "audio/example-v28.mp3",
+      "text": "تُطَبَّقُ الْقَاعِدَةُ عَلَى الْجَمِيعِ دُونَ اسْتِثْنَاءٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v28",
+      "band": "receptive"
+    },
+    "l3v01-word-v29": {
+      "file": "audio/word-v29.mp3",
+      "text": "حَرِيصٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v29",
+      "band": "receptive"
+    },
+    "l3v01-example-v29": {
+      "file": "audio/example-v29.mp3",
+      "text": "كَانَ الْمُيَسِّرُ حَرِيصًا عَلَى اسْتِمْرَارِ الْحِوَارِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v29",
+      "band": "receptive"
+    },
+    "l3v01-word-v30": {
+      "file": "audio/word-v30.mp3",
+      "text": "شَامِلٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v30",
+      "band": "receptive"
+    },
+    "l3v01-example-v30": {
+      "file": "audio/example-v30.mp3",
+      "text": "أَعَدَّتِ اللَّجْنَةُ تَقْرِيرًا شَامِلًا.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v30",
+      "band": "receptive"
+    },
+    "l3v01-word-v31": {
+      "file": "audio/word-v31.mp3",
+      "text": "مُصْطَلَحٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v31",
+      "band": "receptive"
+    },
+    "l3v01-example-v31": {
+      "file": "audio/example-v31.mp3",
+      "text": "شَرَحَ الْخَبِيرُ الْمُصْطَلَحَ الْقَانُونِيَّ بِبَسَاطَةٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v31",
+      "band": "receptive"
+    },
+    "l3v01-word-v32": {
+      "file": "audio/word-v32.mp3",
+      "text": "أَغْلَبِيَّةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v32",
+      "band": "receptive"
+    },
+    "l3v01-example-v32": {
+      "file": "audio/example-v32.mp3",
+      "text": "وَافَقَتْ أَغْلَبِيَّةُ الْأَعْضَاءِ عَلَى الِاقْتِرَاحِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v32",
+      "band": "receptive"
+    },
+    "l3v01-word-v33": {
+      "file": "audio/word-v33.mp3",
+      "text": "مُفَارَقَةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v33",
+      "band": "receptive"
+    },
+    "l3v01-example-v33": {
+      "file": "audio/example-v33.mp3",
+      "text": "مِنَ الْمُفَارَقَةِ أَنَّ الْقَرَارَ زَادَ الْمُشْكِلَةَ الَّتِي أَرَادَ حَلَّهَا.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v33",
+      "band": "receptive"
+    },
+    "l3v01-word-v34": {
+      "file": "audio/word-v34.mp3",
+      "text": "نَظَرِيَّةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v34",
+      "band": "receptive"
+    },
+    "l3v01-example-v34": {
+      "file": "audio/example-v34.mp3",
+      "text": "قَارَنَ الْبَاحِثُ بَيْنَ النَّظَرِيَّةِ وَالْوَاقِعِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v34",
+      "band": "receptive"
+    },
+    "l3v01-word-v35": {
+      "file": "audio/word-v35.mp3",
+      "text": "دُسْتُورِيَّةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v35",
+      "band": "receptive"
+    },
+    "l3v01-example-v35": {
+      "file": "audio/example-v35.mp3",
+      "text": "دَرَسَ الْخُبَرَاءُ دُسْتُورِيَّةَ الْإِجْرَاءِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v35",
+      "band": "receptive"
+    },
+    "l3v01-word-v36": {
+      "file": "audio/word-v36.mp3",
+      "text": "اِدَّعَى",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v36",
+      "band": "receptive"
+    },
+    "l3v01-example-v36": {
+      "file": "audio/example-v36.mp3",
+      "text": "اِدَّعَى الْمَقَالُ أَنَّ الْقَرَارَ نِهَائِيٌّ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v36",
+      "band": "receptive"
+    },
+    "l3v01-word-v37": {
+      "file": "audio/word-v37.mp3",
+      "text": "رِسَالَةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v37",
+      "band": "receptive"
+    },
+    "l3v01-example-v37": {
+      "file": "audio/example-v37.mp3",
+      "text": "وَجَّهَ الْمَسْؤُولُ رِسَالَةً إِلَى السُّكَّانِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v37",
+      "band": "receptive"
+    },
+    "l3v01-word-v38": {
+      "file": "audio/word-v38.mp3",
+      "text": "مُتَطَرِّفٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v38",
+      "band": "receptive"
+    },
+    "l3v01-example-v38": {
+      "file": "audio/example-v38.mp3",
+      "text": "رَفَضَ الْمُشَارِكُونَ كُلَّ مَوْقِفٍ مُتَطَرِّفٍ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v38",
+      "band": "receptive"
+    },
+    "l3v01-word-v39": {
+      "file": "audio/word-v39.mp3",
+      "text": "نُخْبَةٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v39",
+      "band": "receptive"
+    },
+    "l3v01-example-v39": {
+      "file": "audio/example-v39.mp3",
+      "text": "شَارَكَتْ نُخْبَةٌ ثَقَافِيَّةٌ فِي النِّقَاشِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v39",
+      "band": "receptive"
+    },
+    "l3v01-word-v40": {
+      "file": "audio/word-v40.mp3",
+      "text": "قَمْعٌ",
+      "usage": "vocabulary-word",
+      "vocabularyId": "v40",
+      "band": "receptive"
+    },
+    "l3v01-example-v40": {
+      "file": "audio/example-v40.mp3",
+      "text": "أَكَّدَ التَّقْرِيرُ أَهَمِّيَّةَ الْحِوَارِ وَرَفْضَ الْقَمْعِ.",
+      "usage": "vocabulary-example",
+      "vocabularyId": "v40",
+      "band": "receptive"
+    }
+  }
+}

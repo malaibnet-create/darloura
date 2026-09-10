@@ -1,0 +1,22 @@
+{
+  "id":"level-02-lesson-01-grammar",
+  "level":"Lower-intermediate (A2+/B1-)",
+  "lesson":1,
+  "titleAr":"مِنَ الفِعْلِ إِلَى المَصْدَرِ",
+  "titleEn":"From the Verb to the Verbal Noun",
+  "estimatedMinutes":50,
+  "direction":"rtl",
+  "rules":["an_plus_present","preposition_plus_masdar"],
+  "objectivesAr":["بناء جملة صحيحة باستعمال «أَنْ + المضارع».","تغيير نهاية المضارع بعد «أَنْ» في الصيغ المستهدفة.","حذف النون من الأفعال الخمسة بعد «أَنْ».","استعمال المصدر بعد حروف الجر الشائعة.","اختيار حرف الجر المناسب مع مفردات الدرس."],
+  "objectivesEn":["Build a correct sentence with an + present verb.","Change the present verb ending after an in the target forms.","Drop the final nun from the Five Verbs after an.","Use a verbal noun after common prepositions.","Choose the correct preposition with Lesson 1 vocabulary."],
+  "flow":[
+    {"id":"notice","titleAr":"لاحظ","titleEn":"Notice","minutes":6},
+    {"id":"rule1","titleAr":"أَنْ + المضارع","titleEn":"an + present verb","minutes":14},
+    {"id":"rule2","titleAr":"حرف الجر + المصدر","titleEn":"Preposition + verbal noun","minutes":14},
+    {"id":"mixed","titleAr":"استعمل القاعدتين","titleEn":"Use both patterns","minutes":12},
+    {"id":"exit","titleAr":"تذكرة الخروج","titleEn":"Exit ticket","minutes":4}
+  ],
+  "mastery":{"overallPercent":75,"rule1Percent":70,"rule2Percent":70,"productionRequired":true,"keepBestScore":true},
+  "ui":{"bilingualExplanation":true,"arabicExamplesWithTashkeel":true,"audioSpeedOptions":[0.85,1],"mobileFirst":true,"useLucideIcons":true}
+}
+

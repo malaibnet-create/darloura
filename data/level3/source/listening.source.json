@@ -1,0 +1,117 @@
+{
+  "lesson": {
+    "id": "level-03-lesson-01-listening",
+    "titleAr": "الاستماع: قرار لم يكن سهلًا",
+    "titleEn": "Listening: A decision that was not easy",
+    "level": "Upper-intermediate / Lower-advanced",
+    "estimatedMinutes": 30,
+    "audioTargetMinutes": "2:30–3:00",
+    "totalScore": 20,
+    "masteryScore": 16,
+    "targetPhrases": ["اِرْتَكَبَ خَطَأً", "ذَهَبَ إِلَى حَدِّ أَنْ", "بِالأَخَصِّ", "بِالذَّاتِ", "طَالَمَا أَنَّ", "وَمِنْ ثَمَّ", "مَا لَمْ", "كَثِيرًا مَا", "لَا سَبِيلَ إِلَى", "مِمَّا"]
+  },
+  "scenario": {
+    "type": "studentTeacherDialogue",
+    "settingAr": "حوار بين طالب أجنبي وأستاذته بعد مشروع جامعي عن حماية مدينة تاريخية وتنظيم زيارة الزوار إليها.",
+    "speakers": [
+      {"id":"maryam","nameAr":"الأُسْتَاذَةُ مَرْيَمُ","roleAr":"أستاذة مادة التراث العمراني","roleEn":"Professor","voice":"female"},
+      {"id":"daniel","nameAr":"دَانِيَالُ","roleAr":"طالب أجنبي في فريق المشروع","roleEn":"International student","voice":"male"}
+    ],
+    "fullAudio": "audio/listening-full.mp3"
+  },
+  "preListening": {
+    "imagePromptAr": "طالب جامعي وأستاذته يناقشان مخططًا لمدينة تاريخية، وعلى الطاولة خريطة وصور لمبانٍ تراثية ومسار للزوار.",
+    "keywords": [
+      {"ar":"مَسَارُ الزِّيَارَةِ","en":"visitor route"},
+      {"ar":"التُّرَاثُ العُمْرَانِيُّ","en":"architectural heritage"},
+      {"ar":"بَيَانَاتٌ مَيْدَانِيَّةٌ","en":"field data"}
+    ],
+    "activities": [
+      {"id":"pre01","type":"prediction","promptAr":"انظر إلى الصورة والكلمات الثلاث. عمَّ سيتحدث المتكلمان؟","promptEn":"What do you think the speakers will discuss?"},
+      {"id":"pre02","type":"singleChoice","promptAr":"ما المشكلة المحتملة في مشروع عن مدينة تاريخية؟","options":["عدم التوازن بين حاجات السكان والزوار","عدم وجود أي مبانٍ في المدينة","رفض الجامعة لجميع المشاريع"],"answer":0},
+      {"id":"pre03","type":"prediction","promptAr":"من صاحب القرار الأصعب في رأيك: الطالب أم الأستاذة؟ ولماذا؟","promptEn":"Who faced the difficult decision, and why?"}
+    ]
+  },
+  "sections": [
+    {
+      "id":"s01","titleAr":"الخطأ في المشروع","audio":"audio/listening-section-01.mp3",
+      "turns":[
+        {"id":"t01","speakerId":"maryam","textAr":"دَانِيَالُ، قَرَأْتُ النُّسْخَةَ النِّهَائِيَّةَ مِنْ مَشْرُوعِكُمْ عَنْ تَنْظِيمِ مَسَارِ الزِّيَارَةِ فِي المَدِينَةِ التَّارِيخِيَّةِ. الخُطَّةُ طَمُوحَةٌ، لَكِنَّنِي لَاحَظْتُ أَنَّكَ غَيَّرْتَ جُزْءًا أَسَاسِيًّا مِنْ دُونِ مُوَافَقَةِ الفَرِيقِ. مَاذَا حَدَثَ؟","displayAr":"دانيال، قرأت النسخة النهائية من مشروعكم عن تنظيم مسار الزيارة في المدينة التاريخية. الخطة طموحة، لكنني لاحظت أنك غيّرت جزءًا أساسيًا من دون موافقة الفريق. ماذا حدث؟"},
+        {"id":"t02","speakerId":"daniel","textAr":"نَعَمْ، اِرْتَكَبْتُ خَطَأً. كُنْتُ أَظُنُّ أَنَّ تَسْهِيلَ حَرَكَةِ الزُّوَّارِ هُوَ الهَدَفُ الأَهَمُّ، فَحَذَفْتُ بَعْضَ المَعْلُومَاتِ عَنْ حَاجَاتِ السُّكَّانِ، بِالأَخَصِّ أَصْحَابِ المَحَلَّاتِ الصَّغِيرَةِ. وَلَمْ أُخْبِرْ زُمَلَائِي قَبْلَ إِرْسَالِ النُّسْخَةِ.","displayAr":"نعم، ارتكبت خطأً. كنت أظن أن تسهيل حركة الزوار هو الهدف الأهم، فحذفت بعض المعلومات عن حاجات السكان، بالأخص أصحاب المحلات الصغيرة. ولم أخبر زملائي قبل إرسال النسخة."},
+        {"id":"t03","speakerId":"maryam","textAr":"لِمَاذَا اخْتَرْتَ مَسَارَ السَّاحَةِ القَدِيمَةِ بِالذَّاتِ، مَعَ أَنَّ البَيَانَاتِ الأُولَى كَانَتْ تُظْهِرُ أَنَّهُ سَيُعَطِّلُ عَمَلَ بَعْضِ التُّجَّارِ؟","displayAr":"لماذا اخترت مسار الساحة القديمة بالذات، مع أن البيانات الأولى كانت تُظهر أنه سيعطل عمل بعض التجار؟"}
+      ]
+    },
+    {
+      "id":"s02","titleAr":"الدفاع عن القرار","audio":"audio/listening-section-02.mp3",
+      "turns":[
+        {"id":"t04","speakerId":"daniel","textAr":"بَدَا لِي أَنَّهُ أَقْصَرُ مَسَارٍ وَأَكْثَرُهُ جَذْبًا لِلزُّوَّارِ. وَذَهَبْتُ إِلَى حَدِّ أَنْ عَدَّلْتُ الخَرِيطَةَ وَحْدِي، ثُمَّ دَافَعْتُ عَنْ قَرَارِي فِي اجْتِمَاعِ الفَرِيقِ. كُنْتُ أَرَى الأَرْقَامَ، وَلَكِنَّنِي لَمْ أَرَ الأَشْخَاصَ الَّذِينَ سَيَتَأَثَّرُونَ بِهَا.","displayAr":"بدا لي أنه أقصر مسار وأكثره جذبًا للزوار. وذهبت إلى حد أن عدّلت الخريطة وحدي، ثم دافعت عن قراري في اجتماع الفريق. كنت أرى الأرقام، ولكنني لم أر الأشخاص الذين سيتأثرون بها."},
+        {"id":"t05","speakerId":"maryam","textAr":"هَذِهِ مُشْكِلَةٌ مُهِمَّةٌ فِي التَّخْطِيطِ. كَثِيرًا مَا يَرَى البَاحِثُ المَكَانَ مِنْ خِلَالِ الأَرْقَامِ فَقَطْ، فَيَنْسَى أَنَّ القَرَارَ يُغَيِّرُ حَيَاةَ أُنَاسٍ حَقِيقِيِّينَ. مَتَى بَدَأْتَ تُرَاجِعُ مَوْقِفَكَ؟","displayAr":"هذه مشكلة مهمة في التخطيط. كثيرًا ما يرى الباحث المكان من خلال الأرقام فقط، فينسى أن القرار يغير حياة أناس حقيقيين. متى بدأت تراجع موقفك؟"},
+        {"id":"t06","speakerId":"daniel","textAr":"بَعْدَ الزِّيَارَةِ المَيْدَانِيَّةِ الثَّانِيَةِ. تَحَدَّثْنَا مَعَ سُكَّانِ الحَيِّ، وَعَلَى الأَخَصِّ مَعَ امْرَأَةٍ تُدِيرُ مَتْجَرًا وَرِثَتْهُ عَنْ أُسْرَتِهَا. شَرَحَتْ لَنَا أَنَّ إِغْلَاقَ الطَّرِيقِ سَيَمْنَعُ المُوَرِّدِينَ مِنَ الوُصُولِ إِلَيْهَا.","displayAr":"بعد الزيارة الميدانية الثانية. تحدثنا مع سكان الحي، وعلى الأخص مع امرأة تدير متجرًا ورثته عن أسرتها. شرحت لنا أن إغلاق الطريق سيمنع الموردين من الوصول إليها."}
+      ]
+    },
+    {
+      "id":"s03","titleAr":"قرار المراجعة","audio":"audio/listening-section-03.mp3",
+      "turns":[
+        {"id":"t07","speakerId":"maryam","textAr":"إِذَنْ، مَاذَا قَرَّرْتَ بَعْدَ هَذِهِ المُقَابَلَاتِ؟ هَلْ كَانَ مِنَ السَّهْلِ أَنْ تَعْتَرِفَ لِلفَرِيقِ بِأَنَّ القَرَارَ لَمْ يَكُنْ مُنَاسِبًا؟","displayAr":"إذن، ماذا قررت بعد هذه المقابلات؟ هل كان من السهل أن تعترف للفريق بأن القرار لم يكن مناسبًا؟"},
+        {"id":"t08","speakerId":"daniel","textAr":"لَمْ يَكُنْ سَهْلًا، لَكِنَّنِي أَدْرَكْتُ أَنَّهُ لَا سَبِيلَ إِلَى إِنْجَاحِ المَشْرُوعِ مَا لَمْ نُوَازِنْ بَيْنَ حِمَايَةِ التُّرَاثِ وَحَاجَاتِ السُّكَّانِ. اعْتَذَرْتُ لِزُمَلَائِي، وَأَعَدْتُ المَعْلُومَاتِ الَّتِي حَذَفْتُهَا، وَطَلَبْتُ مِنْهُمْ أَنْ نُعِيدَ دِرَاسَةَ المَسَارِ.","displayAr":"لم يكن سهلًا، لكنني أدركت أنه لا سبيل إلى إنجاح المشروع ما لم نوازن بين حماية التراث وحاجات السكان. اعتذرت لزملائي، وأعدت المعلومات التي حذفتها، وطلبت منهم أن نعيد دراسة المسار."},
+        {"id":"t09","speakerId":"maryam","textAr":"هَذَا قَرَارٌ نَاضِجٌ. يُمْكِنُكُمْ تَعْدِيلُ الخُطَّةِ طَالَمَا أَنَّكُمْ تَسْتَعْمِلُونَ البَيَانَاتِ بِمَوْضُوعِيَّةٍ، وَتَسْتَمِعُونَ إِلَى جَمِيعِ الأَطْرَافِ، وَلَا تَعُدُّونَ المُرَاجَعَةَ نَوْعًا مِنَ الفَشَلِ.","displayAr":"هذا قرار ناضج. يمكنكم تعديل الخطة طالما أنكم تستعملون البيانات بموضوعية، وتستمعون إلى جميع الأطراف، ولا تعدّون المراجعة نوعًا من الفشل."}
+      ]
+    },
+    {
+      "id":"s04","titleAr":"النتيجة وما تعلّمه الطالب","audio":"audio/listening-section-04.mp3",
+      "turns":[
+        {"id":"t10","speakerId":"daniel","textAr":"وَهَذَا مَا فَعَلْنَاهُ. قَارَنَّا ثَلَاثَةَ مَسَارَاتٍ، وَاخْتَرْنَا مَسَارًا أَطْوَلَ قَلِيلًا، لَكِنَّهُ يُبْقِي الطَّرِيقَ مَفْتُوحًا لِلسُّكَّانِ وَيُعَرِّفُ الزُّوَّارَ بِمَوَاقِعَ تَارِيخِيَّةٍ أَكْثَرَ. وَمِنْ ثَمَّ أَعَدْنَا تَوْزِيعَ مَهَامِّ الفَرِيقِ.","displayAr":"وهذا ما فعلناه. قارنا ثلاثة مسارات، واخترنا مسارًا أطول قليلًا، لكنه يبقي الطريق مفتوحًا للسكان ويعرّف الزوار بمواقع تاريخية أكثر. ومن ثم أعدنا توزيع مهام الفريق."},
+        {"id":"t11","speakerId":"maryam","textAr":"وَكَيْفَ أَثَّرَ التَّعْدِيلُ فِي النُّسْخَةِ النِّهَائِيَّةِ وَفِي عِلَاقَتِكَ بِزُمَلَائِكَ؟","displayAr":"وكيف أثّر التعديل في النسخة النهائية وفي علاقتك بزملائك؟"},
+        {"id":"t12","speakerId":"daniel","textAr":"أَصْبَحَتِ الخُطَّةُ أَكْثَرَ وَاقِعِيَّةً، مِمَّا رَفَعَ تَقْيِيمَ المَشْرُوعِ. وَاسْتَعَدْتُ ثِقَةَ الفَرِيقِ؛ لِأَنَّنِي لَمْ أَكْتَفِ بِالاعْتِذَارِ، بَلْ صَحَّحْتُ الخَطَأَ. تَعَلَّمْتُ أَنَّ القَرَارَ الشُّجَاعَ لَيْسَ دَائِمًا أَنْ نَتَمَسَّكَ بِرَأْيِنَا، بَلْ قَدْ يَكُونُ أَنْ نُرَاجِعَهُ فِي الوَقْتِ المُنَاسِبِ.","displayAr":"أصبحت الخطة أكثر واقعية، مما رفع تقييم المشروع. واستعدت ثقة الفريق؛ لأنني لم أكتفِ بالاعتذار، بل صححت الخطأ. تعلمت أن القرار الشجاع ليس دائمًا أن نتمسك برأينا، بل قد يكون أن نراجعه في الوقت المناسب."}
+      ]
+    }
+  ],
+  "phraseNoticing": [
+    {"id":"pn01","phraseId":"p01","phraseAr":"اِرْتَكَبَ خَطَأً","audio":"audio/expression-p01.mp3","promptAr":"ماذا اعترف دانيال؟","options":["أنه قام بفعل غير صحيح","أنه أنهى المشروع وحده بنجاح","أنه لم يشارك في المشروع"],"answer":0},
+    {"id":"pn02","phraseId":"p02","phraseAr":"ذَهَبَ إِلَى حَدِّ أَنْ","audio":"audio/expression-p02.mp3","promptAr":"ما وظيفة العبارة في كلام دانيال؟","options":["بيان أن تصرفه تجاوز الحد المتوقع","تحديد مكان الخريطة","التعبير عن شرط إيجابي"],"answer":0},
+    {"id":"pn03","phraseId":"p03","phraseAr":"بِالأَخَصِّ / عَلَى الأَخَصِّ","audio":"audio/expression-p03.mp3","promptAr":"مَن خصّه دانيال بالذكر؟","options":["أصحاب المحلات الصغيرة","جميع السياح","أساتذة الجامعة"],"answer":0},
+    {"id":"pn04","phraseId":"p04","phraseAr":"بِالذَّاتِ","audio":"audio/expression-p04.mp3","promptAr":"ماذا حدّدت الأستاذة بهذه العبارة؟","options":["مسار الساحة القديمة تحديدًا","كل المسارات عمومًا","موعد الزيارة"],"answer":0},
+    {"id":"pn05","phraseId":"p05","phraseAr":"طَالَمَا أَنَّ","audio":"audio/expression-p05.mp3","promptAr":"ما العلاقة التي تقدمها العبارة؟","options":["استمرار الإمكان مع استمرار الشرط","استحالة التعديل","تكرار الخطأ"],"answer":0},
+    {"id":"pn06","phraseId":"p06","phraseAr":"وَمِنْ ثَمَّ","audio":"audio/expression-p06.mp3","promptAr":"ماذا قدّمت العبارة؟","options":["نتيجة منطقية لما سبق","استثناءً من القاعدة","سببًا قديمًا"],"answer":0},
+    {"id":"pn07","phraseId":"p07","phraseAr":"مَا لَمْ","audio":"audio/expression-p07.mp3","promptAr":"ماذا تعني العبارة في السياق؟","options":["إلا إذا تحقق التوازن","بعد تحقق التوازن","لأن التوازن تحقق"],"answer":0},
+    {"id":"pn08","phraseId":"p08","phraseAr":"كَثِيرًا مَا","audio":"audio/expression-p08.mp3","promptAr":"ماذا تفيد العبارة؟","options":["تكرار حدوث الأمر","حدوثه مرة واحدة","عدم حدوثه"],"answer":0},
+    {"id":"pn09","phraseId":"p09","phraseAr":"لَا سَبِيلَ إِلَى","audio":"audio/expression-p09.mp3","promptAr":"ماذا تفيد العبارة؟","options":["نفي إمكان النجاح دون الشرط","سهولة النجاح دائمًا","تأجيل المشروع"],"answer":0},
+    {"id":"pn10","phraseId":"p10","phraseAr":"مِمَّا","audio":"audio/expression-p10.mp3","promptAr":"إلى ماذا تعود «مما»؟","options":["إلى تحسن الخطة وما نتج عنه من ارتفاع التقييم","إلى اسم دانيال","إلى سؤال الأستاذة فقط"],"answer":0}
+  ],
+  "questions": [
+    {"id":"q01","phase":"gist","type":"singleChoice","promptAr":"ما موضوع الحوار الرئيس؟","options":["مراجعة خطأ في مشروع جامعي","التسجيل في جامعة جديدة","زيارة مدينة للسياحة فقط"],"answer":0,"points":1,"sectionIds":["s01","s02","s03","s04"],"feedbackEn":"The dialogue is about correcting a mistake in a university project."},
+    {"id":"q02","phase":"gist","type":"singleChoice","promptAr":"من المتحدثان؟","options":["طالب أجنبي وأستاذته","سائح ومرشدة سياحية","تاجران في المدينة"],"answer":0,"points":1,"sectionIds":["s01"],"feedbackEn":"Daniel is an international student and Maryam is his professor."},
+    {"id":"q03","phase":"gist","type":"singleChoice","promptAr":"ما المشكلة الرئيسة؟","options":["غيّر دانيال الخطة دون موافقة فريقه","رفض الفريق إعداد أي خريطة","ألغت الأستاذة المشروع"],"answer":0,"points":1,"sectionIds":["s01"],"feedbackEn":"Daniel changed an important part without consulting his team."},
+    {"id":"q04","phase":"gist","type":"singleChoice","promptAr":"ما النتيجة العامة؟","options":["تمسك دانيال بقراره","راجع الفريق الخطة وحسّنها","توقف المشروع نهائيًا"],"answer":1,"points":1,"sectionIds":["s04"],"feedbackEn":"The team revised the plan and improved it."},
+    {"id":"q05","phase":"detail","type":"singleChoice","promptAr":"ما المعلومات التي حذفها دانيال؟","options":["حاجات السكان وأصحاب المحلات","أسماء أعضاء الفريق","صور المباني الحديثة"],"answer":0,"points":1,"sectionIds":["s01"],"feedbackEn":"He removed information about residents' needs."},
+    {"id":"q06","phase":"detail","type":"singleChoice","promptAr":"لماذا اختار دانيال مسار الساحة القديمة؟","options":["لأنه الأقصر والأكثر جذبًا للزوار","لأن السكان طلبوه","لأنه لا يمر بأي موقع تاريخي"],"answer":0,"points":1,"sectionIds":["s02"],"feedbackEn":"He believed it was shorter and more attractive."},
+    {"id":"q07","phase":"detail","type":"trueFalse","promptAr":"أخبر دانيال فريقه قبل تعديل الخريطة وإرسالها.","answer":false,"points":1,"sectionIds":["s01","s02"],"feedbackEn":"He changed it alone without telling the team first."},
+    {"id":"q08","phase":"detail","type":"singleChoice","promptAr":"متى بدأ دانيال يراجع موقفه؟","options":["بعد الزيارة الميدانية الثانية","قبل بدء المشروع","بعد إعلان النتيجة النهائية"],"answer":0,"points":1,"sectionIds":["s02"],"feedbackEn":"The second field visit changed his view."},
+    {"id":"q09","phase":"detail","type":"singleChoice","promptAr":"ما المشكلة التي شرحتها صاحبة المتجر؟","options":["إغلاق الطريق سيمنع الموردين من الوصول","الزوار لا يحبون الساحة","المتجر يحتاج إلى اسم جديد"],"answer":0,"points":1,"sectionIds":["s02"],"feedbackEn":"Closing the road would block suppliers."},
+    {"id":"q10","phase":"detail","type":"ordering","promptAr":"رتّب ما فعله دانيال بعد أن أدرك خطأه.","options":["طلب إعادة دراسة المسار","اعتذر للفريق","أعاد المعلومات المحذوفة"],"answer":[1,2,0],"points":1,"sectionIds":["s03"],"feedbackEn":"He apologized, restored the data, then asked to reconsider the route."},
+    {"id":"q11","phase":"detail","type":"singleChoice","promptAr":"ما الشرط الضروري لنجاح المشروع؟","options":["التوازن بين حماية التراث وحاجات السكان","اختيار أقصر طريق دائمًا","إهمال رأي أصحاب المحلات"],"answer":0,"points":1,"sectionIds":["s03"],"feedbackEn":"The plan must balance heritage and residents' needs."},
+    {"id":"q12","phase":"detail","type":"singleChoice","promptAr":"ما المسار الذي اختاره الفريق في النهاية؟","options":["مسار أطول يبقي الطريق مفتوحًا","المسار القصير نفسه دون تعديل","مسار لا يمر بالمواقع التاريخية"],"answer":0,"points":1,"sectionIds":["s04"],"feedbackEn":"They chose a slightly longer and more balanced route."},
+    {"id":"q13","phase":"detail","type":"speakerMatch","promptAr":"من قال إن المراجعة ليست نوعًا من الفشل؟","options":["الأستاذة مريم","دانيال"],"answer":0,"points":1,"sectionIds":["s03"],"feedbackEn":"Professor Maryam said it."},
+    {"id":"q14","phase":"detail","type":"singleChoice","promptAr":"كيف استعاد دانيال ثقة فريقه؟","options":["صحح الخطأ ولم يكتفِ بالاعتذار","دافع عن رأيه بقوة أكبر","حذف بقية البيانات"],"answer":0,"points":1,"sectionIds":["s04"],"feedbackEn":"He corrected the mistake instead of only apologizing."},
+    {"id":"q15","phase":"language","type":"singleChoice","promptAr":"ماذا تفيد «بالذات» في سؤال الأستاذة؟","options":["تحديد مسار الساحة القديمة دون غيره","التعبير عن التكرار","عرض نتيجة"],"answer":0,"points":1,"phraseIds":["p04"],"sectionIds":["s01"],"feedbackEn":"بالذات specifies this particular route."},
+    {"id":"q16","phase":"language","type":"singleChoice","promptAr":"ماذا تفيد «كثيرًا ما»؟","options":["وقوع الأمر مرارًا","وجود شرط","استحالة الفعل"],"answer":0,"points":1,"phraseIds":["p08"],"sectionIds":["s02"],"feedbackEn":"كثيرًا ما means often."},
+    {"id":"q17","phase":"language","type":"phraseGap","promptAr":"أكمل ما سمعت: «لا سبيل إلى إنجاح المشروع ___ نوازن بين حماية التراث وحاجات السكان». ","options":["ما لم","ومن ثم","بالذات"],"answer":0,"points":1,"phraseIds":["p07","p09"],"sectionIds":["s03"],"feedbackEn":"ما لم introduces the necessary condition."},
+    {"id":"q18","phase":"language","type":"singleChoice","promptAr":"أي عبارة قدّمت إعادة توزيع مهام الفريق بوصفها نتيجة؟","options":["ومن ثم","بالأخص","طالما أن"],"answer":0,"points":1,"phraseIds":["p06"],"sectionIds":["s04"],"feedbackEn":"ومن ثم introduces a logical result."},
+    {"id":"q19","phase":"inference","type":"singleChoice","promptAr":"ما التغير الأهم في تفكير دانيال؟","options":["انتقل من التركيز على الأرقام إلى مراعاة الناس أيضًا","أصبح يرفض البيانات الميدانية","قرر العمل وحده دائمًا"],"answer":0,"points":1,"sectionIds":["s02","s03"],"feedbackEn":"He learned to connect data with people's lives."},
+    {"id":"q20","phase":"inference","type":"singleChoice","promptAr":"ما الرسالة الأهم في نهاية الحوار؟","options":["الشجاعة قد تكون في مراجعة الرأي وتصحيح الخطأ","يجب التمسك بكل قرار سابق","نجاح المشروع يعتمد على الطريق الأقصر"],"answer":0,"points":1,"sectionIds":["s04"],"feedbackEn":"Courage can mean revising a decision and correcting it."}
+  ],
+  "postListening": [
+    {"id":"post01","type":"summary","promptAr":"لخّص الحوار في ثلاث جمل: الخطأ، وسبب المراجعة، والنتيجة."},
+    {"id":"post02","type":"phraseTransfer","promptAr":"اختر العبارة الأنسب لموقف جديد، ثم اكتب جملة بها.","targetPhraseCount":2},
+    {"id":"post03","type":"speaking","promptAr":"تحدث لمدة دقيقة عن قرار راجعته بعد ظهور معلومات جديدة، واستعمل عبارتين من الدرس.","recordingRequired":false},
+    {"id":"post04","type":"writing","promptAr":"اكتب فقرة من 80 إلى 100 كلمة تشرح كيف يصحح فريق قرارًا غير مناسب، مستعملًا ثلاث عبارات من الدرس.","minimumTargetPhrases":3}
+  ],
+  "supportModes": [
+    {"id":"authentic","labelAr":"الوضع الحقيقي","features":["صوت فقط","لا نص","سرعة طبيعية"]},
+    {"id":"assisted","labelAr":"الوضع المساعد","features":["الصورة","الكلمات المفتاحية الثلاث"]},
+    {"id":"review","labelAr":"وضع المراجعة","features":["النص الكامل بعد إنهاء الأسئلة","تمييز العبارات"]},
+    {"id":"advanced","labelAr":"الوضع المتقدم","features":["سرعة طبيعية","أسئلة الاستنتاج"]},
+    {"id":"training","labelAr":"الوضع التدريبي","features":["إعادة المقاطع","سرعة تشغيل 0.9"]}
+  ],
+  "revealPolicy": {"showTranscriptAfter":"gradedCompletion","allowReplay":true,"maxRecommendedFullReplays":2,"sectionReplayAfterGist":true,"showEnglishTranslation":false}
+}
