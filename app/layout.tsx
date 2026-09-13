@@ -38,8 +38,8 @@ import './learning-system.css';
 import './learning-fixes.css';
 
 export const metadata: Metadata = {
-  title: 'ArabicPath — تعلّم العربية بوضوح',
-  description: 'منصة عربية للتعلم الذاتي والتدرب مع المدرس الذكي',
+  title: 'DarLugha — Learn Arabic Clearly',
+  description: 'Structured Arabic learning with guided practice and an AI tutor.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

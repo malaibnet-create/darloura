@@ -26,6 +26,7 @@ export default function ResetPasswordPage() {
   const [confirmed, setConfirmed] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const [messageKind, setMessageKind] = useState<'error' | 'success'>('error');
   const [resendIn, setResendIn] = useState(0);
 
   useEffect(() => {
@@ -46,8 +47,12 @@ export default function ResetPasswordPage() {
   async function verify(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (requestInFlight.current || !isEmailOtpReady(token)) return;
+
     requestInFlight.current = true;
-    setLoading(true); setMessage('');
+    setLoading(true);
+    setMessage('');
+    setMessageKind('error');
+
     try {
       const { error } = await createClient().auth.verifyOtp({
         email: normalizeEmail(email),
@@ -55,12 +60,12 @@ export default function ResetPasswordPage() {
         type: 'recovery',
       });
       if (error) {
-        setMessage(authRequestErrorMessage(error, 'الرمز غير صحيح أو انتهت صلاحيته. اطلب رمزًا جديدًا وحاول مرة أخرى.'));
+        setMessage(authRequestErrorMessage(error, 'The recovery code is incorrect or has expired. Request a new code and try again.'));
         return;
       }
       setConfirmed(true);
     } catch {
-      setMessage('تعذر الاتصال بخدمة التحقق. تحقق من الإنترنت وحاول مرة أخرى.');
+      setMessage('We could not connect to the verification service. Check your internet connection and try again.');
     } finally {
       requestInFlight.current = false;
       setLoading(false);
@@ -70,23 +75,36 @@ export default function ResetPasswordPage() {
   async function savePassword(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (requestInFlight.current) return;
-    if (password !== passwordConfirmation) {
-      setMessage('كلمتا المرور غير متطابقتين.');
+    if (password.length < 6) {
+      setMessageKind('error');
+      setMessage('Your password must contain at least 6 characters.');
       return;
     }
+    if (password !== passwordConfirmation) {
+      setMessageKind('error');
+      setMessage('The passwords do not match.');
+      return;
+    }
+
     requestInFlight.current = true;
-    setLoading(true); setMessage('');
+    setLoading(true);
+    setMessage('');
+    setMessageKind('error');
+
     try {
-      const { error } = await createClient().auth.updateUser({ password });
+      const supabase = createClient();
+      const { error } = await supabase.auth.updateUser({ password });
       if (error) {
-        setMessage('تعذر تغيير كلمة المرور. تأكد من أنها تحتوي على 6 أحرف على الأقل.');
+        setMessage('We could not change your password. Make sure it contains at least 6 characters.');
         return;
       }
+
+      await supabase.auth.signOut();
       window.sessionStorage.removeItem('darlugha-pending-recovery-email');
       window.sessionStorage.removeItem(RECOVERY_UNTIL_KEY);
       router.replace('/login?password=updated');
     } catch {
-      setMessage('تعذر الاتصال بالخادم. حاول مرة أخرى.');
+      setMessage('We could not connect to the account service. Please try again.');
     } finally {
       requestInFlight.current = false;
       setLoading(false);
@@ -95,30 +113,89 @@ export default function ResetPasswordPage() {
 
   async function resend() {
     if (!email || resendIn > 0 || loading || requestInFlight.current) return;
+
     requestInFlight.current = true;
     setLoading(true);
     setMessage('');
+    setMessageKind('error');
+
     try {
       const normalizedEmail = normalizeEmail(email);
       const { error } = await createClient().auth.resetPasswordForEmail(normalizedEmail, {
         redirectTo: `${window.location.origin}/reset-password`,
       });
       if (error) {
-        setMessage(authRequestErrorMessage(error, 'تعذر إرسال رمز جديد.'));
+        setMessage(authRequestErrorMessage(error, 'We could not send a new recovery code. Please try again.'));
         return;
       }
+
       const resendUntil = Date.now() + AUTH_REQUEST_COOLDOWN_SECONDS * 1000;
       window.sessionStorage.setItem('darlugha-pending-recovery-email', normalizedEmail);
       window.sessionStorage.setItem(RECOVERY_UNTIL_KEY, String(resendUntil));
+      setToken('');
       setResendIn(AUTH_REQUEST_COOLDOWN_SECONDS);
-      setMessage('أرسلنا رمز استعادة جديدًا إلى بريدك الإلكتروني.');
+      setMessageKind('success');
+      setMessage('A new recovery code has been sent to your email address.');
     } catch {
-      setMessage('تعذر الاتصال بخدمة البريد الآن. حاول مرة أخرى.');
+      setMessage('We could not connect to the email service. Please try again.');
     } finally {
       requestInFlight.current = false;
       setLoading(false);
     }
   }
 
-  return <main className="shell"><section className="auth-page"><div className="eyebrow">استعادة آمنة</div><h1>{confirmed ? 'اختر كلمة مرور جديدة' : 'أدخل رمز الاستعادة'}</h1>{!confirmed ? <><p>أدخل رمز الاستعادة المكوّن من {EMAIL_OTP_LENGTH} أرقام.</p><form onSubmit={verify}><input type="email" dir="ltr" aria-label="البريد الإلكتروني" placeholder="البريد الإلكتروني" value={email} onChange={event => setEmail(normalizeEmail(event.target.value))} required /><input aria-label="رمز الاستعادة" inputMode="numeric" autoComplete="one-time-code" maxLength={EMAIL_OTP_LENGTH} placeholder="000000" value={token} onChange={event => setToken(normalizeEmailOtp(event.target.value))} required /><button className="button" disabled={loading || !isEmailOtpReady(token)}>{loading ? 'جارٍ التحقق...' : 'تحقق من الرمز'}</button>{message && <p role="alert">{message}</p>}</form><button className="review-button" type="button" disabled={resendIn > 0 || loading} onClick={resend}>{resendIn > 0 ? `إعادة الإرسال بعد ${resendIn} ثانية` : 'إرسال رمز جديد'}</button><Link className="link" href="/forgot-password">استخدام بريد آخر</Link></> : <form onSubmit={savePassword}><input type="password" minLength={6} autoComplete="new-password" aria-label="كلمة المرور الجديدة" placeholder="كلمة المرور الجديدة" value={password} onChange={event => setPassword(event.target.value)} required /><input type="password" minLength={6} autoComplete="new-password" aria-label="تأكيد كلمة المرور الجديدة" placeholder="أعد كتابة كلمة المرور الجديدة" value={passwordConfirmation} onChange={event => setPasswordConfirmation(event.target.value)} required /><button className="button" disabled={loading || password.length < 6 || password !== passwordConfirmation}>{loading ? 'جارٍ الحفظ...' : 'حفظ كلمة المرور'}</button>{message && <p role="alert">{message}</p>}</form>}</section></main>;
+  return (
+    <main className="shell" lang="en" dir="ltr">
+      <section className="auth-page auth-ltr">
+        <div className="eyebrow">SECURE ACCOUNT RECOVERY</div>
+        <h1>{confirmed ? 'Choose a new password' : 'Enter your recovery code'}</h1>
+        {!confirmed ? (
+          <>
+            <p id="recovery-code-help">Enter the complete {EMAIL_OTP_LENGTH}-digit code sent to your email address.</p>
+            <form onSubmit={verify}>
+              <label>
+                Email address
+                <input type="email" dir="ltr" autoComplete="email" placeholder="you@example.com" value={email} onChange={(event) => setEmail(normalizeEmail(event.target.value))} required />
+              </label>
+              <label>
+                Recovery code
+                <input
+                  className="auth-code"
+                  aria-describedby="recovery-code-help"
+                  inputMode="numeric"
+                  autoComplete="one-time-code"
+                  minLength={EMAIL_OTP_LENGTH}
+                  maxLength={EMAIL_OTP_LENGTH}
+                  pattern={`[0-9]{${EMAIL_OTP_LENGTH}}`}
+                  placeholder={'0'.repeat(EMAIL_OTP_LENGTH)}
+                  value={token}
+                  onChange={(event) => setToken(normalizeEmailOtp(event.target.value))}
+                  required
+                />
+              </label>
+              <button className="button" type="submit" disabled={loading || !isEmailOtpReady(token)}>{loading ? 'Verifying…' : 'Verify code'}</button>
+              {message && <p className={messageKind === 'success' ? 'auth-success' : 'auth-error'} role={messageKind === 'success' ? 'status' : 'alert'}>{message}</p>}
+            </form>
+            <button className="review-button" type="button" disabled={resendIn > 0 || loading} onClick={resend}>
+              {resendIn > 0 ? `Send a new code in ${resendIn}s` : 'Send a new code'}
+            </button>
+            <Link className="link back-link" href="/forgot-password">Use a different email address</Link>
+          </>
+        ) : (
+          <form onSubmit={savePassword}>
+            <label>
+              New password
+              <input type="password" dir="ltr" minLength={6} autoComplete="new-password" placeholder="At least 6 characters" value={password} onChange={(event) => setPassword(event.target.value)} required />
+            </label>
+            <label>
+              Confirm new password
+              <input type="password" dir="ltr" minLength={6} autoComplete="new-password" placeholder="Enter the new password again" value={passwordConfirmation} onChange={(event) => setPasswordConfirmation(event.target.value)} required />
+            </label>
+            <button className="button" type="submit" disabled={loading || password.length < 6 || password !== passwordConfirmation}>{loading ? 'Saving…' : 'Save new password'}</button>
+            {message && <p className="auth-error" role="alert">{message}</p>}
+          </form>
+        )}
+      </section>
+    </main>
+  );
 }

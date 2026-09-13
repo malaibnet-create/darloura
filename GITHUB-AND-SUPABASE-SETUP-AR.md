@@ -53,6 +53,7 @@ git push -u origin complete-platform
 ```dotenv
 NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=YOUR_SUPABASE_PUBLISHABLE_KEY
+NEXT_PUBLIC_EMAIL_OTP_LENGTH=8
 
 OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 OPENAI_EVALUATION_MODEL=gpt-4o-mini
@@ -71,6 +72,7 @@ BOOKING_FROM_EMAIL=Dar Al Lugha <bookings@YOUR_VERIFIED_DOMAIN.com>
 ملاحظات مهمة:
 
 - متغيرا Supabase اللذان يبدأ اسمهما بـ `NEXT_PUBLIC_` يستخدمهما المتصفح، لذلك استعمل معهما **Publishable key** فقط.
+- اجعل `NEXT_PUBLIC_EMAIL_OTP_LENGTH` مساويًا لطول الرمز الذي يرسله مشروع Supabase. المنصة مضبوطة افتراضيًا على `8`، وهو الطول المستخدم حاليًا في رسائلك.
 - `OPENAI_API_KEY` و`OPENAI_SAFETY_SALT` و`RESEND_API_KEY` أسرار خادمية، ولا يجوز وضعها داخل كود الواجهة أو رفعها إلى GitHub.
 - `RESEND_API_KEY` و`BOOKING_FROM_EMAIL` مطلوبان لإرسال إشعار الحجز إلى بريد الأستاذ. يجب أن يكون نطاق المرسل موثقًا في Resend.
 - لا يوجد بريد ليسرى بنورة حاليًا في بيانات الترحيل. حدّثه بعد الحصول عليه بالأمر الموجود في قسم المدرسين أدناه.
@@ -149,14 +151,15 @@ speaking-21.mp3
 2. فعّل تسجيل الدخول بالبريد وكلمة المرور.
 3. فعّل تأكيد البريد الإلكتروني للمستخدمين الجدد.
 4. افتح **Authentication → Emails → Confirm signup**.
-5. ضع عنوان الرسالة: `رمز تأكيد حسابك في دار اللغة`.
+5. ضع عنوان الرسالة: `Your DarLugha verification code`.
 6. انسخ محتوى `supabase/email-templates/confirm-signup.html` كاملًا إلى **Body** ثم احفظ.
-7. يجب أن يحتوي القالب على `{{ .Token }}` حتى يصل رقم مكوّن من ستة أرقام. لا تستبدله بـ `{{ .ConfirmationURL }}` ما دامت واجهة المنصة تطلب إدخال الرمز.
+7. يجب أن يحتوي القالب على `{{ .Token }}` حتى يصل الرمز الرقمي. لا تستبدله بـ `{{ .ConfirmationURL }}` ما دامت واجهة المنصة تطلب إدخال الرمز.
+8. اجعل طول رمز البريد في إعدادات Auth مساويًا لـ `8`، واجعل متغير Vercel `NEXT_PUBLIC_EMAIL_OTP_LENGTH` بالقيمة نفسها. يدعم الكود طولًا من 6 إلى 10 أرقام، لكن يجب أن يتطابق الطرفان دائمًا.
 
 ## ثامنًا: إعداد استعادة كلمة المرور برمز رقمي
 
 1. افتح **Authentication → Emails → Reset password**.
-2. ضع عنوان الرسالة: `رمز استعادة كلمة المرور في دار اللغة`.
+2. ضع عنوان الرسالة: `Your DarLugha password recovery code`.
 3. انسخ محتوى `supabase/email-templates/reset-password.html` كاملًا إلى **Body** ثم احفظ.
 4. تأكد من وجود `{{ .Token }}` في القالب.
 5. اختبر الطلب مرة واحدة ثم انتظر مهلة إعادة الإرسال الظاهرة في التطبيق. الضغط المتكرر قد يسبب خطأ `429 Too Many Requests`.
@@ -208,7 +211,7 @@ where slug = 'yousra-benoura';
 1. افتح مشروع المنصة في Vercel.
 2. افتح **Settings → Environment Variables**.
 3. أضف كل متغير من `.env.local` بوصفه **Key** وقيمته بوصفها **Value**.
-4. طبّق متغيرات Supabase وOpenAI وResend على **Production** و**Preview**. أضفها إلى Development أيضًا إذا كنت تستخدم Vercel CLI محليًا.
+4. طبّق متغيرات Supabase و`NEXT_PUBLIC_EMAIL_OTP_LENGTH` وOpenAI وResend على **Production** و**Preview**. أضفها إلى Development أيضًا إذا كنت تستخدم Vercel CLI محليًا.
 5. لا تكتب في خانة Key السطر كاملًا؛ مثال صحيح: Key هو `NEXT_PUBLIC_SUPABASE_URL` وValue هو رابط Supabase فقط.
 6. احفظ المتغيرات، ثم افتح **Deployments** واضغط قائمة النقاط بجانب آخر نشر واختر **Redeploy**. التغييرات في متغيرات البيئة لا تدخل النشر القديم تلقائيًا.
 

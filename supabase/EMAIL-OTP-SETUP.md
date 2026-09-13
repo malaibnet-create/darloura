@@ -6,15 +6,17 @@
 
 اذهب إلى **Authentication → Emails → Confirm signup**، ثم اجعل نص الرسالة يحتوي على:
 
-انسخ محتوى الملف `supabase/email-templates/confirm-signup.html` كاملًا إلى خانة **Body**، واقترح للعنوان: `رمز تأكيد حسابك في دار اللغة`.
+انسخ محتوى الملف `supabase/email-templates/confirm-signup.html` كاملًا إلى خانة **Body**، واجعل العنوان: `Your DarLugha verification code`.
 
 لا تستخدم `{{ .ConfirmationURL }}` في هذا القالب إذا كنت تريد الرقم فقط.
+
+اضبط طول رمز البريد في إعدادات Auth على `8`، ثم أضف في Vercel المتغير `NEXT_PUBLIC_EMAIL_OTP_LENGTH=8`. المهم أن يكون طول الرمز في Supabase والواجهة متطابقًا؛ الكود يدعم من 6 إلى 10 أرقام ويستخدم 8 افتراضيًا.
 
 ## 2. استعادة كلمة المرور
 
 اذهب إلى **Authentication → Emails → Reset password**، ثم اجعل نص الرسالة يحتوي على:
 
-انسخ محتوى الملف `supabase/email-templates/reset-password.html` كاملًا إلى خانة **Body**، واقترح للعنوان: `رمز استعادة كلمة المرور في دار اللغة`.
+انسخ محتوى الملف `supabase/email-templates/reset-password.html` كاملًا إلى خانة **Body**، واجعل العنوان: `Your DarLugha password recovery code`.
 
 ## 3. منع الخطأ 429
 

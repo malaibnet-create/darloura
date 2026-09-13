@@ -1,4 +1,4 @@
-export const EMAIL_OTP_LENGTH: 6;
+export const EMAIL_OTP_LENGTH: number;
 export const AUTH_REQUEST_COOLDOWN_SECONDS: 60;
 export function normalizeEmail(value: unknown): string;
 export function normalizeEmailOtp(value: unknown): string;
