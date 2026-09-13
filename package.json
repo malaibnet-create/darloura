@@ -17,6 +17,8 @@
     "test:audio-assets": "node scripts/test-audio-assets.mjs",
     "test:a1-lesson2": "node scripts/test-a1-lesson2-learning-flow.mjs",
     "test:auth-otp": "node scripts/test-auth-otp-flow.mjs",
+    "test:placement-mobile": "node scripts/test-placement-mobile.mjs",
+    "test:pwa": "node scripts/test-pwa-install.mjs",
     "validate:conversation": "node scripts/validate-level3-conversation.mjs",
     "test:level3-exam": "node scripts/test-level3-final-exam.mjs",
     "validate:level3-exam": "node scripts/validate-level3-final-exam.mjs",

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import InstallAppButton from '../components/pwa/InstallAppButton';
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
           </p>
           <div className="actions">
             <Link className="button" href="/signup">Start your journey →</Link>
+            <InstallAppButton locale="en" />
             <Link className="link" href="/signup">Create an account for the placement test</Link>
           </div>
         </div>

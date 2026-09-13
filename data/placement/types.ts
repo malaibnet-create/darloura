@@ -19,4 +19,5 @@ export type PlacementResponse = {
   questionId: number;
   value?: number | string;
   recordingPath?: string;
+  answerMode?: 'audio' | 'text';
 };

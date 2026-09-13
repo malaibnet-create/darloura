@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import LearningDataSession from '../components/learning/LearningDataSession';
 import AudioErrorNotice from '../components/learning/AudioErrorNotice';
+import PwaRuntime from '../components/pwa/PwaRuntime';
 import './globals.css';
 import './features.css';
 import './auth.css';
@@ -36,12 +37,27 @@ import './level2-grammar.css';
 import './level2-conversation.css';
 import './learning-system.css';
 import './learning-fixes.css';
+import './pwa.css';
 
 export const metadata: Metadata = {
   title: 'DarLugha — Learn Arabic Clearly',
   description: 'Structured Arabic learning with guided practice and an AI tutor.',
+  applicationName: 'DarLugha',
+  manifest: '/manifest.webmanifest',
+  appleWebApp: {
+    capable: true,
+    title: 'DarLugha',
+    statusBarStyle: 'default',
+  },
+  icons: {
+    icon: [
+      { url: '/icons/darlugha-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icons/darlugha-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [{ url: '/icons/darlugha-apple-touch.png', sizes: '180x180', type: 'image/png' }],
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="ar" dir="rtl"><body><LearningDataSession>{children}<AudioErrorNotice /></LearningDataSession></body></html>;
+  return <html lang="ar" dir="rtl"><body><PwaRuntime /><LearningDataSession>{children}<AudioErrorNotice /></LearningDataSession></body></html>;
 }
